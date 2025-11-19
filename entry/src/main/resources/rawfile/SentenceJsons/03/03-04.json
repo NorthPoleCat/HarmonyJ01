@@ -1,0 +1,9 @@
+{
+    "character":"かばん売り場は　１階ですか,２階ですか。",
+    "translate":"卖包的柜台在1层还是2层？",
+    "Tips":[],
+    "involvedGrammar":[{
+    	"grammarName":"名は　名ですか、名ですか",
+        "grammarNum":"03-04"
+	}]
+}

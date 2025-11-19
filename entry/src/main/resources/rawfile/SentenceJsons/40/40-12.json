@@ -1,0 +1,12 @@
+{
+    "character":"乙：いいえ，昨日読み始めたばかりです。",
+    "translate":"乙：没有。昨天才开始看。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"修饰动词的动词",
+        "grammarNum":"40-03"
+    },{
+        "grammarName":"[动た]　ばかりです",
+        "grammarNum":"40-02"
+    }]
+}

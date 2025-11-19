@@ -1,0 +1,9 @@
+{
+    "character":"森：李さんは　餃子を　作る　ことが　できますか。",
+    "translate":"森：小李会包饺子吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

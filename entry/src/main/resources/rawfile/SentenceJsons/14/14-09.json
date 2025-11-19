@@ -1,0 +1,12 @@
+{
+    "character":"甲：すみません，この　荷物を　中国へ　送って　ください。",
+    "translate":"甲：对不起，请把这个包裹寄到中国。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

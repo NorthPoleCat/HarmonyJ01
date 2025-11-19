@@ -1,0 +1,12 @@
+{
+    "character":"乙：じゃあ，運動でもしたらどうですか。",
+    "translate":"乙：那就运动运动怎么样？",
+    "Tips":["どうですか：询问意见或感想时的表达方式。有时也可用于劝诱。用法类似于汉语中的‘怎么样’。"],
+    "involvedGrammar":[{
+        "grammarName":"名　でも",
+        "grammarNum":"35-05"
+    },{
+        "grammarName":"小句たら，小句",
+        "grammarNum":"35-01"
+    }]
+}

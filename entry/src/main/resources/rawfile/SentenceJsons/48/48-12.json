@@ -1,0 +1,12 @@
+{
+    "character":"乙：承知いたしました。少々お待ちください。",
+    "translate":"乙：知道了。请稍等。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"尊他语->お・ご～ください",
+        "grammarNum":"47-01"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "character":"森：ここは　駅から　近くて，入場料も　安いです。たくさんの　人が　来ますから，警備が　厳重です。あっ，李さん，IDカードは　ありますか。",
+    "translate":"森：这里离车站近，门票也很便宜。来参观的人很多，所以总是戒备森严。哎，小李，带身份证了吗？",
+    "Tips":["たくさん：很多"],
+    "involvedGrammar":[{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    },{
+        "grammarName":"形[て] 形",
+        "grammarNum":"16-02"
+    },{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    },{
+        "grammarName":"から・だから",
+        "grammarNum":"11-04"
+    }]
+}

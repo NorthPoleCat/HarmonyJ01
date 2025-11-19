@@ -1,0 +1,9 @@
+{
+    "character":"甲：森さんが　何時ごろ　来るか　知って　いますか。",
+    "translate":"甲：你知道森先生几点来吗？",
+    "Tips":["ごろ：……时分，……前后，……左右"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

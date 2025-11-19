@@ -1,0 +1,15 @@
+{
+    "character":"甲：李さんを　探して　いるんですが，どこに　いますか。",
+    "translate":"甲：我在找小李，她在哪儿？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

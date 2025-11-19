@@ -1,0 +1,21 @@
+#adj1 {
+/*    color: #000099;*/
+    color:#6aace0;
+    font-weight: 600;
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted #6aace0;
+    cursor: help;
+    font-family: "Heiti SC";
+}
+
+#adj2 {
+/*    color: #1E8449;*/
+    color:#54b884;
+    font-weight: 600;
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted #54b884;
+    cursor: help;
+    font-family: "Heiti SC";
+}

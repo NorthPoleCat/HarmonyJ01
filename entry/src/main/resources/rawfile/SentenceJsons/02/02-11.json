@@ -1,0 +1,14 @@
+{
+    "character":"甲：その　ノートは　だれのですか。",
+    "translate":"甲：那个笔记本是谁的？",
+    "Tips":[],
+    "involvedGrammar":[
+    {
+        "grammarName":"この/その/あの 名　は 名 です",
+        "grammarNum":"02-03"
+    },
+    {
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

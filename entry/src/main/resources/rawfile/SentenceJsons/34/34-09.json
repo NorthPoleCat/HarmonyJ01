@@ -1,0 +1,12 @@
+{
+    "character":"甲：カレーライスを作ってみました。食べてみてください。",
+    "translate":"甲：我做了咖喱饭，你尝尝。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]　みます",
+        "grammarNum":"34-03"
+    },{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    }]
+}

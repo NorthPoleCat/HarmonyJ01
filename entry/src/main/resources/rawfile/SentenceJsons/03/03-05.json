@@ -1,0 +1,9 @@
+{
+    "character":"甲：トイレは　どこですか。",
+    "translate":"甲：厕所在哪儿？",
+    "Tips":[],
+    "involvedGrammar":[{
+    	"grammarName":"名は　どこですか",
+    	"grammarNum":"03-02"
+	}]
+}

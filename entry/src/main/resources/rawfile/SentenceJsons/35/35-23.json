@@ -1,0 +1,15 @@
+{
+    "character":"小野：森さん，たくさん食べますね。わたしはいくら頑張っても，20個ぐらいしか食べることができません。",
+    "translate":"小野：森，你可真能吃。我再努力也就能吃20个左右。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[小句て]も，小句",
+        "grammarNum":"35-02"
+    },{
+        "grammarName":"名　しか＋否定形式",
+        "grammarNum":"35-04"
+    },{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

@@ -1,0 +1,15 @@
+{
+    "character":"吉田：いいえ。いつもは　そば屋で　そばか　うどんを　食べます。",
+    "translate":"吉田：不，平时一般去荞麦面馆，吃荞麦面或者乌冬面。",
+    "Tips":["いつも：【副词】，经常，时常，总是，老是。"],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    },{
+        "grammarName":"名か 名",
+        "grammarNum":"07-02"
+    }]
+}

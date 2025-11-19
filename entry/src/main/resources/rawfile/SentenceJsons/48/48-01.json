@@ -1,0 +1,9 @@
+{
+    "character":"お荷物は私がお持ちします。",
+    "translate":"您的行李我来拿。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"甲：休みだし，天気もいいし，どこかに出かけませんか。",
+    "translate":"甲：今天休息，天气也不错，去哪儿玩儿玩儿吧？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句し，小句し，小句",
+        "grammarNum":"45-02"
+    },{
+        "grammarName":"动　ませんか",
+        "grammarNum":"17-03"
+    }]
+}

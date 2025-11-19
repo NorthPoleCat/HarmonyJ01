@@ -1,0 +1,12 @@
+{
+    "character":"加藤：今，太田さんから電話があったんだけど，まだ企画案が届いていないそうだよ。",
+    "translate":"加藤：刚才太田先生来电话，说策划方案还没有收到。",
+    "Tips":["まだ：【副词】尚，还。"],
+    "involvedGrammar":[{
+        "grammarName":"句けど　句",
+        "grammarNum":"22-02"
+    },{
+        "grammarName":"～そうです",
+        "grammarNum":"32-03"
+    }]
+}

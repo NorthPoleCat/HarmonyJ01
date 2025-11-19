@@ -1,0 +1,12 @@
+{
+    "character":"甲：これは　いくらですか。",
+    "translate":"甲：这个多少钱？",
+    "Tips":[],
+    "involvedGrammar":[{
+    	"grammarName":"これ/それ/あれ は 名 です",
+    	"grammarNum":"02-01"
+	},{
+        "grammarName":"名は　いくらですか",
+        "grammarNum":"03-05"
+    }]
+}

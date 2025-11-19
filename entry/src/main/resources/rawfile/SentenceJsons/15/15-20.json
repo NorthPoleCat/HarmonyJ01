@@ -1,0 +1,18 @@
+{
+    "character":"医者：では，薬を　出します。薬局に　行って，もらって　ください。",
+    "translate":"医生：给你开个药方，到药店去取。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]　动",
+        "grammarNum":"14-02"
+    },{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    },{
+        "grammarName":"名[场所]に　动",
+        "grammarNum":"06-01"
+    }]
+}

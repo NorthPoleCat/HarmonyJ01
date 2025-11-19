@@ -1,0 +1,12 @@
+{
+    "character":"乙：ええ，小野さんが誕生日にくれたんです。",
+    "translate":"乙：是啊，过生日时小野女士送给我的。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]は　名[人]に　名[物]を　くれます",
+        "grammarNum":"28-01"
+    },{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    }]
+}

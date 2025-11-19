@@ -1,0 +1,671 @@
+{
+    "0":{
+    	"character":"中国",
+        "partOfSpeech":0,
+        "rome":"ちゅうごく",
+        "translate":"中国"
+    },
+
+    "1":{
+         "character":"来月",
+         "partOfSpeech":0,
+         "rome":"らいげつ",
+         "translate":"下个月"
+	},
+
+	"2":{
+         "character":"先月",
+         "partOfSpeech":0,
+         "rome":"せんげつ",
+         "translate":"上个月"
+	},
+
+	"3":{
+         "character":"友達",
+         "partOfSpeech":0,
+         "rome":"ともだち",
+         "translate":"朋友"
+	},
+
+	"4":{
+         "character":"広島",
+         "partOfSpeech":0,
+         "rome":"ひろしま",
+         "translate":"广岛"
+	},
+
+	"5":{
+         "character":"新幹線",
+         "partOfSpeech":0,
+         "rome":"しんかんせん",
+         "translate":"新干线"
+	},
+
+	"6":{
+         "character":"アメリカ",
+         "partOfSpeech":0,
+         "translate":"美国"
+	},
+
+	"7":{
+         "character":"美術館",
+         "partOfSpeech":0,
+         "rome":"びじゅつかん",
+         "translate":"美术馆"
+	},
+
+	"8":{
+         "character":"飛行機",
+         "partOfSpeech":0,
+         "rome":"ひこうき",
+         "translate":"飞机"
+	},
+
+	"9":{
+         "character":"フェリー",
+         "partOfSpeech":0,
+         "translate":"渡轮"
+	},
+
+	"10":{
+         "character":"アパート",
+         "partOfSpeech":0,
+         "translate":"公寓"
+	},
+
+	"11":{
+         "character":"タクシー",
+         "partOfSpeech":0,
+         "translate":"出租车"
+	},
+
+	"12":{
+         "character":"電車",
+         "partOfSpeech":0,
+         "rome":"でんしゃ",
+         "translate":"电车"
+	},
+
+	"13":{
+         "character":"昨夜",
+         "partOfSpeech":0,
+         "rome":"ゆうべ",
+         "translate":"昨天晚上"
+	},
+
+	"14":{
+         "character":"夜中",
+         "partOfSpeech":0,
+         "rome":"よなか",
+         "translate":"半夜"
+	},
+
+	"15":{
+         "character":"コーヒー",
+         "partOfSpeech":0,
+         "translate":"咖啡"
+	},
+
+	"16":{
+         "character":"毎朝",
+         "partOfSpeech":0,
+         "rome":"まいあさ",
+         "translate":"每天早上"
+	},
+
+	"17":{
+         "character":"パン",
+         "partOfSpeech":0,
+         "translate":"面包"
+	},
+
+	"18":{
+         "character":"粥",
+         "partOfSpeech":0,
+         "rome":"かゆ",
+         "translate":"粥"
+	},
+
+	"19":{
+         "character":"コーラ",
+         "partOfSpeech":0,
+         "translate":"可乐"
+	},
+
+	"20":{
+         "character":"ケーキ",
+         "partOfSpeech":0,
+         "translate":"蛋糕"
+	},
+
+	"21":{
+         "character":"新聞",
+         "partOfSpeech":0,
+         "rome":"しんぶん",
+         "translate":"报纸"
+	},
+
+	"22":{
+         "character":"テニス",
+         "partOfSpeech":0,
+         "translate":"网球"
+	},
+
+	"23":{
+         "character":"ジョギング",
+         "partOfSpeech":0,
+         "translate":"慢跑"
+	},
+
+	"24":{
+         "character":"鉛筆",
+         "partOfSpeech":0,
+         "rome":"えんぴつ",
+         "translate":"铅笔"
+	},
+
+	"25":{
+         "character":"昼ご飯",
+         "partOfSpeech":0,
+         "rome":"ひるごはん",
+         "translate":"午饭"
+	},
+
+	"26":{
+         "character":"コンビ二",
+         "partOfSpeech":0,
+         "translate":"便利店"
+	},
+
+	"27":{
+         "character":"弁当",
+         "partOfSpeech":0,
+         "rome":"べんとう",
+         "translate":"盒饭"
+	},
+
+	"28":{
+         "character":"茶",
+         "partOfSpeech":0,
+         "rome":"ちゃ",
+         "translate":"茶水"
+	},
+
+	"29":{
+         "character":"そば",
+         "partOfSpeech":0,
+         "translate":"荞麦面"
+	},
+
+	"30":{
+         "character":"うどん",
+         "partOfSpeech":0,
+         "translate":"乌冬面"
+	},
+
+	"31":{
+         "character":"親子丼",
+         "partOfSpeech":0,
+         "rome":"おやこどん",
+         "translate":"鸡肉鸡蛋盖饭"
+	},
+
+	"32":{
+         "character":"手紙",
+         "partOfSpeech":0,
+         "rome":"てがみ",
+         "translate":"信"
+	},
+
+	"33":{
+         "character":"辞書",
+         "partOfSpeech":0,
+         "rome":"じしょ",
+         "translate":"词典"
+	},
+
+	"34":{
+         "character":"明日",
+         "partOfSpeech":0,
+         "rome":"あした",
+         "translate":"明天"
+	},
+
+	"35":{
+         "character":"誕生日",
+         "partOfSpeech":0,
+         "rome":"たんじょうび",
+         "translate":"生日"
+	},
+
+	"36":{
+         "character":"プレゼント",
+         "partOfSpeech":0,
+         "translate":"礼物"
+	},
+
+	"37":{
+         "character":"航空便",
+         "partOfSpeech":0,
+         "rome":"こうくうびん",
+         "translate":"航空邮件"
+	},
+
+	"38":{
+         "character":"映画",
+         "partOfSpeech":0,
+         "rome":"えいが",
+         "translate":"电影"
+	},
+
+	"39":{
+         "character":"チケット",
+         "partOfSpeech":0,
+         "translate":"票"
+	},
+
+	"40":{
+         "character":"パンフレット",
+         "partOfSpeech":0,
+         "translate":"小册子"
+	},
+
+	"41":{
+         "character":"スケジュール",
+         "partOfSpeech":0,
+         "translate":"日程，时间表"
+	},
+
+	"42":{
+         "character":"電話",
+         "partOfSpeech":0,
+         "rome":"でんわ",
+         "translate":"电话"
+	},
+
+	"43":{
+         "character":"件",
+         "partOfSpeech":0,
+         "rome":"けん",
+         "translate":"事情"
+	},
+
+	"44":{
+         "character":"ファックス",
+         "partOfSpeech":0,
+         "translate":"传真"
+	},
+
+	"45":{
+         "character":"夕方",
+         "partOfSpeech":0,
+         "rome":"ゆうがた",
+         "translate":"傍晚"
+	},
+
+	"46":{
+         "character":"メール",
+         "partOfSpeech":0,
+         "translate":"邮件"
+	},
+
+	"47":{
+         "character":"写真集",
+         "partOfSpeech":0,
+         "rome":"しゃしんしゅう",
+         "translate":"影集"
+	},
+
+	"48":{
+         "character":"料理",
+         "partOfSpeech":0,
+         "rome":"りょうり",
+         "translate":"料理，菜"
+	},
+
+	"49":{
+         "character":"スープ",
+         "partOfSpeech":0,
+         "translate":"汤"
+	},
+
+	"50":{
+         "character":"旅行",
+         "partOfSpeech":0,
+         "rome":"りょこう",
+         "translate":"旅行"
+	},
+
+	"51":{
+         "character":"国",
+         "partOfSpeech":0,
+         "rome":"くに",
+         "translate":"国家"
+	},
+
+	"52":{
+         "character":"天気",
+         "partOfSpeech":0,
+         "rome":"てんき",
+         "translate":"天气"
+	},
+
+	"53":{
+         "character":"ダック",
+         "partOfSpeech":0,
+         "translate":"鸭子"
+	},
+
+	"54":{
+         "character":"浴衣",
+         "partOfSpeech":0,
+         "rome":"ゆかた",
+         "translate":"浴衣"
+	},
+
+	"55":{
+         "character":"子供用",
+         "partOfSpeech":0,
+         "rome":"こどもよう",
+         "translate":"儿童用的"
+	},
+
+	"56":{
+         "character":"気持ち",
+         "partOfSpeech":0,
+         "rome":"きもち",
+         "translate":"心情，感觉"
+	},
+
+	"57":{
+         "character":"眺め",
+         "partOfSpeech":0,
+         "rome":"ながめ",
+         "translate":"景色"
+	},
+
+	"58":{
+         "character":"温泉",
+         "partOfSpeech":0,
+         "rome":"おんせん",
+         "translate":"温泉"
+	},
+
+	"59":{
+         "character":"通り",
+         "partOfSpeech":0,
+         "rome":"とおり",
+         "translate":"街"
+	},
+
+	"60":{
+         "character":"町",
+         "partOfSpeech":0,
+         "rome":"まち",
+         "translate":"城市"
+	},
+
+	"61":{
+         "character":"人形",
+         "partOfSpeech":0,
+         "rome":"にんぎょう",
+         "translate":"玩偶"
+	},
+
+	"62":{
+         "character":"一昨日",
+         "partOfSpeech":0,
+         "rome":"おととい",
+         "translate":"前天"
+	},
+
+	"63":{
+         "character":"シーズン",
+         "partOfSpeech":0,
+         "translate":"季节"
+	},
+
+	"64":{
+         "character":"平日",
+         "partOfSpeech":0,
+         "rome":"へいじつ",
+         "translate":"平日（周一到周五）"
+	},
+
+	"65":{
+         "character":"観光客",
+         "partOfSpeech":0,
+         "rome":"かんこうきゃく",
+         "translate":"游客"
+	},
+
+	"66":{
+         "character":"作品",
+         "partOfSpeech":0,
+         "rome":"さくひん",
+         "translate":"作品"
+	},
+
+	"67":{
+         "character":"世界",
+         "partOfSpeech":0,
+         "rome":"せかい",
+         "translate":"世界"
+	},
+
+	"68":{
+         "character":"作家",
+         "partOfSpeech":0,
+         "rome":"さっか",
+         "translate":"作家"
+	},
+
+	"69":{
+         "character":"彫刻",
+         "partOfSpeech":0,
+         "rome":"ちょうこく",
+         "translate":"雕刻"
+	},
+
+	"70":{
+         "character":"歌",
+         "partOfSpeech":0,
+         "rome":"うた",
+         "translate":"歌"
+	},
+
+	"71":{
+         "character":"韓国語",
+         "partOfSpeech":0,
+         "rome":"かんこくご",
+         "translate":"韩语"
+	},
+
+	"72":{
+         "character":"酒",
+         "partOfSpeech":0,
+         "rome":"さけ",
+         "translate":"酒"
+	},
+
+	"73":{
+         "character":"音楽",
+         "partOfSpeech":0,
+         "rome":"おんがく",
+         "translate":"音乐"
+	},
+
+	"74":{
+         "character":"ロック",
+         "partOfSpeech":0,
+         "translate":"摇滚"
+	},
+
+	"75":{
+         "character":"ポップス",
+         "partOfSpeech":0,
+         "translate":"流行音乐"
+	},
+
+	"76":{
+         "character":"スペイン",
+         "partOfSpeech":0,
+         "translate":"西班牙"
+	},
+
+	"77":{
+         "character":"コンサート",
+         "partOfSpeech":0,
+         "translate":"音乐会"
+	},
+
+	"78":{
+         "character":"別荘",
+         "partOfSpeech":0,
+         "rome":"べっそう",
+         "translate":"别墅"
+	},
+
+	"79":{
+         "character":"運転",
+         "partOfSpeech":0,
+         "rome":"うんてん",
+         "translate":"开车"
+	},
+
+	"80":{
+         "character":"寄木細工",
+         "partOfSpeech":0,
+         "rome":"よせぎざいく",
+         "translate":"木片儿拼花工艺品"
+	},
+
+	"81":{
+         "character":"模様",
+         "partOfSpeech":0,
+         "rome":"もよう",
+         "translate":"花纹"
+	},
+
+	"82":{
+         "character":"スポーツ",
+         "partOfSpeech":0,
+         "translate":"运动"
+	},
+
+	"83":{
+         "character":"サッカー",
+         "partOfSpeech":0,
+         "translate":"足球"
+	},
+
+	"84":{
+         "character":"冬",
+         "partOfSpeech":0,
+         "rome":"ふゆ",
+         "translate":"冬天"
+	},
+
+	"85":{
+         "character":"季節",
+         "partOfSpeech":0,
+         "rome":"きせつ",
+         "translate":"季节"
+	},
+
+	"86":{
+         "character":"春",
+         "partOfSpeech":0,
+         "rome":"はる",
+         "translate":"春天"
+	},
+
+	"87":{
+         "character":"毎晩",
+         "partOfSpeech":0,
+         "rome":"まいばん",
+         "translate":"每天晚上"
+	},
+
+   "88":{
+         "character":"焼酎",
+         "partOfSpeech":0,
+         "rome":"しょうちゅう",
+         "translate":"烧酒"
+   },
+
+   "89":{
+         "character":"人気",
+         "partOfSpeech":0,
+         "rome":"にんき",
+         "translate":"人气"
+   },
+
+   "90":{
+         "character":"ワイン",
+         "partOfSpeech":0,
+         "translate":"葡萄酒"
+   },
+
+   "91":{
+         "character":"種類",
+         "partOfSpeech":0,
+         "rome":"しゅるい",
+         "translate":"种类"
+   },
+
+   "92":{
+         "character":"ウーロン茶",
+         "partOfSpeech":0,
+         "rome":"ウーロンちゃ",
+         "translate":"乌龙茶"
+   },
+
+   "93":{
+         "character":"ジャスミン茶",
+         "partOfSpeech":0,
+         "rome":"ジャスミンちゃ",
+         "translate":"茉莉花茶"
+   },
+
+   "94":{
+         "character":"冊",
+         "partOfSpeech":0,
+         "rome":"さつ",
+         "translate":"～册"
+   },
+
+   "95":{
+         "character":"時間",
+         "partOfSpeech":0,
+         "rome":"じかん",
+         "translate":"～小时"
+   },
+
+   "96":{
+         "character":"週間",
+         "partOfSpeech":0,
+         "rome":"しゅうかん",
+         "translate":"～星期"
+   },
+
+   "97":{
+         "character":"回",
+         "partOfSpeech":0,
+         "rome":"かい",
+         "translate":"～回"
+   },
+
+   "98":{
+         "character":"プール",
+         "partOfSpeech":0,
+         "translate":"游泳池"
+   },
+
+   "99":{
+         "character":"荷物",
+         "partOfSpeech":0,
+         "rome":"にもつ",
+         "translate":"包裹"
+   }
+}

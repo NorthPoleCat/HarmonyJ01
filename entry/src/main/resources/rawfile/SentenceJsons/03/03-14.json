@@ -1,0 +1,12 @@
+{
+    "character":"李：あの　建物は　ホテルですか，マンションですか。",
+    "translate":"李：那座大楼是宾馆还是高级公寓？",
+    "Tips":[],
+    "involvedGrammar":[{
+    	"grammarName":"名は　名ですか,名ですか",
+    	"grammarNum":"03-04"
+	},{
+    	"grammarName":"この/その/あの 名　は 名 です",
+    	"grammarNum":"02-03"
+	}]
+}

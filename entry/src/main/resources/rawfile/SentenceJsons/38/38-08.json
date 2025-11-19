@@ -1,0 +1,12 @@
+{
+    "character":"乙：はい。いつでも出られるように，準備してあります。",
+    "translate":"乙：好的。我已经准备好了，随时都可以出发。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"他动[て]　あります",
+        "grammarNum":"34-01"
+    },{
+        "grammarName":"～ように",
+        "grammarNum":"38-02"
+    }]
+}

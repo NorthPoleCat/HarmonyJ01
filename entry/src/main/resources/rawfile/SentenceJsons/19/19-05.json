@@ -1,0 +1,9 @@
+{
+    "character":"甲：その　品物に　触らないで　ください。",
+    "translate":"甲：请别碰那件物品。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动ない]で　ください",
+        "grammarNum":"19-02"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"自転車に２人で乗るのは危ないです。",
+    "translate":"骑自行车带人很危险。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句[动词简体]＋の",
+        "grammarNum":"26-01"
+    },{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    }]
+}

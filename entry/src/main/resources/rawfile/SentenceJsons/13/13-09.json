@@ -1,0 +1,9 @@
+{
+    "character":"甲：家から　会社まで　どのぐらい　かかりますか。",
+    "translate":"甲：从你家到公司需要多少时间？",
+    "Tips":["くらい・ぐらい：大概"],
+    "involvedGrammar":[{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    }]
+}

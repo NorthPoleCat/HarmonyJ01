@@ -1,0 +1,18 @@
+{
+    "character":"乙：はい。仕事で，楊さんと会っていたんです。",
+    "translate":"乙：是的。因工作我和杨先生见面来着。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[原因・理由]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"名[人]に　会います",
+        "grammarNum":"08-03"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    }]
+}

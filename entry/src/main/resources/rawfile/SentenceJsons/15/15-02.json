@@ -1,0 +1,15 @@
+{
+    "character":"ここで　写真を　撮っても　いいですか。",
+    "translate":"这儿可以拍照吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て]も　いいです",
+        "grammarNum":"15-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

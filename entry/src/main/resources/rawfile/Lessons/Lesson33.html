@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../StaticFiles/Lession.css">
+    <link id="tabCss" rel="stylesheet" type="text/css" href="../StaticFiles/Basic.css">
+    <script type="text/javascript" src="../StaticFiles/Lession.js"></script>
+    <script type="text/javascript" src="../StaticFiles/Style.js"></script>
+</head>
+
+<body>
+    <div class="top_tabbarboxs">
+        <div tabType="Basic" class="top_tabbarboxs_itemboxs" onclick="fold(this);">
+            <div class="top_tabbarboxs_Basicitemtxt">基本课文</div>
+            <div class="top_tabbarboxs_Basicitemcolorbar"></div>
+        </div>
+        <div tabType="GrammarExp" class="top_tabbarboxs_itemboxs" onclick="fold(this);">
+            <div class="top_tabbarboxs_GrammarExpitemtxt">语法解释</div>
+            <div class="top_tabbarboxs_GrammarExpitemcolorbar"></div>
+        </div>
+        <div tabType="Situation" class="top_tabbarboxs_itemboxs" onclick="fold(this);">
+            <div class="top_tabbarboxs_Situationitemtxt">应用课文</div>
+            <div class="top_tabbarboxs_Situationitemcolorbar"></div>
+        </div>
+    </div>
+    <div class="fillBox">
+        <div class="fillTxt">XXX</div>
+        <div class="fillColorBar"></div>
+    </div>
+    <div id="Content">
+        <div id="Basic">
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-01" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>急<rt>きゅう</rt></ruby>に<span id="verb5" wordNum="verb-102" onclick="wordClick(this);"><ruby>止<rt>と</rt></ruby>まりました</span>。</p>
+                    <p id="ch">电车突然停了。</p>
+                </div>
+            </div>
+            <hr id="ch">
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-02" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby id="noun" wordNum="noun-57" onclick="wordClick(this);">部屋<rt>へや</rt></ruby>の<ruby>電<rt>でん</rt></ruby><ruby>気<rt>き</rt></ruby>が<span id="verb1" wordNum="verb-107" onclick="wordClick(this);"><ruby>消<rt>き</rt></ruby>えて</span>います。</p>
+                    <p id="ch">房间的灯关着。</p>
+                </div>
+            </div>
+            <hr id="ch">
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-03" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>森<rt>もり</rt></ruby>さんは<span id="noun" wordNum="noun-358" onclick="wordClick(this);">ボーナス</span>を<ruby>全<rt>ぜん</rt></ruby><ruby>部<rt>ぶ</rt></ruby><span id="verb5" wordNum="verb-42" onclick="wordClick(this);"><ruby>使<rt>つか</rt></ruby>って</span>しまいました。<img src="../img/warning.png" senNum="33-03" onclick="sentenceClick(this);"></p>
+                    <p id="ch">森先生把奖金全花光了。</p>
+                </div>
+            </div>
+            <hr id="ch">
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-04" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>この<rt style="visibility: hidden;">a</rt></ruby><span id="noun" wordNum="noun-120" onclick="wordClick(this);">ケーキ</span>はとても<span id="adj1" wordNum="adj-8" onclick="wordClick(this);">おいし</span>そうです。<img src="../img/warning.png" senNum="33-04" onclick="sentenceClick(this);"></p>
+                    <p id="ch">这个蛋糕看上去很好吃。</p>
+                </div>
+            </div>
+            <hr id="ch">
+            <p>对话</p>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-05" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>甲：あなたが<ruby id="noun" wordNum="noun-245" onclick="wordClick(this);">窓<rt>まど</rt></ruby>を<span id="verb1" wordNum="verb-108" onclick="wordClick(this);"><ruby>開<rt>あ</rt></ruby>けた</span>んですか。</p>
+                    <p id="ch">甲：是你开的窗户吗？</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-06" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>乙：いいえ，<ruby>風<rt>かぜ</rt></ruby>で<span id="verb5" wordNum="verb-109" onclick="wordClick(this);"><ruby>開<rt>あ</rt></ruby>いた</span>んです。</p>
+                    <p id="ch">乙：不，是风刮开的。</p>
+                </div>
+            </div>
+            <hr>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-07" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>甲：<span id="noun" wordNum="noun-361" onclick="wordClick(this);">はさみ</span><ruby>はどこですか。<rt style="visibility: hidden;">a</rt></ruby></p>
+                    <p id="ch">甲：剪刀在哪？</p>
+                </div>
+            </div>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-08" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>乙：<span id="noun" wordNum="noun-362" onclick="wordClick(this);"><ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>し</span>に<span id="verb5" wordNum="verb-46" onclick="wordClick(this);"><ruby>入<rt>はい</rt></ruby>って</span>いますよ。</p>
+                    <p id="ch">乙：在抽屉里呢。</p>
+                </div>
+            </div>
+            <hr>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-09" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>甲：おじいさんに<span id="verb5" wordNum="verb-20" onclick="wordClick(this);">もらった</span><ruby>腕<rt>うで</rt></ruby><ruby>時<rt>ど</rt></ruby><ruby>計<rt>けい</rt></ruby>が<span id="verb1" wordNum="verb-110" onclick="wordClick(this);"><ruby>壊<rt>こわ</rt></ruby>れて</span>しまいました。<img src="../img/warning.png" senNum="33-09" onclick="sentenceClick(this);"></p>
+                    <p id="ch">甲：从爷爷那儿得到的手表坏了。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-10" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>乙：それは<ruby id="adj2" wordNum="adj-75" onclick="wordClick(this);">残念<rt>ざんねん</rt></ruby>ですね。</p>
+                    <p id="ch">乙：那太遗憾了。</p>
+                </div>
+            </div>
+            <hr>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-11" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>甲：<ruby>雨<rt>あめ</rt></ruby>が<span id="verb5" wordNum="verb-111" onclick="wordClick(this);"><ruby>降<rt>ふ</rt></ruby>り</span>そうですね。<img src="../img/warning.png" senNum="33-11" onclick="sentenceClick(this);"></p>
+                    <p id="ch">甲：好像要下雨。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-12" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p>乙：じゃあ，<ruby>明日<rt>あした</rt></ruby>の<ruby>運動会<rt>うんどうかい</rt></ruby>は<ruby>中<rt>ちゅう</rt></ruby><ruby>止<rt>し</rt></ruby>かもしれませんね。<img src="../img/warning.png" senNum="33-12" onclick="sentenceClick(this);"></p>
+                    <p id="ch">乙：那明天的运动会也许会中止的。</p>
+                </div>
+            </div>
+            <div class="fillBox">
+                <div class="fillTxt">XXX</div>
+                <div class="fillColorBar"></div>
+                <div></div>
+                <p style="color:white;font-size:0.1em;">XXX</p>
+            </div>
+            <div class="bottom_audio">
+                <div class="bottom_audio_child">
+                    <img class="playImg" audioNum="33-01" src="../img/play.png" onclick="playClick(this);">
+                    <img src="../img/reset.png" onclick="resetClick(this);">
+                    <img src="../img/anti-recycle.png" onclick="recycleClick(this);">
+                </div>
+                <p style="color:#F4F8F9;font-size:0.1em;">XXX</p>
+            </div>
+        </div>
+        <div id="GrammarExp">
+            <p class="tooltip" grammar="grammar33-02" onclick="grammarClick(this);">动[て]　しまいます</p></br>
+            <p class="tooltip" grammar="grammar32-03" onclick="grammarClick(this);">动/形 そうです</p></br>
+        </div>
+        <!--            <p>Tips</p>-->
+        <div id="Situation">
+            <p><ruby>再会<rt>さいかい</rt></ruby></p>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-13" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>小野<rt>おの</rt></ruby>：ちょっと<span id="adj1" wordNum="adj-49" onclick="wordClick(this);"><ruby>早<rt>はや</rt></ruby>く</span><span id="verb5" wordNum="verb-112" onclick="wordClick(this);"><ruby>着<rt>つ</rt></ruby>いて</span>しまったけど，<ruby>森<rt>もり</rt></ruby>さんたちはもう<span id="verbS" wordNum="verb-10" onclick="wordClick(this);"><ruby>来<rt>き</rt></ruby>て</span>いるかしら。それにしても，<span id="noun" wordNum="noun-338" onclick="wordClick(this);"><ruby>大勢<rt>おおぜい</rt></ruby></span><span id="verb5" wordNum="verb-113" onclick="wordClick(this);"><ruby>並<rt>なら</rt></ruby>んで</span>いるわね。<img src="../img/warning.png" senNum="33-13" onclick="sentenceClick(this);"></p>
+                    <p id="ch">小野：我到早了，不知森他们到了没有？要说，这排队的人可真多啊。</p>
+                </div>
+            </div>
+            <br>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-14" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>小野<rt>おの</rt></ruby>：<ruby>李<rt>り</rt></ruby>さん！</p>
+                    <p id="ch">小野：小李！</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-15" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>李<rt>り</rt></ruby>：<ruby>小野<rt>おの</rt></ruby>さん，お<ruby>久<rt>ひさ</rt></ruby>しぶりです。</p>
+                    <p id="ch">李：小野，好久不见。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-16" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>小野<rt>おの</rt></ruby>：<ruby>本当<rt>ほんとう</rt></ruby>にお<ruby>久<rt>ひさ</rt></ruby>しぶり。お<span id="adj2" wordNum="adj-59" onclick="wordClick(this);"><ruby>元<rt>げん</rt></ruby><ruby>気<rt>き</rt></ruby></span>そうですね。<img src="../img/warning.png" senNum="33-16" onclick="sentenceClick(this);"></p>
+                    <p id="ch">小野：真是好久不见了，看起来气色挺好啊。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-17" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>李<rt>り</rt></ruby>：ええ，<ruby>小野<rt>おの</rt></ruby>さんも。</p>
+                    <p id="ch">李：嗯，你也挺精神的嘛。</p>
+                </div>
+            </div>
+            <br>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-18" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>森<rt>もり</rt></ruby>：すみません，<ruby>小野<rt>おの</rt></ruby>さん。<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>こく</rt></ruby><span id="verbS" wordNum="verb-14" onclick="wordClick(this);">して</span>しまいました。<img src="../img/warning.png" senNum="33-18" onclick="sentenceClick(this);"></p>
+                    <p id="ch">森：对不起，小野，我来晚了。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-19" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>小野<rt>おの</rt></ruby>：<ruby>相<rt>あい</rt></ruby><ruby>変<rt>か</rt></ruby>わらずですね，<ruby>森<rt>もり</rt></ruby>さん。でも，お<span id="adj2" wordNum="adj-59" onclick="wordClick(this);"><ruby>元<rt>げん</rt></ruby><ruby>気<rt>き</rt></ruby></span>そうで，<ruby>何<rt>なに</rt></ruby>よりです。<img src="../img/warning.png" senNum="33-19" onclick="sentenceClick(this);"></p>
+                    <p id="ch">小野：你真是一点也没变啊，森。不过你看上去挺精神的，这比什么都强。</p>
+                </div>
+            </div>
+            <br>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-20" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>森<rt>もり</rt></ruby>：<ruby>小野<rt>おの</rt></ruby>さん，<span id="adj2" wordNum="adj-38" onclick="wordClick(this);">ずいぶん</span><span id="adj1" wordNum="adj-71" onclick="wordClick(this);"><ruby>重<rt>おも</rt></ruby>そう</span>な<span id="noun" wordNum="noun-363" onclick="wordClick(this);">スーツケース</span>ですね。<img src="../img/warning.png" senNum="33-20" onclick="sentenceClick(this);"></p>
+                    <p id="ch">森：小野，你的行李好像很重啊。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-21" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>小野<rt>おの</rt></ruby>：そうですか？<ruby>服<rt>ふく</rt></ruby>や<ruby>小<rt>こ</rt></ruby><ruby>物<rt>もの</rt></ruby>が<span id="verb5" wordNum="verb-46" onclick="wordClick(this);"><ruby>入<rt>はい</rt></ruby>って</span>いますが，<ruby>中<rt>なか</rt></ruby>はほとんど<ruby>空<rt>から</rt></ruby>ですよ。<ruby>北<rt>ぺ</rt></ruby><ruby>京<rt>キン</rt></ruby>は<ruby>初<rt>はじ</rt></ruby>めてなので，お<ruby>土産<rt>みやげ</rt></ruby>をたくさん<span id="verb5" wordNum="verb-17" onclick="wordClick(this);"><ruby>買<rt>か</rt></ruby>って</span>，<span id="verb1" wordNum="verb-123" onclick="wordClick(this);"><ruby>入<rt>い</rt></ruby>れよう</span>と<span id="verb5" wordNum="verb-71" onclick="wordClick(this);"><ruby>思<rt>おも</rt></ruby>って</span>いるんです。<img src="../img/warning.png" senNum="33-21" onclick="sentenceClick(this);"></p>
+                    <p id="ch">小野：是吗？装了一些衣服和小东西。里面大半都是空的。我这是第一次来北京，所以想买很多礼品带回去。</p>
+                </div>
+            </div>
+            <br>
+
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-22" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>森<rt>もり</rt></ruby>：あれっ，<span id="noun" wordNum="noun-364" onclick="wordClick(this);">トランク</span>が<span id="verb5" wordNum="verb-109" onclick="wordClick(this);"><ruby>開<rt>あ</rt></ruby>いて</span>いないな。</p>
+                    <p id="ch">森：咦，后备箱没开。</p>
+                </div>
+            </div>
+            
+            <div style="display: flex">
+                <div style="display: inline-block;">
+                    <p class="senAduio_top">a</p>
+                    <img class="senAudio" src="../img/sound-sus.png" senNum="33-23" onclick="sentenceAudio(this);">
+                    <p id="ch" style="color: rgba(255,0,0,0);">a</p>
+                </div>
+                <div style="display: inline-block;">
+                    <p><ruby>李<rt>り</rt></ruby>：<ruby id="noun" wordNum="noun-179" onclick="wordClick(this);">運転手<rt>うんてんしゅ</rt></ruby>さんに<span id="verb1" wordNum="verb-108" onclick="wordClick(this);"><ruby>開<rt>あ</rt></ruby>けて</span><span id="verb5" wordNum="verb-20" onclick="wordClick(this);">もらいましょう</span>。<img src="../img/warning.png" senNum="33-23" onclick="sentenceClick(this);"></p>
+                    <p id="ch">李：让司机开一下吧。</p>
+                </div>
+            </div>
+            <div class="fillBox">
+                <div class="fillTxt">XXX</div>
+                <div class="fillColorBar"></div>
+                <div></div>
+                <p style="color:white;font-size:0.1em;">XXX</p>
+            </div>
+            <div class="bottom_audio">
+                <div class="bottom_audio_child">
+                    <img class="playImg" audioNum="33-02" src="../img/play.png" onclick="playClick(this);">
+                    <img src="../img/reset.png" onclick="resetClick(this);">
+                    <img src="../img/anti-recycle.png" onclick="recycleClick(this);">
+                </div>
+                <p style="color:#F4F8F9;font-size:0.1em;">XXX</p>
+            </div>
+        </div>
+    </div>
+    <!--            <p></p>-->
+    <!--            <p></p>-->
+</body>
+<!-- <script type="text/javascript">
+    window.onload = function() {
+        // alert("go here...");
+    }
+</script> -->
+
+</html>

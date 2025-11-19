@@ -1,0 +1,12 @@
+{
+    "character":"甲：そろそろ失礼いたします。どうもお邪魔いたしました。",
+    "translate":"甲：我告辞了，真是打扰了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"甲：仕事が終わってから，飲みに行こうよ。",
+    "translate":"甲：工作结束后，去喝酒吧。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]から　动",
+        "grammarNum":"14-03"
+    },{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    }]
+}

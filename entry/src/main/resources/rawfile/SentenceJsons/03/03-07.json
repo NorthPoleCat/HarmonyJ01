@@ -1,0 +1,12 @@
+{
+    "character":"甲：ここは　郵便局ですか,銀行ですか。",
+    "translate":"甲：这里是邮局还是银行？",
+    "Tips":[],
+    "involvedGrammar":[{
+    	"grammarName":"ここ/そこ/あそこ は 名 です",
+    	"grammarNum":"03-01"
+	},{
+    	"grammarName":"名は　名ですか,名ですか",
+    	"grammarNum":"03-04"
+	}]
+}

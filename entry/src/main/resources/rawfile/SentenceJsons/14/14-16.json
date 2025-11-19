@@ -1,0 +1,18 @@
+{
+    "character":"李：昨日　会社で　メモを　整理して，小野さんに　見せました。そして，アパートへ　帰ってから　書きました。",
+    "translate":"李：昨天在公司整理好记录，请小野女士看了一遍。",
+    "Tips":["そして：表示并列关系的连词。"],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て]　动",
+        "grammarNum":"14-02"
+    },{
+        "grammarName":"动[て]から　动",
+        "grammarNum":"14-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

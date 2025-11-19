@@ -1,0 +1,12 @@
+{
+    "character":"甲：だれと　美術館へ　行きますか。",
+    "translate":"甲：你和谁一起去美术馆？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]　と　动",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    }]
+}

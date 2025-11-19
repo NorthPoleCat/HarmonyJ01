@@ -1,0 +1,12 @@
+{
+    "character":"李：あれは最近できた建物ですね。馬さん，知っていますか。",
+    "translate":"李：那是最近盖好的大楼。小马，你知道那是什么楼吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

@@ -1,0 +1,682 @@
+{
+    "0":{
+    	"character":"葉書",
+        "partOfSpeech":0,
+        "rome":"はがき",
+        "translate":"明信片"
+    },
+
+    "1":{
+         "character":"店",
+         "partOfSpeech":0,
+         "rome":"みせ",
+         "translate":"店"
+	},
+
+	"2":{
+         "character":"食べ物",
+         "partOfSpeech":0,
+         "rome":"たべもの",
+         "translate":"食物、饭菜"
+	},
+
+	"3":{
+         "character":"焼き鳥",
+         "partOfSpeech":0,
+         "rome":"やきとり",
+         "translate":"烤鸡肉串"
+	},
+
+	"4":{
+         "character":"唐揚げ",
+         "partOfSpeech":0,
+         "rome":"からあげ",
+         "translate":"炸鸡"
+	},
+
+	"5":{
+         "character":"肉じゃがは",
+         "partOfSpeech":0,
+         "rome":"肉じゃがは",
+         "translate":"土豆炖肉"
+	},
+
+	"6":{
+         "character":"皿",
+         "partOfSpeech":0,
+         "rome":"さら",
+         "translate":"～盘"
+	},
+
+	"7":{
+         "character":"ラジオ",
+         "partOfSpeech":0,
+         "translate":"收音机"
+	},
+
+	"8":{
+         "character":"住所",
+         "partOfSpeech":0,
+         "rome":"じゅうしょ",
+         "translate":"住所"
+	},
+
+	"9":{
+         "character":"名前",
+         "partOfSpeech":0,
+         "rome":"なまえ",
+         "translate":"名字"
+	},
+
+	"10":{
+         "character":"船便",
+         "partOfSpeech":0,
+         "rome":"ふなびん",
+         "translate":"海运"
+	},
+
+	"11":{
+         "character":"バス",
+         "partOfSpeech":0,
+         "translate":"公共汽车"
+	},
+
+	"12":{
+         "character":"駅前",
+         "partOfSpeech":0,
+         "rome":"えきまえ",
+         "translate":"车站一带"
+	},
+
+	"13":{
+         "character":"原稿",
+         "partOfSpeech":0,
+         "rome":"げんこう",
+         "translate":"稿子"
+	},
+
+	"14":{
+         "character":"記事",
+         "partOfSpeech":0,
+         "rome":"きじ",
+         "translate":"报道"
+	},
+
+	"15":{
+         "character":"メモ",
+         "partOfSpeech":0,
+         "translate":"记录"
+	},
+
+	"16":{
+         "character":"金",
+         "partOfSpeech":0,
+         "rome":"かね",
+         "translate":"钱"
+	},
+
+	"17":{
+         "character":"速達",
+         "partOfSpeech":0,
+         "rome":"そくたつ",
+         "translate":"快件"
+	},
+
+	"18":{
+         "character":"タバコ",
+         "partOfSpeech":0,
+         "translate":"香烟"
+	},
+
+	"19":{
+         "character":"公園",
+         "partOfSpeech":0,
+         "rome":"こうえん",
+         "translate":"公园"
+	},
+
+	"20":{
+         "character":"ボート",
+         "partOfSpeech":0,
+         "translate":"小船"
+	},
+
+	"21":{
+         "character":"市役所",
+         "partOfSpeech":0,
+         "rome":"しやくしょ",
+         "translate":"市政府"
+	},
+
+	"22":{
+         "character":"携帯電話",
+         "partOfSpeech":0,
+         "rome":"けいたいでんわ",
+         "translate":"手机"
+	},
+
+	"23":{
+         "character":"無理",
+         "partOfSpeech":0,
+         "rome":"むり",
+         "translate":"勉强"
+	},
+
+	"24":{
+         "character":"会議室",
+         "partOfSpeech":0,
+         "rome":"かいぎしつ",
+         "translate":"会议室"
+	},
+
+	"25":{
+         "character":"打ち合わせ",
+         "partOfSpeech":0,
+         "rome":"うちあわせ",
+         "translate":"商量"
+	},
+
+	"26":{
+         "character":"風邪",
+         "partOfSpeech":0,
+         "rome":"かぜ",
+         "translate":"感冒"
+	},
+
+	"27":{
+         "character":"睡眠",
+         "partOfSpeech":0,
+         "rome":"すいみん",
+         "translate":"睡眠"
+	},
+
+	"28":{
+         "character":"薬局",
+         "partOfSpeech":0,
+         "rome":"やっきょく",
+         "translate":"药店"
+	},
+
+	"29":{
+         "character":"薬",
+         "partOfSpeech":0,
+         "rome":"くすり",
+         "translate":"药"
+	},
+
+	"30":{
+         "character":"コンピュータ",
+         "partOfSpeech":0,
+         "translate":"电脑"
+	},
+
+	"31":{
+         "character":"操作",
+         "partOfSpeech":0,
+         "rome":"そうさ",
+         "translate":"操作"
+	},
+
+	"32":{
+         "character":"脚",
+         "partOfSpeech":0,
+         "rome":"あし",
+         "translate":"腿"
+	},
+
+	"33":{
+         "character":"営業部",
+         "partOfSpeech":0,
+         "rome":"えいぎょうぶ",
+         "translate":"营业部"
+	},
+
+	"34":{
+         "character":"部長",
+         "partOfSpeech":0,
+         "rome":"ぶちょう",
+         "translate":"部长"
+	},
+
+	"35":{
+         "character":"建築家",
+         "partOfSpeech":0,
+         "rome":"けんちくか",
+         "translate":"建筑家"
+	},
+
+	"36":{
+         "character":"設計",
+         "partOfSpeech":0,
+         "rome":"せっけい",
+         "translate":"设计"
+	},
+
+	"37":{
+         "character":"展示場",
+         "partOfSpeech":0,
+         "rome":"てんじじょう",
+         "translate":"展览馆"
+	},
+
+	"38":{
+         "character":"デザイン",
+         "partOfSpeech":0,
+         "translate":"设计"
+	},
+
+	"39":{
+         "character":"形",
+         "partOfSpeech":0,
+         "rome":"かたち",
+         "translate":"造型"
+	},
+
+	"40":{
+         "character":"入場料",
+         "partOfSpeech":0,
+         "rome":"にゅうじょうりょう",
+         "translate":"门票，进场费"
+	},
+
+	"41":{
+         "character":"警備",
+         "partOfSpeech":0,
+         "rome":"けいび",
+         "translate":"警备"
+	},
+
+	"42":{
+         "character":"IDカード",
+         "partOfSpeech":0,
+         "translate":"身份证"
+	},
+
+	"43":{
+         "character":"入り口",
+         "partOfSpeech":0,
+         "rome":"いりぐち",
+         "translate":"入口"
+	},
+
+	"44":{
+         "character":"天井",
+         "partOfSpeech":0,
+         "rome":"てんじょう",
+         "translate":"天棚"
+	},
+
+	"45":{
+         "character":"窓",
+         "partOfSpeech":0,
+         "rome":"まど",
+         "translate":"窗户"
+	},
+
+	"46":{
+         "character":"クリスマスツリー",
+         "partOfSpeech":0,
+         "translate":"圣诞树"
+	},
+
+	"47":{
+         "character":"看板",
+         "partOfSpeech":0,
+         "rome":"かんばん",
+         "translate":"牌子"
+	},
+
+	"48":{
+         "character":"広告",
+         "partOfSpeech":0,
+         "rome":"こうこく",
+         "translate":"广告"
+	},
+
+	"49":{
+         "character":"洋服",
+         "partOfSpeech":0,
+         "rome":"ようふく",
+         "translate":"西服"
+	},
+
+	"50":{
+         "character":"コンサート",
+         "partOfSpeech":0,
+         "translate":"音乐会"
+	},
+
+	"51":{
+         "character":"健康",
+         "partOfSpeech":0,
+         "rome":"けんこう",
+         "translate":"健康"
+	},
+
+	"52":{
+         "character":"恋愛",
+         "partOfSpeech":0,
+         "rome":"れんあい",
+         "translate":"恋爱"
+	},
+
+	"53":{
+         "character":"今年",
+         "partOfSpeech":0,
+         "rome":"ことし",
+         "translate":"今年"
+	},
+
+	"54":{
+         "character":"相手",
+         "partOfSpeech":0,
+         "rome":"あいて",
+         "translate":"对象"
+	},
+
+	"55":{
+         "character":"恋人",
+         "partOfSpeech":0,
+         "rome":"こいびと",
+         "translate":"恋人"
+	},
+
+	"56":{
+         "character":"男性",
+         "partOfSpeech":0,
+         "rome":"だんせい",
+         "translate":"男性"
+	},
+
+	"57":{
+         "character":"お汁粉",
+         "partOfSpeech":0,
+         "rome":"おしるこ",
+         "translate":"年糕小豆汤"
+	},
+
+	"58":{
+         "character":"音",
+         "partOfSpeech":0,
+         "rome":"おと",
+         "translate":"声音"
+	},
+
+	"59":{
+         "character":"息子",
+         "partOfSpeech":0,
+         "rome":"むすこ",
+         "translate":"儿子"
+	},
+
+	"60":{
+         "character":"医者",
+         "partOfSpeech":0,
+         "rome":"いしゃ",
+         "translate":"医生"
+	},
+
+	"61":{
+         "character":"お嬢",
+         "partOfSpeech":0,
+         "rome":"おじょう",
+         "translate":"女儿"
+	},
+
+	"62":{
+         "character":"お正月",
+         "partOfSpeech":0,
+         "rome":"おしょうがつ",
+         "translate":"过年"
+	},
+
+	"63":{
+         "character":"定価",
+         "partOfSpeech":0,
+         "rome":"ていか",
+         "translate":"定价"
+	},
+
+	"64":{
+         "character":"割引",
+         "partOfSpeech":0,
+         "rome":"わりびき",
+         "translate":"～折"
+	},
+
+	"65":{
+         "character":"半額",
+         "partOfSpeech":0,
+         "rome":"はんがく",
+         "translate":"半价"
+	},
+
+	"66":{
+         "character":"タイムサービス",
+         "partOfSpeech":0,
+         "translate":"廉价销售"
+	},
+
+	"67":{
+         "character":"かぎ",
+         "partOfSpeech":0,
+         "translate":"钥匙"
+	},
+
+	"68":{
+         "character":"品物",
+         "partOfSpeech":0,
+         "rome":"しなもの",
+         "translate":"物品"
+	},
+
+	"69":{
+         "character":"食事",
+         "partOfSpeech":0,
+         "rome":"しょくじ",
+         "translate":"吃饭"
+	},
+
+	"70":{
+         "character":"レポート",
+         "partOfSpeech":0,
+         "translate":"报告"
+	},
+
+	"71":{
+         "character":"初心者",
+         "partOfSpeech":0,
+         "rome":"しょしんしゃ",
+         "translate":"初学者"
+	},
+
+	"72":{
+         "character":"心配",
+         "partOfSpeech":0,
+         "rome":"しんぱい",
+         "translate":"担心"
+	},
+
+	"73":{
+         "character":"コース",
+         "partOfSpeech":0,
+         "translate":"滑道"
+	},
+
+	"74":{
+         "character":"スキー",
+         "partOfSpeech":0,
+         "translate":"滑雪"
+	},
+
+	"75":{
+         "character":"上級者",
+         "partOfSpeech":0,
+         "rome":"じょうきゅうしゃ",
+         "translate":"熟练者"
+	},
+
+	"76":{
+         "character":"ピアノ",
+         "partOfSpeech":0,
+         "translate":"钢琴"
+	},
+
+	"77":{
+         "character":"趣味",
+         "partOfSpeech":0,
+         "rome":"しゅみ",
+         "translate":"爱好"
+	},
+
+	"78":{
+         "character":"切手",
+         "partOfSpeech":0,
+         "rome":"きって",
+         "translate":"邮票"
+	},
+
+	"79":{
+         "character":"冬休み",
+         "partOfSpeech":0,
+         "rome":"ふゆやすみ",
+         "translate":"寒假"
+	},
+
+	"80":{
+         "character":"ギター",
+         "partOfSpeech":0,
+         "translate":"吉他"
+	},
+
+	"81":{
+         "character":"春節",
+         "partOfSpeech":0,
+         "rome":"しゅんせつ",
+         "translate":"春节"
+	},
+
+	"82":{
+         "character":"仕事",
+         "partOfSpeech":0,
+         "rome":"しごと",
+         "translate":"工作"
+	},
+
+	"83":{
+         "character":"中華街",
+         "partOfSpeech":0,
+         "rome":"ちゅうかがい",
+         "translate":"中华街"
+	},
+
+	"84":{
+         "character":"獅子舞",
+         "partOfSpeech":0,
+         "rome":"ししまい",
+         "translate":"狮子舞"
+	},
+
+	"85":{
+         "character":"皮",
+         "partOfSpeech":0,
+         "rome":"かわ",
+         "translate":"皮"
+	},
+
+	"86":{
+         "character":"すき焼き",
+         "partOfSpeech":0,
+         "rome":"すきやき",
+         "translate":"日式牛肉火锅"
+	},
+
+	"87":{
+         "character":"野菜",
+         "partOfSpeech":0,
+         "rome":"やさい",
+         "translate":"蔬菜"
+	},
+
+   "88":{
+         "character":"寿司",
+         "partOfSpeech":0,
+         "rome":"すし",
+         "translate":"寿司"
+   },
+
+   "89":{
+         "character":"天ぷら",
+         "partOfSpeech":0,
+         "rome":"てんぷら",
+         "translate":"天麸罗"
+   },
+
+   "90":{
+         "character":"連休",
+         "partOfSpeech":0,
+         "rome":"れんきゅう",
+         "translate":"连休"
+   },
+
+   "91":{
+         "character":"歌舞伎",
+         "partOfSpeech":0,
+         "rome":"かぶき",
+         "translate":"歌舞伎"
+   },
+
+   "92":{
+         "character":"休憩時間",
+         "partOfSpeech":0,
+         "rome":"きゅうけいじかん",
+         "translate":"休息时间"
+   },
+
+   "93":{
+         "character":"言葉",
+         "partOfSpeech":0,
+         "rome":"ことば",
+         "translate":"语言"
+   },
+
+   "94":{
+         "character":"京劇",
+         "partOfSpeech":0,
+         "rome":"きょうげき",
+         "translate":"京剧"
+   },
+
+   "95":{
+         "character":"ボーリング",
+         "partOfSpeech":0,
+         "translate":"保龄球"
+   },
+
+   "96":{
+         "character":"ネクタイ",
+         "partOfSpeech":0,
+         "translate":"领带"
+   },
+
+   "97":{
+         "character":"電話番号",
+         "partOfSpeech":0,
+         "rome":"でんわばんごう",
+         "translate":"电话号码"
+   },
+
+   "98":{
+         "character":"転勤",
+         "partOfSpeech":0,
+         "rome":"てんきん",
+         "translate":"转职，调转工作"
+   },
+
+   "99":{
+         "character":"期間",
+         "partOfSpeech":0,
+         "rome":"きかん",
+         "translate":"时间"
+   }
+}

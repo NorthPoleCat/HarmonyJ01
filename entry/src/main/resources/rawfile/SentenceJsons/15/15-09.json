@@ -1,0 +1,12 @@
+{
+    "character":"甲：すみません，ここに　座っても　いいですか。",
+    "translate":"甲：对不起，我可以坐这儿吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[附着点] に　动",
+        "grammarNum":"05-03"
+    },{
+        "grammarName":"动[て]も　いいです",
+        "grammarNum":"15-02"
+    }]
+}

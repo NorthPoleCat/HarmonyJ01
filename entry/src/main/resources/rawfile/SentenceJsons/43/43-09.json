@@ -1,0 +1,12 @@
+{
+    "character":"甲：部長，気分が悪いので，早く帰らせてください。",
+    "translate":"甲：部长，我不太舒服，请让我早点回去吧。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    },{
+        "grammarName":"[动(さ)せ]て　ください",
+        "grammarNum":"43-03"
+    }]
+}

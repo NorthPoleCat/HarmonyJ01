@@ -1,0 +1,15 @@
+{
+    "character":"小野：少し　急ぎましょうか。遅れない　ほうが　いいですから。",
+    "translate":"小野：稍微快点好吗？最好不要迟到。",
+    "Tips":["少し：【副词】一点，有点；些；少许，少量；稍微。"],
+    "involvedGrammar":[{
+        "grammarName":"动 ましょうか",
+        "grammarNum":"21-04"
+    },{
+        "grammarName":"[动ない形]　＋　ほうがいいです",
+        "grammarNum":"18-02"
+    },{
+        "grammarName":"から・だから",
+        "grammarNum":"11-04"
+    }]
+}

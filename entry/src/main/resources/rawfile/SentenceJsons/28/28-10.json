@@ -1,0 +1,12 @@
+{
+    "character":"乙：戴さんに訳してもらいましょう。英語が得意ですから。",
+    "translate":"乙：让小戴翻译吧，他擅长英语。",
+    "Tips":["把动词ます形的ます换成ましょう，可表示提议。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] もらいます",
+        "grammarNum":"08-02"
+    },{
+        "grammarName":"から・だから",
+        "grammarNum":"11-04"
+    }]
+}

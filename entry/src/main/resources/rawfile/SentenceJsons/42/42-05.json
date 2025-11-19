@@ -1,0 +1,15 @@
+{
+    "character":"甲：昨日，窓を開けたまま寝たので，風邪を引いてしまいました。",
+    "translate":"甲：昨天，我开着窗就睡了，所以着凉了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"～まま",
+        "grammarNum":"42-01"
+    },{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    },{
+        "grammarName":"动[て]　しまいます",
+        "grammarNum":"33-02"
+    }]
+}

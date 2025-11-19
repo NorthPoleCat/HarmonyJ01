@@ -1,0 +1,15 @@
+{
+    "character":"馬：ええ。今走っている道路は三環路ですが，このあたりはよく渋滞します。",
+    "translate":"马：是啊。现在走的这条路是三环路，这一带经常堵车。",
+    "Tips":["よく：经常。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

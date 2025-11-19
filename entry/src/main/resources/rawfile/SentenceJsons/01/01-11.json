@@ -1,0 +1,13 @@
+{
+    "character":"甲：李さんは　JC企画の　社員ですか。",
+    "translate":"甲：李先生是JC策划公司的职员吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名は名ですか",
+        "grammarNum":"01-03"
+    },
+    {
+        "grammarName":"名 の 名",
+        "grammarNum":"01-04"
+    }]
+}

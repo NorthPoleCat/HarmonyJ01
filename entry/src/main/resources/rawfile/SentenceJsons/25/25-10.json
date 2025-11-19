@@ -1,0 +1,15 @@
+{
+    "character":"乙：昨日李さんにもらった本を読んでいます。",
+    "translate":"乙：我在读昨天小李送给我的书。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"名[人]は　名[人]に　名[物]を　もらいます",
+        "grammarNum":"08-02"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

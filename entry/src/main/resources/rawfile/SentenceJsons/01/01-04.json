@@ -1,0 +1,14 @@
+{
+    "character":"李さんは　JC企画の　社員です。",
+    "translate":"小李是JC策划公司的职员。",
+    "Tips":[],
+    "involvedGrammar":
+    [{
+    	"grammarName":"名 は 名です",
+    	"grammarNum":"01-01"
+    },
+    {
+    	"grammarName":"名 の 名",
+    	"grammarNum":"01-04"
+    }]
+}

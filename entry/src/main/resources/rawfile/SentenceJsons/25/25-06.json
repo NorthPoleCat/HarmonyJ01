@@ -1,0 +1,12 @@
+{
+    "character":"乙：その人は中国でとても人気がある女優です。",
+    "translate":"乙：那个人是在中国很受欢迎的女演员。",
+    "Tips":["とても：很，非常。"],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"李さんは　日本語で　手紙を　書きます。",
+    "translate":"小李用日语写信。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

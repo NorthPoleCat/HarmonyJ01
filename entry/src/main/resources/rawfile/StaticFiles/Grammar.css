@@ -1,0 +1,49 @@
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: "Heiti SC";
+}
+
+h2 {
+    font-size: 3em;
+    font-family: "Heiti SC";
+}
+
+h3 {
+    font-size:2.2em;
+    font-family: "Heiti SC";
+}
+
+a {
+    font-size: 0.7em;
+    font-family: "Heiti SC";
+}
+
+ruby {
+    font-size: 1em;
+    font-family: "Heiti SC";
+}
+
+rt {
+    font-size: 0.7em;
+    font-family: "Heiti SC";
+}
+
+p {
+    font-size: 2.5em;
+    font-family: "Heiti SC";
+    font-weight:400;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: .075em dotted gray;
+    cursor: help;
+    font-family: "Heiti SC";
+}
+
+#ch {
+    color:#c0c0c0;
+    font-weight:500;
+}

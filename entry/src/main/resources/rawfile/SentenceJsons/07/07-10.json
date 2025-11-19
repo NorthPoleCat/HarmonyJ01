@@ -1,0 +1,12 @@
+{
+    "character":"乙：テニスか　ジョギングを　します。",
+    "translate":"乙：打网球或慢跑。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    },{
+        "grammarName":"名か 名",
+        "grammarNum":"07-02"
+    }]
+}

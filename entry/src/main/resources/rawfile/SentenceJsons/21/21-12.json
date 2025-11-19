@@ -1,0 +1,12 @@
+{
+    "character":"乙：いいえ。寝る　前に　食べない　ほうが　いいですよ。",
+    "translate":"乙：不，睡觉前还是不吃东西的好。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动基本形] 前に, 〜",
+        "grammarNum":"20-03"
+    },{
+        "grammarName":"[动ない形]　＋　ほうがいいです",
+        "grammarNum":"18-02"
+    }]
+}

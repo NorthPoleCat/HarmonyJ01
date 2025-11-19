@@ -1,0 +1,15 @@
+{
+    "character":"東京タワーへ　行きたいんですが，どうやって　行きますか。",
+    "translate":"想去东京塔，怎么走好啊？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　を　[动ます形去掉ます]たいです",
+        "grammarNum":"17-02"
+    },{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

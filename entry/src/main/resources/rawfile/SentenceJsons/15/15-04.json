@@ -1,0 +1,12 @@
+{
+    "character":"日曜日，小野さんは　公園で　ボートに　乗りました。",
+    "translate":"星期天，小野女士在公园里划了船。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"名[附着点] に　动",
+        "grammarNum":"05-03"
+    }]
+}

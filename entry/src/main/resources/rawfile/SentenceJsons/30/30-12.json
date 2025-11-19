@@ -1,0 +1,12 @@
+{
+    "character":"乙：ええ。香港からお客さんが来るので，空港へ迎えに行きます。",
+    "translate":"乙：是啊，有客户从香港来，我要去机场迎接。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    },{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    }]
+}

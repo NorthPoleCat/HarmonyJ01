@@ -1,0 +1,12 @@
+{
+    "character":"甲：李さん，いっしょに　食事に　行きませんか。",
+    "translate":"甲：小李，一起去吃饭好吗？",
+    "Tips":["いっしょに：【副词】一起，一同。"],
+    "involvedGrammar":[{
+        "grammarName":"动　ませんか",
+        "grammarNum":"17-03"
+    },{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    }]
+}

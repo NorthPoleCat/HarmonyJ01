@@ -1,0 +1,12 @@
+{
+    "character":"森：いえ，自分で届けたんです。西長安街の方へ行く用事があったので。",
+    "translate":"森：不，是我亲自去送的。因为当时有事去西长安街方向。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    }]
+}

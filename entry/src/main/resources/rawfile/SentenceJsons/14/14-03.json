@@ -1,0 +1,12 @@
+{
+    "character":"ここに　住所と　名前を　書いて　ください。",
+    "translate":"请在这里填写住址和姓名。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

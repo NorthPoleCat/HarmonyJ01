@@ -1,0 +1,9 @@
+{
+    "character":"李：あのう，東京の　地図は　どこですか。",
+    "translate":"李：请问，东京地图在什么地方？",
+    "Tips":["あのう：用于向对方搭话或意图引起对方注意。"],
+    "involvedGrammar":[{
+        "grammarName":"名は　どこですか",
+        "grammarNum":"03-02"
+    }]
+}

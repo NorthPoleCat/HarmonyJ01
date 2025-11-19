@@ -1,0 +1,12 @@
+{
+    "character":"乙：昼ご飯を　食べてから　出かけます。",
+    "translate":"乙：吃完午饭后出发。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]から　动",
+        "grammarNum":"14-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

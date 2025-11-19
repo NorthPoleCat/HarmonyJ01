@@ -1,0 +1,9 @@
+{
+    "character":"吉田：李さん，もう　会社を　出ますか。",
+    "translate":"吉田：小李，这就走吗？",
+    "Tips":["もう：1.又，再。2.表示结束状态，相当于汉语中的‘已经’。"],
+    "involvedGrammar":[{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"甲：このゴーカートは大人でも乗ることができますか。",
+    "translate":"甲：这个游戏车大人也能坐吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　でも",
+        "grammarNum":"35-05"
+    },{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

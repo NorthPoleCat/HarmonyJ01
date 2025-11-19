@@ -1,0 +1,18 @@
+{
+    "character":"森：ええ。でも，女性はあまり使いません。「来てください」「遠慮しないでください」と言ったほうがいいですよ。",
+    "translate":"森：是的。不过，女性不太说，还是用'来てください'，'遠慮しないでください'比较好。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あまり　一类形（否定）/二类形（否定）／动（否定）",
+        "grammarNum":"09-02"
+    },{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    },{
+        "grammarName":"[动ない]で　ください",
+        "grammarNum":"19-02"
+    },{
+        "grammarName":"[动た形]　＋　ほうがいいです",
+        "grammarNum":"18-02"
+    }]
+}

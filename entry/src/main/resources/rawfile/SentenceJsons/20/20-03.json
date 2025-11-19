@@ -1,0 +1,12 @@
+{
+    "character":"こちらへ　くる　前に，電話を　かけて　ください。",
+    "translate":"来之前请打个电话。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动基本形] 前に, 〜",
+        "grammarNum":"20-03"
+    },{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    }]
+}

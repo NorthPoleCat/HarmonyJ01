@@ -1,0 +1,12 @@
+{
+    "character":"森：課長は　出張中ですが，李さんに　よろしくと　言って　いましたよ。",
+    "translate":"森：科长出差了，让我给你带个好。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    },{
+        "grammarName":"名[人]は　名[人]に　[句简体]と　言いました",
+        "grammarNum":"24-02"
+    }]
+}

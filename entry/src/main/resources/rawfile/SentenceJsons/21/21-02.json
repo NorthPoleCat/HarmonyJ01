@@ -1,0 +1,12 @@
+{
+    "character":"李さんは　会社が　終わった　後で，飲みに　行きます。",
+    "translate":"公司下班后，小李去喝酒。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动た形] 後で，～",
+        "grammarNum":"21-03"
+    },{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    }]
+}

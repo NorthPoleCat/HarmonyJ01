@@ -1,0 +1,99 @@
+/*body {*/
+/*    background-color: #C7EDCC;*/
+/*}*/
+
+body {
+    background: #ececec;
+    -webkit-tap-highlight-color:rgba(0,0,0,0) 
+}
+
+h1 {
+    color: black;
+    font-size: 6em;
+    text-align: center;
+    font-family: "Heiti SC";
+/*    font-family: "Hiragino";*/
+}
+
+h2 {
+    color: #25354A;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Heiti SC";
+/*    font-family: "Hiragino";*/
+}
+
+ruby {
+    color: #25354A;
+    font-size: 1em;
+    font-family: "Heiti SC";
+    /*font-weight: 500;*/
+/*    font-family: "Hiragino";*/
+}
+
+rt {
+    color: #25354A;
+    font-size: 0.7em;
+    font-family: "Heiti SC";
+/*    color: black;*/
+/*    background-color: white;*/
+/*    font-family: "Hiragino";*/
+}
+
+div {
+    background: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 2em;
+    margin-bottom: 4em;
+    border-radius: .8em;
+}
+
+p {
+    color: #25354A;
+    font-size: 2.5em;
+    font-family: "Heiti SC";
+    font-weight:400;
+/*    font-family: "Hiragino";*/
+}
+
+span {
+    color: #25354A;
+    font-size: 2.5em;
+    font-family: "Heiti SC";
+    font-weight:400;
+}
+
+.tooltip {
+    color: #25354A;
+    position: relative;
+    display: inline-block;
+    /*border-bottom: .075em dotted gray;
+    cursor: help;*/
+    font-family: "Heiti SC";
+/*    font-family: "Hiragino";*/
+}
+
+.hltooltip {
+    position: relative;
+    display: inline-block;
+    color:#e5aa5a;
+    font-weight:600;
+    /*border-bottom: .075em dotted #e5aa5a;
+    cursor: help;*/
+    font-family: "Heiti SC";
+}
+
+#UnitLession ruby {
+    color: red;
+    font-size: 0.7em;
+    font-family: "Heiti SC";
+}
+
+#UnitLession rt {
+    color: #25354A;
+    font-size: 1em;
+    font-family: "Heiti SC";
+}

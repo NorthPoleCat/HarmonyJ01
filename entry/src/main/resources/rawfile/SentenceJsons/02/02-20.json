@@ -1,0 +1,9 @@
+{
+    "character":"小野：えっ，何ですか。",
+    "translate":"小野：嗯？这是什么？",
+    "Tips":["えっ：在对对方所说的话感到意外或吃惊时使用"],
+    "involvedGrammar":[{
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

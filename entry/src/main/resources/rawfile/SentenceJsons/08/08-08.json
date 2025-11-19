@@ -1,0 +1,9 @@
+{
+    "character":"甲：その　映画の　チケットを　だれに　あげますか。",
+    "translate":"甲：那张电影票给谁？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]は　名[人]に　名[物]を　あげます",
+        "grammarNum":"08-01"
+    }]
+}

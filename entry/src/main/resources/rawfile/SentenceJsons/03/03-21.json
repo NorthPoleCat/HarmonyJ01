@@ -1,0 +1,12 @@
+{
+    "character":"小野：そこです。その　ビルの　２階です。",
+    "translate":"小野：在那儿。在那座楼的二层。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"ここ/そこ/あそこ は 名 です",
+        "grammarNum":"03-01"
+    },{
+    	"grammarName":"この/その/あの 名　は 名 です",
+    	"grammarNum":"02-03"
+	}]
+}

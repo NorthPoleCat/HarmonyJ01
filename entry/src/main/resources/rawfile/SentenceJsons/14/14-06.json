@@ -1,0 +1,12 @@
+{
+    "character":"乙：図書館へ　行って，勉強を　します。それから　家へ　帰って，手紙を　書きます。",
+    "translate":"乙：去图书馆学习。然后回家写信。",
+    "Tips":["これから：【副词】从现在起，今后，以后；现在；将来。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て]　动",
+        "grammarNum":"14-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

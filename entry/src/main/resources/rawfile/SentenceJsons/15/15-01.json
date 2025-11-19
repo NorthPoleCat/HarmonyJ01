@@ -1,0 +1,12 @@
+{
+    "character":"小野さんは　今　新聞を　読んで　います。",
+    "translate":"小野女士现在正在看报纸。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

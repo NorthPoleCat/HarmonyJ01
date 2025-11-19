@@ -1,0 +1,626 @@
+{
+  "0": {
+    "character": "雨宿り",
+    "partOfSpeech": 0,
+    "rome": "あまやどり",
+    "translate": "避雨。"
+  },
+
+  "1": {
+    "character": "柄",
+    "partOfSpeech": 0,
+    "rome": "がら",
+    "translate": "花纹"
+  },
+
+  "2": {
+    "character": "周り",
+    "partOfSpeech": 0,
+    "rome": "まわり",
+    "translate": "附近，周围。"
+  },
+
+  "3": {
+    "character": "企画",
+    "partOfSpeech": 0,
+    "rome": "きかく",
+    "translate": "规划，计划"
+  },
+
+  "4": {
+    "character": "社員",
+    "partOfSpeech": 0,
+    "rome": "しゃいん",
+    "translate": "职员"
+  },
+
+  "5": {
+    "character": "会社員",
+    "partOfSpeech": 0,
+    "rome": "かいしゃいん",
+    "translate": "公司职员"
+  },
+
+  "6": {
+    "character": "レモン",
+    "partOfSpeech": 0,
+    "translate": "【英】lemon；柠檬。"
+  },
+
+  "7": {
+    "character": "オートバイ",
+    "partOfSpeech": 0,
+    "translate": "【英】auto bicycle ;摩托车。"
+  },
+
+  "8": {
+    "character": "ヨーロッパ",
+    "partOfSpeech": 0,
+    "translate": "【葡】Europa ;欧洲。"
+  },
+
+  "9": {
+    "character": "本",
+    "partOfSpeech": 0,
+    "rome": "ほん",
+    "translate": "书"
+  },
+
+  "10": {
+    "character": "傘",
+    "partOfSpeech": 0,
+    "rome": "かさ",
+    "translate": "伞"
+  },
+
+  "11": {
+    "character": "カメラ",
+    "partOfSpeech": 0,
+    "translate": "照相机"
+  },
+
+  "12": {
+    "character": "テレビ",
+    "partOfSpeech": 0,
+    "translate": "电视机"
+  },
+
+  "13": {
+    "character": "パソコン",
+    "partOfSpeech": 0,
+    "translate": "个人电脑"
+  },
+
+  "14": {
+    "character": "スタッフ",
+    "partOfSpeech": 0,
+    "translate": "1.【英】stuff;材料，原料，（西餐）填馅菜肴。2.【英】staff;成员；人员；职员。"
+  },
+
+  "15": {
+    "character": "かばん",
+    "partOfSpeech": 0,
+    "translate": "包"
+  },
+
+  "16": {
+    "character": "ノート",
+    "partOfSpeech": 0,
+    "translate": "笔记本"
+  },
+
+  "17": {
+    "character": "エスカレーター",
+    "partOfSpeech": 0,
+    "translate": "【英】escalator;自动扶梯；保送上大学。"
+  },
+
+  "18": {
+    "character": "下見",
+    "partOfSpeech": 0,
+    "rome": "したみ",
+    "translate": "1.预习（书等），预先看一下。预先读一读。2.事前查看，预先检查，预先看好。"
+  },
+
+  "19": {
+    "character": "自転車",
+    "partOfSpeech": 0,
+    "rome": "じてんしゃ",
+    "translate": "自行车"
+  },
+
+  "20": {
+    "character": "机",
+    "partOfSpeech": 0,
+    "rome": "つくえ",
+    "translate": "桌子"
+  },
+
+  "21": {
+    "character": "名産品",
+    "partOfSpeech": 0,
+    "rome": "めいさんひん",
+    "translate": "特产"
+  },
+
+  "22": {
+    "character": "家族",
+    "partOfSpeech": 0,
+    "rome": "かぞく",
+    "translate": "家人，家属"
+  },
+
+  "23": {
+    "character": "写真",
+    "partOfSpeech": 0,
+    "rome": "しゃしん",
+    "translate": "照片"
+  },
+
+  "24": {
+    "character": "土産",
+    "partOfSpeech": 0,
+    "rome": "みやげ",
+    "translate": "礼物"
+  },
+
+  "25": {
+    "character": "シルク",
+    "partOfSpeech": 0,
+    "translate": "丝绸"
+  },
+
+  "26": {
+    "character": "ハンカチ",
+    "partOfSpeech": 0,
+    "translate": "手绢"
+  },
+
+  "27": {
+    "character": "デパート",
+    "partOfSpeech": 0,
+    "translate": "百货商店"
+  },
+
+  "28": {
+    "character": "食堂",
+    "partOfSpeech": 0,
+    "rome": "しょくどう",
+    "translate": "食堂"
+  },
+
+  "29": {
+    "character": "ビル",
+    "partOfSpeech": 0,
+    "translate": "大楼"
+  },
+
+  "30": {
+    "character": "売り場",
+    "partOfSpeech": 0,
+    "rome": "うりば",
+    "translate": "柜台"
+  },
+
+  "31": {
+    "character": "トイレ",
+    "partOfSpeech": 0,
+    "translate": "厕所"
+  },
+
+  "32": {
+    "character": "郵便局",
+    "partOfSpeech": 0,
+    "rome": "ゆうびんきょく",
+    "translate": "邮局"
+  },
+
+  "33": {
+    "character": "チェックイン",
+    "partOfSpeech": 0,
+    "translate": "1.【英】 check in ;（酒店，宾馆等住宿的）登记。2.（机场）办理登机手续。"
+  },
+
+  "34": {
+    "character": "ドア",
+    "partOfSpeech": 0,
+    "translate": "【英】 door ;门；扉。"
+  },
+
+  "35": {
+    "character": "入り口",
+    "partOfSpeech": 0,
+    "rome": "いりぐち",
+    "translate": "入口"
+  },
+
+  "36": {
+    "character": "事務所",
+    "partOfSpeech": 0,
+    "rome": "じむしょ",
+    "translate": "事务所"
+  },
+
+  "37": {
+    "character": "月曜日",
+    "partOfSpeech": 0,
+    "rome": "げつようび",
+    "translate": "周一"
+  },
+
+  "38": {
+    "character": "火曜日",
+    "partOfSpeech": 0,
+    "rome": "かようび",
+    "translate": "周二"
+  },
+
+  "39": {
+    "character": "水曜日",
+    "partOfSpeech": 0,
+    "rome": "すいようび",
+    "translate": "周三"
+  },
+
+  "40": {
+    "character": "木曜日",
+    "partOfSpeech": 0,
+    "rome": "もくようび",
+    "translate": "周四"
+  },
+
+  "41": {
+    "character": "金曜日",
+    "partOfSpeech": 0,
+    "rome": "きんようび",
+    "translate": "周五"
+  },
+
+  "42": {
+    "character": "土曜日",
+    "partOfSpeech": 0,
+    "rome": "どようび",
+    "translate": "周六"
+  },
+
+  "43": {
+    "character": "日曜日",
+    "partOfSpeech": 0,
+    "rome": "にちようび",
+    "translate": "周日"
+  },
+
+  "44": {
+    "character": "ニューヨーク",
+    "partOfSpeech": 0,
+    "translate": "纽约"
+  },
+
+  "45": {
+
+  },
+
+  "46": {
+    "character": "受付",
+    "partOfSpeech": 0,
+    "rome": "うけつけ",
+    "translate": "接待处"
+  },
+
+  "47": {
+    "character": "課長",
+    "partOfSpeech": 0,
+    "rome": "かちょう",
+    "translate": "科长"
+  },
+
+  "48": {
+
+  },
+
+  "49": {
+    "character": "地図",
+    "partOfSpeech": 0,
+    "rome": "ちず",
+    "translate": "地图"
+  },
+
+  "50": {
+    "character": "コンビニ",
+    "partOfSpeech": 0,
+    "translate": "便利店"
+  },
+
+  "51": {
+    "character": "喫茶店",
+    "partOfSpeech": 0,
+    "rome": "きっさてん",
+    "translate": "咖啡馆"
+  },
+
+  "52": {
+    "character": "建物",
+    "partOfSpeech": 0,
+    "rome": "たてもの",
+    "translate": "建筑物"
+  },
+
+  "53": {
+    "character": "ホテル",
+    "partOfSpeech": 0,
+    "translate": "宾馆"
+  },
+
+  "54": {
+    "character": "マンション",
+    "partOfSpeech": 0,
+    "translate": "高级公寓"
+  },
+
+  "55": {
+    "character": "病院",
+    "partOfSpeech": 0,
+    "rome": "びょういん",
+    "translate": "医院"
+  },
+
+  "56": {
+    "character": "本屋",
+    "partOfSpeech": 0,
+    "rome": "ほんや",
+    "translate": "书店"
+  },
+
+  "57": {
+    "character": "部屋",
+    "partOfSpeech": 0,
+    "rome": "へや",
+    "translate": "房间"
+  },
+
+  "58": {
+    "character": "椅子",
+    "partOfSpeech": 0,
+    "rome": "いす",
+    "translate": "椅子"
+  },
+
+  "59": {
+
+  },
+
+  "60": {
+    "character": "売店",
+    "partOfSpeech": 0,
+    "rome": "ばいてん",
+    "translate": "小卖部"
+  },
+
+  "61": {
+    "character": "駅",
+    "partOfSpeech": 0,
+    "rome": "えき",
+    "translate": "车站"
+  },
+
+  "62": {
+
+  },
+
+  "63": {
+    "character": "庭",
+    "partOfSpeech": 0,
+    "rome": "にわ",
+    "translate": "院子"
+  },
+
+  "64": {
+    "character": "箱",
+    "partOfSpeech": 0,
+    "rome": "はこ",
+    "translate": "盒子，箱子"
+  },
+
+  "65": {
+
+  },
+
+  "66": {
+    "character": "時計",
+    "partOfSpeech": 0,
+    "rome": "とけい",
+    "translate": "表"
+  },
+
+  "67": {
+    "character": "眼鏡",
+    "partOfSpeech": 0,
+    "rome": "めがね",
+    "translate": "眼镜"
+  },
+
+  "68": {
+    "character": "犬",
+    "partOfSpeech": 0,
+    "rome": "いぬ",
+    "translate": "狗"
+  },
+
+  "69": {
+
+  },
+
+  "70": {
+    "character": "子供",
+    "partOfSpeech": 0,
+    "rome": "こども",
+    "translate": "孩子"
+  },
+
+  "71": {
+
+  },
+
+  "72": {
+    "character": "ビール",
+    "partOfSpeech": 0,
+    "translate": "啤酒"
+  },
+
+  "73": {
+    "character": "ウイスキー",
+    "partOfSpeech": 0,
+    "translate": "威士忌"
+  },
+
+  "74": {
+
+  },
+
+  "75": {
+
+  },
+
+  "76": {
+
+  },
+
+  "77": {
+
+  },
+
+  "78": {
+    "character": "隣",
+    "partOfSpeech": 0,
+    "rome": "となり",
+    "translate": "旁边"
+  },
+
+  "79": {
+    "character": "会社",
+    "partOfSpeech": 0,
+    "rome": "かいしゃ",
+    "translate": "公司"
+  },
+
+  "80": {
+
+  },
+
+  "81": {
+
+  },
+
+  "82": {
+    "character": "スイッチ",
+    "partOfSpeech": 0,
+    "translate": "开关"
+  },
+
+  "83": {
+    "character": "兄弟",
+    "partOfSpeech": 0,
+    "rome": "きょうだい",
+    "translate": "兄弟姐妹"
+  },
+
+  "84": {
+    "character": "地下鉄",
+    "partOfSpeech": 0,
+    "rome": "ちかてつ",
+    "translate": "地铁"
+  },
+
+  "85": {
+    "character": "両親",
+    "partOfSpeech": 0,
+    "rome": "りょうしん",
+    "translate": "父母"
+  },
+
+  "86": {
+
+  },
+
+  "87": {
+
+  },
+
+  "88": {
+    "character": "先週",
+    "partOfSpeech": 0,
+    "rome": "せんしゅう",
+    "translate": "上周"
+  },
+
+  "89": {
+
+  },
+
+  "90": {
+
+  },
+
+  "91": {
+    "character": "試験",
+    "partOfSpeech": 0,
+    "rome": "しけん",
+    "translate": "考试"
+  },
+
+  "92": {
+    "character": "来週",
+    "partOfSpeech": 0,
+    "rome": "らいしゅう",
+    "translate": "下周"
+  },
+
+  "93": {
+    "character": "歓迎会",
+    "partOfSpeech": 0,
+    "rome": "かんげいかい",
+    "translate": "欢迎会"
+  },
+
+  "94": {
+    "character": "明後日",
+    "partOfSpeech": 0,
+    "rome": "あさって",
+    "translate": "后天"
+  },
+
+  "95": {
+    "character": "夜",
+    "partOfSpeech": 0,
+    "rome": "よる",
+    "translate": "晚上"
+  },
+
+  "96": {
+    "character": "遅刻",
+    "partOfSpeech": 0,
+    "rome": "ちこく",
+    "translate": "迟到"
+  },
+
+  "97": {
+    "character": "今朝",
+    "partOfSpeech": 0,
+    "rome": "けさ",
+    "translate": "今天早上"
+  },
+
+  "98": {
+    "character": "午前",
+    "partOfSpeech": 0,
+    "rome": "ごぜん",
+    "translate": "上午"
+  },
+
+  "99": {
+    "character": "午後",
+    "partOfSpeech": 0,
+    "rome": "ごご",
+    "translate": "下午"
+  }
+}

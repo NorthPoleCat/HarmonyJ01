@@ -1,0 +1,12 @@
+{
+    "character":"甲：この会社で歌がいちばん上手な人はだれですか。",
+    "translate":"甲：这个公司里唱歌最好的人是谁啊？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句[一类形/二类形/名]＋名",
+        "grammarNum":"25-02"
+    },{
+        "grammarName":"名の　中で　名が　いちばん 一类形/二类形　です",
+        "grammarNum":"12-04"
+    }]
+}

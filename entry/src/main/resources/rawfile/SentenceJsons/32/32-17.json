@@ -1,0 +1,15 @@
+{
+    "character":"李：小野さんは，友達の太田さんの家に行くそうです。わたしもいっしょに行くことになったんですが，森さんは？",
+    "translate":"李：小野要去太田家，我也一起去，你呢？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"～そうです",
+        "grammarNum":"32-03"
+    },{
+        "grammarName":"动[基本形/ない形] ことになりました",
+        "grammarNum":"32-02"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

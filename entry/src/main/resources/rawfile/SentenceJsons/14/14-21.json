@@ -1,0 +1,15 @@
+{
+    "character":"李：はい。銀行で　お金を　下ろしてから　行きます。",
+    "translate":"李：是的，先去银行取点钱，然后去。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て]から　动",
+        "grammarNum":"14-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"お客さんが来る前に，部屋を掃除しておきます。",
+    "translate":"客人来之前把房间打扫好。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动基本形] 前に, 〜",
+        "grammarNum":"20-03"
+    },{
+        "grammarName":"动[て]　おきます",
+        "grammarNum":"34-02"
+    }]
+}

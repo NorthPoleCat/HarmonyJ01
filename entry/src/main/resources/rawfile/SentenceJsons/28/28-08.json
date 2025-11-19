@@ -1,0 +1,9 @@
+{
+    "character":"乙：ええ，みんなで手伝ってあげましょう。",
+    "translate":"乙：是的，大家帮他一下吧。",
+    "Tips":["把动词ます形的ます换成ましょう，可表示提议。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] あげます",
+        "grammarNum":"08-01"
+    }]
+}

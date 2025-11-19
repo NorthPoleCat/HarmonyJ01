@@ -1,0 +1,12 @@
+{
+    "character":"森：小野さんを歓迎するために，とっておきのお店を予約しておきましたよ。",
+    "translate":"森：为了欢迎小野，我们预定了一家有特色的的餐馆。",
+    "Tips":["取って置き(とっておき)：秘藏，珍藏"],
+    "involvedGrammar":[{
+        "grammarName":"為に（ために）",
+        "grammarNum":"34-04"
+    },{
+        "grammarName":"动[て]　おきます",
+        "grammarNum":"34-02"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"李：あのう，お酒があったら，少し入れてくれませんか。",
+    "translate":"李：对不起，要是有酒的话，放一点儿好吗？",
+    "Tips":["少し：【副词】一点，有点；些；少许，少量；稍微。"],
+    "involvedGrammar":[{
+        "grammarName":"小句たら，小句",
+        "grammarNum":"35-01"
+    },{
+        "grammarName":"动[て] くれます",
+        "grammarNum":"28-01"
+    }]
+}

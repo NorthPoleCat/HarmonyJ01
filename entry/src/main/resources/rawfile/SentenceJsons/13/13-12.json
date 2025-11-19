@@ -1,0 +1,12 @@
+{
+    "character":"乙：新宿へ　映画を　見に　行きました。",
+    "translate":"乙：去新宿看了电影。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

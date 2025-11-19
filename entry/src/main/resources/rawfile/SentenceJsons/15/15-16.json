@@ -1,0 +1,15 @@
+{
+    "character":"小野：今　会議室で　打ち合わせを　して　います。後で　伝えます。",
+    "translate":"小野：他现在在会议室商量事儿。我待会儿跟他说。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

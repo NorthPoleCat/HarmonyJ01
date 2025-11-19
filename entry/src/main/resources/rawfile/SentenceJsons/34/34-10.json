@@ -1,0 +1,12 @@
+{
+    "character":"乙：ああ，おいしそうですね。いただきます。",
+    "translate":"乙：哇，看上去很好吃啊，我开动了。",
+    "Tips":["いただきます：我开动了。"],
+    "involvedGrammar":[{
+        "grammarName":"～そうです",
+        "grammarNum":"32-03"
+    },{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    }]
+}

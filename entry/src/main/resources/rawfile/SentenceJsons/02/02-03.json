@@ -1,0 +1,14 @@
+{
+    "character":"あれは　だれの　傘ですか。",
+    "translate":"那是谁的伞？",
+    "Tips":[],
+    "involvedGrammar":[
+    {
+        "grammarName":"これ/それ/あれ は 名 です",
+        "grammarNum":"02-01"
+    },
+    {
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

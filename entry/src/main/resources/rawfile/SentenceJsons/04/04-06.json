@@ -1,0 +1,12 @@
+{
+    "character":"乙：時計と　眼鏡が　あります。",
+    "translate":"乙：表和眼镜。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    },{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    }]
+}

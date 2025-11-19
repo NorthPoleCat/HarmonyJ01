@@ -1,0 +1,15 @@
+{
+    "character":"乙：この　ノートと　鉛筆を　ください。",
+    "translate":"乙：我买这个笔记本和铅笔。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"この/その/あの 名　は 名 です",
+        "grammarNum":"02-03"
+    },{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"名を　ください",
+        "grammarNum":"07-03"
+    }]
+}

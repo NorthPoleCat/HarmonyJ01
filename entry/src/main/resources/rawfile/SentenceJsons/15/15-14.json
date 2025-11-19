@@ -1,0 +1,12 @@
+{
+    "character":"小野：ええ，もちろんです。あまり　無理を　しては　いけませんよ。",
+    "translate":"小野：当然可以。有病不能硬撑着。",
+    "Tips":["もちろん：【副词】当然；不用说，不消说，甭说；不言而喻。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て]は　いけません",
+        "grammarNum":"15-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

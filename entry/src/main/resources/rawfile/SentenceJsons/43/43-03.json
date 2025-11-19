@@ -1,0 +1,9 @@
+{
+    "character":"疲れました。少し休ませてください。",
+    "translate":"我累了。让我稍稍休息一会儿。",
+    "Tips":["少し：【副词】一点，有点；些；少许，少量；稍微。"],
+    "involvedGrammar":[{
+        "grammarName":"[动(さ)せ]て　ください",
+        "grammarNum":"43-03"
+    }]
+}

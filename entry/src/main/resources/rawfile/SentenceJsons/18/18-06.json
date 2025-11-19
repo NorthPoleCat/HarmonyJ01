@@ -1,0 +1,15 @@
+{
+    "character":"乙：ゆうべ　薬を　飲みましたが，まだ　よく　なりません。",
+    "translate":"乙：昨晚吃了点儿药，可还不见好。",
+    "Tips":["まだ：【副词】尚，还。"],
+    "involvedGrammar":[{
+        "grammarName":"まだ + 动[否]",
+        "grammarNum":"16-04"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    },{
+        "grammarName":"なります・します",
+        "grammarNum":"18-01"
+    }]
+}

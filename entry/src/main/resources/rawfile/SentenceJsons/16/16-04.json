@@ -1,0 +1,18 @@
+{
+    "character":"３か月　パソコンを　練習しましたが，まだ　あまり　できません。",
+    "translate":"学了三个月电脑，但还是不太会用。",
+    "Tips":["まだ：【副词】尚，还。"],
+    "involvedGrammar":[{
+        "grammarName":"まだ + 动[否]",
+        "grammarNum":"16-04"
+    },{
+        "grammarName":"あまり　一类形（否定）/二类形（否定）／动（否定）",
+        "grammarNum":"09-02"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

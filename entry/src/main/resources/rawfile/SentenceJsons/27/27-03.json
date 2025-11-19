@@ -1,0 +1,12 @@
+{
+    "character":"李さんはテレビを見ながら食事をしています。",
+    "translate":"小李正边看电视边吃饭。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动ます形去掉ます]＋ながら",
+        "grammarNum":"27-02"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

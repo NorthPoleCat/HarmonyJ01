@@ -1,0 +1,12 @@
+{
+    "character":"コーラと　ケーキを　ください。",
+    "translate":"请给我可乐和蛋糕。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"名を　ください",
+        "grammarNum":"07-03"
+    }]
+}

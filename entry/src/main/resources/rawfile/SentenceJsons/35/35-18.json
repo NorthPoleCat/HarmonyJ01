@@ -1,0 +1,15 @@
+{
+    "character":"夫人：わたし，本のとおりに作っても，なかなかうまくできないんですが，どうやったらおいしくなるんでしょうか。",
+    "translate":"夫人：我照着书做也老是做不好，怎么做才能好吃呢？",
+    "Tips":["～のとおりに：～那样"],
+    "involvedGrammar":[{
+        "grammarName":"[小句て]も，小句",
+        "grammarNum":"35-02"
+    },{
+        "grammarName":"小句たら，小句",
+        "grammarNum":"35-01"
+    },{
+        "grammarName":"小句[简体形]　でしょうか",
+        "grammarNum":"31-03"
+    }]
+}

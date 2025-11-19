@@ -1,0 +1,15 @@
+{
+    "character":"李：朝の運動ですよ。社交ダンスをしている人たちもいたでしょう？",
+    "translate":"李：这叫晨练。也有人跳交际舞吧？",
+    "Tips":["たち：表复数，‘们’"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"小句[简体]＋でしょう",
+        "grammarNum":"26-02"
+    }]
+}

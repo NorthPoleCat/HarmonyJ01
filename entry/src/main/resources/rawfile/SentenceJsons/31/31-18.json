@@ -1,0 +1,24 @@
+{
+    "character":"馬：ええ，卓球をしたい時にいつでもできるんです。たまに公園のそばを通ることがあるんですが，必ずだれかがやっていますね。",
+    "translate":"马：是呀，想打的时候，随时可以打。偶尔从公园那边经过，总有人在打。",
+    "Tips":["たまに：有时，偶尔。"],
+    "involvedGrammar":[{
+        "grammarName":"名　を　[动ます形去掉ます]たいです",
+        "grammarNum":"17-02"
+    },{
+        "grammarName":"小句[简体]＋時",
+        "grammarNum":"27-01"
+    },{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    },{
+        "grammarName":"动词[基本形/ない形]　ことがあります",
+        "grammarNum":"31-02"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

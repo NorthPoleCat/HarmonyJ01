@@ -1,0 +1,652 @@
+{
+    "0":{
+    	"character":"奥さん",
+        "partOfSpeech":0,
+        "rome":"おくさん",
+        "translate":"夫人"
+    },
+
+    "1":{
+         "character":"送別会",
+         "partOfSpeech":0,
+         "rome":"そうべつかい",
+         "translate":"送别会"
+	},
+
+	"2":{
+         "character":"夏",
+         "partOfSpeech":0,
+         "rome":"なつ",
+         "translate":"夏天"
+	},
+
+	"3":{
+         "character":"先生",
+         "partOfSpeech":0,
+         "rome":"せんせい",
+         "translate":"老师；医生；律师；政治家"
+	},
+
+	"4":{
+         "character":"週末",
+         "partOfSpeech":0,
+         "rome":"しゅうまつ",
+         "translate":"周末"
+	},
+
+	"5":{
+         "character":"スケート",
+         "partOfSpeech":0,
+         "translate":"滑冰"
+	},
+
+	"6":{
+         "character":"生地",
+         "partOfSpeech":0,
+         "rome":"きじ",
+         "translate":"布料；衣料"
+	},
+
+	"7":{
+         "character":"生活",
+         "partOfSpeech":0,
+         "rome":"せいかつ",
+         "translate":"生活"
+	},
+
+	"8":{
+         "character":"頭",
+         "partOfSpeech":0,
+         "rome":"あたま",
+         "translate":"头"
+	},
+
+	"9":{
+         "character":"タワー",
+         "partOfSpeech":0,
+         "translate":"高塔"
+	},
+
+	"10":{
+         "character":"パーティー",
+         "partOfSpeech":0,
+         "translate":"晚会，派对"
+	},
+
+	"11":{
+         "character":"始め",
+         "partOfSpeech":0,
+         "rome":"はじめ",
+         "translate":"初始,开头,起源"
+	},
+
+	"12":{
+         "character":"スワトウ",
+         "partOfSpeech":0,
+         "translate":"汕头"
+	},
+
+	"13":{
+         "character":"周辺",
+         "partOfSpeech":0,
+         "rome":"しゅうへん",
+         "translate":"周边"
+	},
+
+	"14":{
+         "character":"場所",
+         "partOfSpeech":0,
+         "rome":"ばしょ",
+         "translate":"位置；场所；席位"
+	},
+
+	"15":{
+         "character":"一人暮らし",
+         "partOfSpeech":0,
+         "rome":"ひとりぐらし",
+         "translate":"独居"
+	},
+
+	"16":{
+         "character":"交通機関",
+         "partOfSpeech":0,
+         "rome":"こうつうきかん",
+         "translate":"交通工具"
+	},
+
+	"17":{
+         "character":"うち",
+         "partOfSpeech":0,
+         "translate":"1.里，里面。2.期间，时期，时候。3.设定的范围，……内。4.内心，心。5.一部分，部分。6.〈亦作「家」〉房子，房屋。"
+	},
+
+	"18":{
+         "character":"勉強",
+         "partOfSpeech":0,
+         "rome":"べんきょう",
+         "translate":"1.用功学习，用功读书，学习知识，积累经验。2.勤奋，热心。3.廉价，贱卖。"
+	},
+
+	"19":{
+         "character":"失礼",
+         "partOfSpeech":0,
+         "rome":"しつれい",
+         "translate":"【名・形容动词/ナ形容词】失礼的，不礼貌的，失敬的。；【名・自动词・サ变/三类】1.对不起，请原谅。2.不能奉陪，不能参加。"
+	},
+
+	"20":{
+         "character":"一度",
+         "partOfSpeech":0,
+         "rome":"いちど",
+         "translate":"【名词・副词】1.一回，一次，一遍。2.一次，一下，随时。3.一旦。"
+	},
+
+	"21":{
+         "character":"晴れ",
+         "partOfSpeech":0,
+         "rome":"はれ",
+         "translate":"晴，晴天。"
+   },
+
+	"22":{
+         "character":"雨",
+         "partOfSpeech":0,
+         "rome":"あめ",
+         "translate":"雨；下雨；雨天；雨量。"
+	},
+
+	"23":{
+         "character":"似合い",
+         "partOfSpeech":0,
+         "rome":"にあい",
+         "translate":"合适，适称；般配。"
+	},
+
+	"24":{
+         "character":"都合",
+         "partOfSpeech":0,
+         "rome":"つごう",
+         "translate":"关系。情况。方便。"
+	},
+
+	"25":{
+         "character":"お腹",
+         "partOfSpeech":0,
+         "rome":"おなか",
+         "translate":"肚子"
+	},
+
+	"26":{
+         "character":"世話",
+         "partOfSpeech":0,
+         "rome":"せわ",
+         "translate":"1.帮助，帮忙，援助。2.照料，照顾，照应，照看，照管。3.推荐，周旋，斡旋，介绍。"
+   },
+
+	"27":{
+         "character":"間",
+         "partOfSpeech":0,
+         "rome":"あいだ",
+         "translate":"间隔，距离；中间；期间；关系；空隙。"
+   },
+
+	"28":{
+         "character":"出張",
+         "partOfSpeech":0,
+         "rome":"しゅっちょう",
+         "translate":"出差，到外地去办事，临时被派往外地。"
+	},
+
+	"29":{
+         "character":"風呂",
+         "partOfSpeech":0,
+         "rome":"ふろ",
+         "translate":"澡盆；澡堂，浴池。"
+	},
+
+	"30":{
+        "character":"初詣",
+         "partOfSpeech":0,
+         "rome":"はつもうで",
+         "translate":"正月里到神社、寺院进行新年后的首次参拜。"
+	},
+
+	"31":{
+         "character":"空港",
+         "partOfSpeech":0,
+         "rome":"くうこう",
+         "translate":"机场"
+	},
+
+	"32":{
+         "character":"渋滞",
+         "partOfSpeech":0,
+         "rome":"じゅうたい",
+         "translate":"1.堵车，拥堵。2.进展不顺利，停滞不前。"
+	},
+
+	"33":{
+         "character":"辞儀",
+         "partOfSpeech":0,
+         "rome":"じぎ",
+         "translate":"鞠躬"
+	},
+
+	"34":{
+         "character":"挨拶",
+         "partOfSpeech":0,
+         "rome":"あいさつ",
+         "translate":"寒暄语，与人见面或分别等时的寒暄及其礼貌动作。打招呼。"
+	},
+
+	"35":{
+         "character":"後ろ",
+         "partOfSpeech":0,
+         "rome":"うしろ",
+         "translate":"1.后，后面。2.背，背面，背后；背地里。"
+	},
+
+	"36":{
+         "character":"書類",
+         "partOfSpeech":0,
+         "rome":"しょるい",
+         "translate":"文件"
+	},
+
+	"37":{
+         "character":"アルバイト",
+         "partOfSpeech":0,
+         "translate":"打工"
+	},
+
+	"38":{
+         "character":"大勢",
+         "partOfSpeech":0,
+         "rome":"おおぜい",
+         "translate":"许多人，很多人，众人。"
+	},
+
+	"39":{
+         "character":"ダンス",
+         "partOfSpeech":0,
+         "translate":"【英】dance ;跳舞"
+	},
+
+	"40":{
+         "character":"入園料",
+         "partOfSpeech":0,
+         "rome":"にゅうえんりょう",
+         "translate":"入园费，门票。"
+	},
+
+	"41":{
+         "character":"有料",
+         "partOfSpeech":0,
+         "rome":"ゆうりょう",
+         "translate":"收费"
+	},
+
+	"42":{
+         "character":"案内",
+         "partOfSpeech":0,
+         "rome":"あんない",
+         "translate":"1.引导，向导；导游，陪同游览。2.传达。3.通知，通告。4.邀请。5.了解，熟悉。" 
+	},
+
+	"43":{
+         "character":"財布",
+         "partOfSpeech":0,
+         "rome":"さいふ",
+         "translate":"钱包"
+	},
+
+	"44":{
+         "character":"マフラー",
+         "partOfSpeech":0,
+         "translate":"1.【英】muffler；围巾。2.【英】muffler；消声器，减音器。"
+	},
+
+	"45":{
+         "character":"引っ越し",
+         "partOfSpeech":0,
+         "rome":"ひっこし",
+         "translate":"搬家，搬迁"
+	},
+
+	"46":{
+         "character":"センター",
+         "partOfSpeech":0,
+         "translate":"【英】 center ;中心地，中心区"
+	},
+
+	"47":{
+         "character":"マーク",
+         "partOfSpeech":0,
+         "translate":"【英】 mark;（打）印记，（作）标记；盯人，看人，尾随，盯住，特别留意；创造记录。"
+	},
+
+	"48":{
+         "character":"宿題",
+         "partOfSpeech":0,
+         "rome":"しゅくだい",
+         "translate":"1.课外作业。2.有待将来解决的问题，悬案。"
+	},
+
+	"49":{
+         "character":"カラオケ",
+         "partOfSpeech":0,
+         "translate":"卡拉OK"
+	},
+
+	"50":{
+         "character":"ゴールデンウイーク",
+         "partOfSpeech":0,
+         "translate":"黄金周"
+	},
+
+	"51":{
+         "character":"ピクニック",
+         "partOfSpeech":0,
+         "translate":"【英】picnic ;郊游，野游，远足。"
+	},
+
+	"52":{
+         "character":"楽しみ",
+         "partOfSpeech":0,
+         "rome":"たのしみ",
+         "translate":"1.快乐；愉快；乐趣。2.消遣；安慰；兴趣。"
+	},
+
+	"53":{
+         "character":"ボタン",
+         "partOfSpeech":0,
+         "translate":"1.纽扣，扣子。2.按键"
+	},
+
+	"54":{
+         "character":"フリーズ",
+         "partOfSpeech":0,
+         "translate":"1.【英】freeze，冷冻。2.【英】freeze，电脑死机。"
+	},
+
+	"55":{
+         "character":"コンクリート",
+         "partOfSpeech":0,
+         "translate":"【英】concrete；混凝土。"
+	},
+
+	"56":{
+        "character":"メートル",
+         "partOfSpeech":0,
+         "translate":"metre;米" 
+	},
+
+	"57":{
+         "character":"特典",
+         "partOfSpeech":0,
+         "rome":"とくてん",
+         "translate":"优惠"
+	},
+
+	"58":{
+         "character":"ボーナス",
+         "partOfSpeech":0,
+         "translate":"奖金"
+	},
+
+	"59":{
+         "character":"ニュース",
+         "partOfSpeech":0,
+         "translate":"【英】news；新鲜事，新闻，稀奇事。"
+	},
+
+	"60":{
+         "character":"インフルエンザ",
+         "partOfSpeech":0,
+         "translate":"【英】influenza;流行性感冒。"
+	},
+
+	"61":{
+         "character":"はさみ",
+         "partOfSpeech":0,
+         "translate":"剪刀"
+	},
+
+	"62":{
+         "character":"引き出し",
+         "partOfSpeech":0,
+         "rome":"ひきだし",
+         "translate":"1.抽出，提取。2.抽屉。"
+	},
+
+	"63":{
+         "character":"スーツケース",
+         "partOfSpeech":0,
+         "translate":"旅行箱"
+	},
+
+	"64":{
+        "character":"トランク",
+         "partOfSpeech":0,
+         "translate":"后备箱" 
+	},
+
+	"65":{
+         "character":"カレンダー",
+         "partOfSpeech":0,
+         "translate":"挂历"
+	},
+
+	"66":{
+         "character":"コピー",
+         "partOfSpeech":0,
+         "translate":"【英】copy ；抄本，誊本，副本。"
+	},
+
+	"67":{
+         "character":"カレーライス",
+         "partOfSpeech":0,
+         "translate":"咖喱饭"
+	},
+
+	"68":{
+         "character":"取って置き",
+         "partOfSpeech":0,
+         "rome":"とっておき",
+         "translate":"秘藏，珍藏。" 
+	},
+
+	"69":{
+         "character":"ハードスケジュール",
+         "partOfSpeech":0,
+         "translate":"紧张的日程。"
+	},
+
+	"70":{
+         "character":"ゴーカート",
+         "partOfSpeech":0,
+         "translate":"【英】go-cart ;（游乐园里的）游戏汽车，卡丁车。"
+	},
+
+	"71":{
+         "character":"ホームパーティー",
+         "partOfSpeech":0,
+         "translate":"家庭聚会"
+	},
+
+	"72":{
+         "character":"パスポート",
+         "partOfSpeech":0,
+         "translate":"【英】passport；护照，身份证。"
+	},
+
+	"73":{
+         "character":"ダイエット",
+         "partOfSpeech":0,
+         "translate":"【英】diet；特种饮食。食物疗法。减肥。"
+	},
+
+	"74":{
+         "character":"量り売り",
+         "partOfSpeech":0,
+         "rome":"はかりうり",
+         "translate":"论分量卖，称量着卖。"
+	},
+
+	"75":{
+         "character":"リンゴ",
+         "partOfSpeech":0,
+         "translate":"苹果。"
+	},
+
+	"76":{
+         "character":"主人",
+         "partOfSpeech":0,
+         "rome":"しゅじん",
+         "translate":"家长；一家之长；主人；丈夫;老板；店主。"
+	},
+
+	"77":{
+         "character":"オリンピック",
+         "partOfSpeech":0,
+         "translate":"【英】Olympic；奥林匹克运动会，奥运会。"
+	},
+
+	"78":{
+         "character":"バーゲン",
+         "partOfSpeech":0,
+         "translate":"【英】bargain ;廉价出售，大甩卖。"
+	},
+
+	"79":{
+         "character":"コート",
+         "partOfSpeech":0,
+         "translate":"1.【英】court；球场。2.【英】coat；上衣。"
+	},
+
+	"80":{
+         "character":"スポット",
+         "partOfSpeech":0,
+         "translate":"【英】spot ;污点，斑点；地点；聚光灯。" 
+	},
+
+	"81":{
+         "character":"キロメートル",
+         "partOfSpeech":0,
+         "translate":"【法】kilometre;千米，公里。"
+	},
+
+	"82":{
+         "character":"メダル",
+         "partOfSpeech":0,
+         "translate":"纪念章" 
+	},
+
+	"83":{
+         "character":"怪我",
+         "partOfSpeech":0,
+         "rome":"けが",
+         "translate":"1.伤，受伤，负伤。2.过错，过失；伤害。"
+	},
+
+	"84":{
+         "character":"モノレール",
+         "partOfSpeech":0,
+         "translate":"单轨铁路" 
+	},
+
+	"85":{
+         "character":"キャンプ",
+         "partOfSpeech":0,
+         "translate":"【英】（camp）露营，野营。2.帐篷，帐幕，天幕。"
+	},
+
+	"86":{
+         "character":"デザイナー",
+         "partOfSpeech":0,
+         "translate":"【英】designer；设计师。"
+	},
+
+	"87":{
+         "character":"依頼",
+         "partOfSpeech":0,
+         "rome":"いらい",
+         "translate":"1.请，托，委托。2.依赖，依靠。"
+	},
+
+   "88":{
+         "character":"一昨年",
+         "partOfSpeech":0,
+         "rome":"いっさくねん",
+         "translate":"前年"
+   },
+
+   "89":{
+         "character":"コストダウン",
+         "partOfSpeech":0,
+         "translate":"【英】cost down ;降低成本，成本降低。"
+   },
+
+   "90":{
+         "character":"ネーミング",
+         "partOfSpeech":0,
+         "translate":"【英】naming ;命名，取名，提名。"
+   },
+
+   "91":{
+         "character":"目覚まし",
+         "partOfSpeech":0,
+         "rome":"めざまし",
+         "translate":"1.叫醒，唤醒。2.闹钟。3.小孩午睡后的点心。"
+   },
+
+   "92":{
+         "character":"ボールペン",
+         "partOfSpeech":0,
+         "translate":"【英】ball pen；圆珠笔。"
+   },
+
+   "93":{
+         "character":"プレゼンテーション",
+         "partOfSpeech":0,
+         "translate":"1.【英】presentation ;企划书、企划案。2.演讲。"
+   },
+
+   "94":{
+         "character":"アルファベット",
+         "partOfSpeech":0,
+         "translate":"1.【英】（alphabet）字母序列,字母表。2.初步,基本知识。"
+   },
+
+   "95":{
+         "character":"イメージ",
+         "partOfSpeech":0,
+         "translate":"【英】image;形象；印象。"
+   },
+
+   "96":{
+         "character":"インパクト",
+         "partOfSpeech":0,
+         "translate":"【英】impact；1.冲击，冲撞，冲突，效果，影响。2.击球，打击。"
+   },
+
+   "97":{
+         "character":"ビアガーデン",
+         "partOfSpeech":0,
+         "translate":"【英】beer garden ;庭院式的啤酒店家庭式的啤酒店。"
+   },
+
+   "98":{
+         "character":"売れ行き",
+         "partOfSpeech":0,
+         "rome":"うれゆき",
+         "translate":"销路，销售（情况）。"
+   },
+
+   "99":{
+         "character":"町並み",
+         "partOfSpeech":0,
+         "rome":"まちなみ",
+         "translate":"市容"
+   }
+}

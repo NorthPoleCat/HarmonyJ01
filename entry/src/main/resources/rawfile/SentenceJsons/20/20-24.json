@@ -1,0 +1,9 @@
+{
+    "character":"森：本当ですか？じゃあ，いつか　ごちそうしてください。",
+    "translate":"森：真的吗？那么，什么时候请我们吃一顿。",
+    "Tips":["ごちそうします：请别人吃饭。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    }]
+}

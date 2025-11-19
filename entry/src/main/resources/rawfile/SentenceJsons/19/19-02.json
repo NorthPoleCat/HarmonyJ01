@@ -1,0 +1,9 @@
+{
+    "character":"李さんは　今日　早く　帰らなければ　なりません。",
+    "translate":"小李今天必须早点回家。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动ない形去掉ない] なければなりません",
+        "grammarNum":"19-03"
+    }]
+}

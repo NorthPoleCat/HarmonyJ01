@@ -1,0 +1,797 @@
+{
+    "0": {
+        "character":"確か",
+        "partOfSpeech":2,
+        "isAdv":1,
+        "rome":"たしか",
+        "translate":"1.确实，确切。2.牢靠，可靠。3.清楚，明朗。4.【副词】似乎，大概，表示根据记忆有相当把握的推断。",
+        "deformation":[]
+    },
+
+    "1": {
+        "character":"いい",
+        "partOfSpeech":1,
+        "translate":"简单，容易，好",
+        "deformation":[]
+    },
+
+	"2": {
+         "character":"辛い",
+         "partOfSpeech":1,
+         "rome":"からい",
+         "translate":"1.辣。2.咸。3.严格。",
+         "deformation":[]
+	},
+
+	"3": {
+         "character":"熱い",
+         "partOfSpeech":1,
+         "rome":"あつい",
+         "translate":"1.热，烫。温度非常高。2.热衷，热心，热爱，热情。",
+         "deformation":[]
+   },
+
+	"4": {
+         "character":"楽しい",
+         "partOfSpeech":1,
+         "rome":"たのしい",
+         "translate":"快乐的，愉快的，高兴的。",
+         "deformation":[]
+   },
+
+	"5": {
+         "character":"広い",
+         "partOfSpeech":1,
+         "rome":"ひろい",
+         "translate":"1.宽阔。2.广泛。3.宽广。4.放开的。5.宽松的。",
+         "deformation":[]
+   },
+
+	"6": {
+         "character":"大きい",
+         "partOfSpeech":1,
+         "rome":"おおきい",
+         "translate":"1.大，巨大；多。2.数量大，高。3.傲慢，不谦虚。4.有气度，大量。5.夸大。6.年老。",
+         "deformation":[]
+   },
+
+	"7": {
+         "character":"遠い",
+         "partOfSpeech":1,
+         "rome":"とおい",
+         "translate":"1.远。2.远，久远；从前。3.远，疏远。4.恍惚，不清。5.声音不清 。6.差异大的，不在某级别上的。",
+         "deformation":[]
+   },
+
+	"8": {
+         "character":"美味しい",
+         "partOfSpeech":1,
+         "rome":"おいしい",
+         "translate":"味美的；好吃的。语气比「うまい」客气",
+         "deformation":[]
+   },
+
+	"9": {
+         "character":"小さい",
+         "partOfSpeech":1,
+         "rome":"ちいさい",
+         "translate":"1.小。2.微少，轻微。3.幼小。4.琐碎，琐细。5.狭小，狭隘。6.小声。",
+         "deformation":[]
+   },
+
+	"10": {
+         "character":"素晴らしい",
+         "partOfSpeech":1,
+         "rome":"すばらしい",
+         "translate":"极好的，绝佳的。",
+         "deformation":[]
+   },
+
+	"11": {
+         "character":"有名",
+         "partOfSpeech":2,
+         "rome":"ゆうめい",
+         "translate":"有名，著名，闻名。",
+         "deformation":[]
+   },
+
+	"12": {
+         "character":"賑やか",
+         "partOfSpeech":2,
+         "rome":"にぎやか",
+         "translate":"1.极其开朗，热闹。2.热闹，熙熙攘攘，繁华，繁盛。",
+         "deformation":[]
+   },
+
+	"13": {
+         "character":"静か",
+         "partOfSpeech":2,
+         "rome":"しずか",
+         "translate":"1.静止的，不动的。2.平静的，安静的，沉静的，文静的。3.轻轻的，慢慢的。4.寂静的，肃静的，静悄悄的，平静的。",
+         "deformation":[]
+   },
+
+	"14": {
+         "character":"綺麗",
+         "partOfSpeech":2,
+         "rome":"きれい",
+         "translate":"1.美丽，漂亮，好看。2.洁净，干净。3.漂亮地（完成某事）。",
+         "deformation":[]
+   },
+
+	"15": {
+         "character":"多い",
+         "partOfSpeech":1,
+         "rome":"おおい",
+         "translate":"多的。数目或者分量大。",
+         "deformation":[]
+   },
+
+	"16": {
+         "character":"色々",
+         "partOfSpeech":2,
+         "isAdv":1,
+         "rome":"いろいろ",
+         "translate":"1.各种各样的。2.【副词】种种、方方面面。",
+         "deformation":[]
+   },
+
+	"17": {
+         "character":"面白い",
+         "partOfSpeech":1,
+         "rome":"おもしろい",
+         "translate":"1.愉快的。2.被吸引的，精彩的，有趣的。3.滑稽可笑的。4.最好的。",
+         "deformation":[]
+   },
+
+	"18": {
+         "character":"好き",
+         "partOfSpeech":2,
+         "rome":"すき",
+         "translate":"1.喜好，喜爱，爱好。2.嗜好，好奇。3.好色。4.随便，任性，随心所欲，随意。",
+         "deformation":[]
+   },
+
+	"19": {
+         "character":"若い",
+         "partOfSpeech":1,
+         "rome":"わかい",
+         "translate":"年轻。",
+         "deformation":[]
+   },
+
+	"20": {
+         "character":"寒い",
+         "partOfSpeech":1,
+         "rome":"さむい",
+         "translate":"1.寒碜，简陋，破旧，穷气。2.冷，寒冷。",
+         "deformation":[]
+   },
+
+	"21": {
+         "character":"難しい",
+         "partOfSpeech":1,
+         "rome":"むずかしい",
+         "translate":"1.难，难懂，费解，艰涩，晦涩；难办，难解决。2.（病）难以治好，不好治。3.麻烦，复杂。5.爱挑剔，爱提意见，好抱怨；不好对付；脾气别扭的人。6.难解决的，难达成一致的。难备齐的。",
+         "deformation":[]
+   },
+
+	"22": {
+         "character":"上手",
+         "partOfSpeech":2,
+         "rome":"じょうず",
+         "translate":"1.好，高明，擅长，善于，拿手，能手。2.善于奉承，会说话。",
+         "deformation":[]
+   },
+
+	"23": {
+         "character":"安い",
+         "partOfSpeech":1,
+         "rome":"やすい",
+         "translate":"1.低廉。2.安心。3.轻率。",
+         "deformation":[]
+   },
+
+	"24": {
+         "character":"大変",
+         "partOfSpeech":2,
+         "rome":"たいへん",
+         "translate":"1.厉害，不得了。太费劲，真够受的。2.太费劲，真够受的。",
+         "deformation":[]
+   },
+
+	"25": {
+         "character":"温かい",
+         "partOfSpeech":1,
+         "rome":"あたたかい",
+         "translate":"暖，暖和，温暖，热情，富足，充裕。",
+         "deformation":[]
+   },
+
+	"26": {
+         "character":"十分",
+         "partOfSpeech":2,
+         "rome":"じゅうぶん",
+         "translate":"十分，充分，足够，充裕。",
+         "deformation":[]
+   },
+
+	"27": {
+         "character":"明るい",
+         "partOfSpeech":1,
+         "rome":"あかるい",
+         "translate":"1.明亮。2.明朗，快活，光明。3.熟悉，精通。4.颜色鲜艳的。5.有希望的。6.公正的，廉洁的。",
+         "deformation":[]
+   },
+
+	"28": {
+         "character":"簡単",
+         "partOfSpeech":2,
+         "rome":"かんたん",
+         "translate":"简单，简易，容易，轻易，简便。",
+         "deformation":[]
+   },
+
+	"29": {
+         "character":"便利",
+         "partOfSpeech":2,
+         "rome":"べんり",
+         "translate":"便利，方便。",
+         "deformation":[]
+   },
+
+	"30": {
+         "character":"高い",
+         "partOfSpeech":1,
+         "rome":"たかい",
+         "translate":"1.高的。2.程度高。3.金额大。",
+         "deformation":[]
+   },
+
+	"31": {
+         "character":"長い",
+         "partOfSpeech":1,
+         "rome":"ながい",
+         "translate":"长的，远的。",
+         "deformation":[]
+   },
+
+	"32": {
+         "character":"ハンサム",
+         "partOfSpeech":2,
+         "translate":"【英】（handsome） ;美男子；有风度（的男人）。",
+         "deformation":[]
+   },
+
+	"33": {
+         "character":"安全",
+         "partOfSpeech":2,
+         "rome":"あんぜん",
+         "translate":"安全，保险，平安。",
+         "deformation":[]
+   },
+
+	"34": {
+         "character":"近い",
+         "partOfSpeech":1,
+         "rome":"ちかい",
+         "translate":"1.〔距离、时间〕近；接近，靠近。2.〔关系〕近；亲近，亲密，密切。3.近似；近乎……，近于。",
+         "deformation":[]
+   },
+
+	"35": {
+         "character":"厳重",
+         "partOfSpeech":2,
+         "rome":"げんじゅう",
+         "translate":"1.严肃，庄重。2.严重，严格，严厉。",
+         "deformation":[]
+   },
+
+	"36": {
+         "character":"狭い",
+         "partOfSpeech":1,
+         "rome":"せまい",
+         "translate":"1.窄；狭小；狭窄。2.狭隘，浅陋。3.（精神上）心胸不宽广，肚量小。",
+         "deformation":[]
+   },
+
+	"37": {
+         "character":"赤い",
+         "partOfSpeech":1,
+         "rome":"あかい",
+         "translate":"红色的。",
+         "deformation":[]
+   },
+
+	"38": {
+         "character":"ずいぶん",
+         "partOfSpeech":2,
+         "translate":"1.相当厉害；非常，很；颇，相当；特别；好久。2.心坏；冷酷；够呛；不像话；缺德。",
+         "deformation":[]
+   },
+
+	"39": {
+         "character":"派手",
+         "partOfSpeech":2,
+         "rome":"はで",
+         "translate":"1.（穿着打扮、样式、色调等）花哨，鲜艳，艳丽，华丽。2.（态度、行为等）夸张，浮华，讲阔气。",
+         "deformation":[]
+	},
+
+	"40": {
+         "character":"嫌い",
+         "partOfSpeech":2,
+         "rome":"きらい",
+         "translate":"嫌恶，厌恶，厌烦，讨厌。",
+         "deformation":[]
+	},
+
+	"41": {
+         "character":"なかなか",
+         "partOfSpeech":2,
+         "isAdv":1,
+         "translate":"1.形容超出想象。2.【副词】颇，很，非常，相当。",
+         "deformation":[]
+   },
+
+	"42": {
+         "character":"ユニーク",
+         "partOfSpeech":2,
+         "translate":"【英】unique；与众不同的，别出心裁的。",
+         "deformation":[]
+	},
+
+	"43": {
+         "character":"新しい",
+         "partOfSpeech":1,
+         "rome":"あたらしい",
+         "translate":"1.新的。2.新鲜的。3.从未有过的。4.时髦的。",
+         "deformation":[]
+   },
+
+	"44": {
+         "character":"欲しい",
+         "partOfSpeech":1,
+         "rome":"ほしい",
+         "translate":"1.想要，要。2.希望，愿意。",
+         "deformation":[]
+   },
+
+	"45": {
+         "character":"真面目",
+         "partOfSpeech":2,
+         "rome":"まじめ",
+         "translate":"认真，老实，踏实，严肃；诚实，正派，正经。",
+         "deformation":[]
+   },
+
+	"46": {
+         "character":"優しい",
+         "partOfSpeech":1,
+         "rome":"やさしい",
+         "translate":"1.安详的，典雅的，温厚的，优美的。2.坦率的，纯真的，诚挚的。3.亲切的，富于同情心的。",
+         "deformation":[]
+   },
+
+	"47": {
+         "character":"軽い",
+         "partOfSpeech":1,
+         "rome":"かるい",
+         "translate":"重量小，程度轻；轻松的；不重要的；轻率的；好对付的，不费力；程度不深，不重大。",
+         "deformation":[]
+   },
+
+	"48": {
+         "character":"煩い",
+         "partOfSpeech":1,
+         "rome":"うるさい",
+         "translate":"1.嘈杂，烦人的。2.烦人的，纠缠不休难以忍受。3.话多，爱唠叨人。4.说三道四，挑剔。",
+         "deformation":[]
+   },
+
+	"49": {
+         "character":"早い",
+         "partOfSpeech":1,
+         "rome":"はやい",
+         "translate":"1.动作急速。迅速。快。2.完成某动作需要的时间短。快。3.天刚亮。时间早。4.时间上靠前。先前。5.还不到时候。为时尚早。6.简单。简便。省事。",
+         "deformation":[]
+   },
+
+	"50": {
+         "character":"怖い",
+         "partOfSpeech":1,
+         "rome":"こわい",
+         "translate":"令人害怕的；可怕的；令人惊恐的。",
+         "deformation":[]
+   },
+
+	"51": {
+         "character":"忙しい",
+         "partOfSpeech":1,
+         "rome":"いそがしい",
+         "translate":"1.忙，忙碌。2.急急忙忙，忙叨叨的。",
+         "deformation":[]
+   },
+
+	"52": {
+         "character":"大丈夫",
+         "partOfSpeech":2,
+         "rome":"だいじょうぶ",
+         "translate":"安全，安心，放心，可靠，牢固。",
+         "deformation":[]
+   },
+
+	"53": {
+         "character":"まあまあ",
+         "partOfSpeech":2,
+         "translate":"好了好了，行了行了；大致，还算；表示惊讶感叹。",
+         "deformation":[]
+   },
+
+	"54": {
+         "character":"急",
+         "partOfSpeech":2,
+         "rome":"きゅう",
+         "translate":"1.急，急迫；赶紧。2.紧急，危急。3.突然,忽然。一下子，事物发生无前兆，变化突然。4.急，陡。倾斜程度大，险峻。",
+         "deformation":[]
+   },
+
+	"55": {
+         "character":"暇",
+         "partOfSpeech":2,
+         "rome":"ひま",
+         "translate":"闲，空闲。",
+         "deformation":[]
+   },
+
+	"56": {
+         "character":"痛い",
+         "partOfSpeech":1,
+         "rome":"いたい",
+         "translate":"1.疼的。2.痛苦的。3.吃不消。",
+         "deformation":[]
+   },
+
+	"57": {
+         "character":"短い",
+         "partOfSpeech":1,
+         "rome":"みじかい",
+         "translate":"1.短少的，简短的。2.短，近，小。3.低，矮。4.见识、目光等短浅。5.性急的，急性子的。",
+         "deformation":[]
+   },
+
+	"58": {
+         "character":"凄い",
+         "partOfSpeech":1,
+         "rome":"すごい",
+         "translate":"可怕的，骇人的；阴森可怕的；了不起的，好得很的；非常的，厉害的。",
+         "deformation":[]
+   },
+
+	"59": {
+         "character":"元気",
+         "partOfSpeech":2,
+         "rome":"げんき",
+         "translate":"精神，精力（充沛），朝气，锐气。身体健康；硬朗。",
+         "deformation":[]
+	},
+
+	"60": {
+         "character":"大事",
+         "partOfSpeech":2,
+         "rome":"だいじ",
+         "translate":"大事，重大问题，大事件。",
+         "deformation":[]
+	},
+
+	"61": {
+         "character":"まっすぐ",
+         "partOfSpeech":2,
+         "isAdv":1,
+         "translate":"1.笔直。2.一直；照直；不绕弯；直接。3.正直；坦率；耿直。",
+         "deformation":[]
+	},
+
+	"62": {
+         "character":"白い",
+         "partOfSpeech":1,
+         "rome":"しろい",
+         "translate":"白色的。",
+         "deformation":[]
+	},
+
+	"63": {
+         "character":"危ない",
+         "partOfSpeech":1,
+         "rome":"あぶない",
+         "translate":"危险的，不安全的，有危害的。",
+         "deformation":[]
+	},
+
+	"64": {
+         "character":"涼しい",
+         "partOfSpeech":1,
+         "rome":"すずしい",
+         "translate":"1.凉快，凉爽。2.明亮，清澈。",
+         "deformation":[]
+	},
+
+	"65": {
+         "character":"すてき",
+         "partOfSpeech":2,
+         "translate":"极好；绝妙；极漂亮；帅。",
+         "deformation":[]
+	},
+
+	"66": {
+         "character":"得意",
+         "partOfSpeech":2,
+         "rome":"とくい",
+         "translate":"拿手，擅长；得意；得意扬扬。",
+         "deformation":[]
+	},
+
+	"67": {
+         "character":"親しい",
+         "partOfSpeech":1,
+         "rome":"したしい",
+         "translate":"1.亲近，亲密，亲切，亲昵。2.血缘关系近。3.不生疏，不稀奇。",
+         "deformation":[]
+	},
+
+	"68": {
+         "character":"同じ",
+         "partOfSpeech":2,
+         "rome":"おなじ",
+         "translate":"相同，同等，同一。",
+         "deformation":[]
+	},
+
+	"69": {
+         "character":"危険",
+         "partOfSpeech":2,
+         "rome":"きけん",
+         "translate":"危险的；危险性。",
+         "deformation":[]
+	},
+
+	"70": {
+         "character":"丁寧",
+         "partOfSpeech":2,
+         "rome":"ていねい",
+         "translate":"很有礼貌，恭恭敬敬。",
+         "deformation":[]
+	},
+
+	"71": {
+         "character":"重い",
+         "partOfSpeech":1,
+         "rome":"おもい",
+         "translate":"1.重大，重要，严重。2.沉重，重。",
+         "deformation":[]
+	},
+
+	"72": {
+         "character":"遅い",
+         "partOfSpeech":1,
+         "rome":"おそい",
+         "translate":"1.慢的。速度缓慢。2.晚的，来不及的，赶不上。3.夜深的，夜晚。",
+         "deformation":[]
+	},
+
+	"73": {
+         "character":"自由",
+         "partOfSpeech":2,
+         "rome":"じゆう",
+         "translate":"自由；随意；随便；任意。",
+         "deformation":[]
+	},
+
+	"74": {
+         "character":"気さく",
+         "partOfSpeech":2,
+         "rome":"きさく",
+         "translate":"坦率，直爽，爽快，明朗。",
+         "deformation":[]
+	},
+
+	"75": {
+         "character":"残念",
+         "partOfSpeech":2,
+         "rome":"ざんねん",
+         "translate":"1.遗憾，可惜，对不起，抱歉。2.懊悔，悔恨，懊恼。",
+         "deformation":[]
+	},
+
+	"76": {
+         "character":"最高",
+         "partOfSpeech":2,
+         "rome":"さいこう",
+         "translate":"1.最为高大的。2.最好。程度、地位等至高无上。3.杰出。",
+         "deformation":[]
+	},
+
+	"77": {
+         "character":"勿体ない",
+         "partOfSpeech":1,
+         "rome":"もったいない",
+         "translate":"1.不胜惶恐的。2.过分（好）的；好得与身份不相符的。3.可惜的，浪费的，糟蹋掉的。",
+         "deformation":[]
+	},
+
+	"78": {
+         "character":"うまい",
+         "partOfSpeech":1,
+         "translate":"1.（技术、技能等）高明的，巧妙的。2.好吃的。",
+         "deformation":[]
+	},
+
+	"79": {
+         "character":"変",
+         "partOfSpeech":2,
+         "rome":"へん",
+         "translate":"变，变化，改变，变迁；事故，事件，事变；异常，反常，古怪。",
+         "deformation":[]
+	},
+
+	"80": {
+         "character":"少ない",
+         "partOfSpeech":1,
+         "rome":"すくない",
+         "translate":"不多的。",
+         "deformation":[]
+	},
+
+	"81": {
+         "character":"伝統的",
+         "partOfSpeech":2,
+         "rome":"でんとうてき",
+         "translate":"传统的。自古继承、流传下来的。",
+         "deformation":[]
+	},
+
+	"82": {
+         "character":"古い",
+         "partOfSpeech":1,
+         "rome":"ふるい",
+         "translate":"落后，老式，旧，陈旧，陈腐，过时，不新鲜。",
+         "deformation":[]
+	},
+
+	"83": {
+         "character":"立派",
+         "partOfSpeech":2,
+         "rome":"りっぱ",
+         "translate":"漂亮，美观，壮丽，宏伟，盛大。",
+         "deformation":[]
+	},
+
+	"84": {
+         "character":"青い",
+         "partOfSpeech":1,
+         "rome":"あおい",
+         "translate":"青，蓝。",
+         "deformation":[]
+	},
+
+	"85": {
+         "character":"幅広い",
+         "partOfSpeech":1,
+         "rome":"はばひろい",
+         "translate":"广泛。",
+         "deformation":[]
+	},
+
+	"86": {
+         "character":"大幅",
+         "partOfSpeech":2,
+         "rome":"おおはば",
+         "translate":"大幅度，广泛，间距大。",
+         "deformation":[]
+	},
+
+	"87": {
+         "character":"可笑しい",
+         "partOfSpeech":1,
+         "rome":"おかしい",
+         "translate":"可笑的，滑稽的，奇怪的，可疑的。",
+         "deformation":[]
+	},
+
+   "88": {
+         "character":"そんな",
+         "partOfSpeech":2,
+         "translate":"那样的；哪里，不会。",
+         "deformation":[]
+   },
+
+   "89": {
+         "character":"直接",
+         "partOfSpeech":2,
+         "isAdv":1,
+         "rome":"ちょくせつ",
+         "translate":"直接（的），没有其他事物介入的。",
+         "deformation":[]
+   },
+
+   "90": {
+         "character":"早速",
+         "partOfSpeech":2,
+         "isAdv":1,
+         "rome":"さっそく",
+         "translate":"立刻，马上；迅速，火速。",
+         "deformation":[]
+   },
+
+   "91": {
+         "character":"悪い",
+         "partOfSpeech":1,
+         "rome":"わるい",
+         "translate":"坏，不好；恶性；恶劣。",
+         "deformation":[]
+   },
+
+   "92": {
+         "character":"重要",
+         "partOfSpeech":2,
+         "rome":"じゅうよう",
+         "translate":"重要，要紧。",
+         "deformation":[]
+   },
+
+   "93": {
+         "character":"大切",
+         "partOfSpeech":2,
+         "rome":"たいせつ",
+         "translate":"1.要紧，重要；贵重。2.心爱，珍惜；保重。3.贵重，宝贵。价值很高。",
+         "deformation":[]
+   },
+
+   "94": {
+         "character":"単純",
+         "partOfSpeech":2,
+         "rome":"たんじゅん",
+         "translate":"单纯；简单。",
+         "deformation":[]
+   },
+
+   "95": {
+         "character":"理想的",
+         "partOfSpeech":2,
+         "rome":"りそうてき",
+         "translate":"理想的",
+         "deformation":[]
+   },
+
+   "96": {
+         "character":"具体的",
+         "partOfSpeech":2,
+         "rome":"ぐたいてき",
+         "translate":"具体，实际，具体的。",
+         "deformation":[]
+   },
+
+   "97": {
+         "character":"力強い",
+         "partOfSpeech":1,
+         "rome":"ちからづよい",
+         "translate":"1.觉得胆子壮；心里踏实；有仗恃。2.强有力；矫健。",
+         "deformation":[]
+   },
+
+   "98": {
+         "character":"必要",
+         "partOfSpeech":2,
+         "rome":"ひつよう",
+         "translate":"必需，需要。",
+         "deformation":[]
+   },
+
+   "99": {
+         "character":"斬新",
+         "partOfSpeech":2,
+         "rome":"ざんしん",
+         "translate":"崭新，新颖。",
+         "deformation":[]
+   }
+}

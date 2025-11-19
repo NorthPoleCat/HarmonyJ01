@@ -1,0 +1,12 @@
+{
+    "character":"このマークは「タバコを吸うな」という意味です。",
+    "translate":"这个符号是'禁止吸烟'的意思。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动基本形]＋な",
+        "grammarNum":"29-03"
+    },{
+        "grammarName":"名は　[名/小句]＋という＋名 です",
+        "grammarNum":"29-05"
+    }]
+}

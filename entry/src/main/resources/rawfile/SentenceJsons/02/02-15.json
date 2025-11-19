@@ -1,0 +1,13 @@
+{
+    "character":"小野：この　方は　どなたですか。",
+    "translate":"小野：这位是谁呀？",
+    "Tips":["方是人的尊敬说法","どなた是だれ的尊敬说法"],
+    "involvedGrammar":[{
+        "grammarName":"この/その/あの 名　は 名 です",
+        "grammarNum":"02-03"
+    },
+    {
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

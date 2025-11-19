@@ -1,0 +1,12 @@
+{
+    "character":"李さんは　毎晩　ラジオを　聞いてから　寝ます。",
+    "translate":"小李每晚听了收音机后睡觉。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]から　动",
+        "grammarNum":"14-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

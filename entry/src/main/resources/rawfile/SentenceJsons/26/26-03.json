@@ -1,0 +1,12 @@
+{
+    "character":"明日の朝は大雨になるでしょう。",
+    "translate":"明天早晨会下大雨吧。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"なります・します",
+        "grammarNum":"18-01"
+    },{
+        "grammarName":"小句[简体]＋でしょう",
+        "grammarNum":"26-02"
+    }]
+}

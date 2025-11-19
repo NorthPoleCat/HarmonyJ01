@@ -1,0 +1,12 @@
+{
+    "character":"森さんは　東京から　広島まで　新幹線で　行きます。",
+    "translate":"森先生从东京坐新干线去广岛。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    },{
+        "grammarName":"名[工具・方式・手段・材料]で　动",
+        "grammarNum":"06-02"
+    }]
+}

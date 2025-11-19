@@ -1,0 +1,9 @@
+{
+    "character":"小野：李さんも　よく　飲みますか。",
+    "translate":"小野：小李你也经常喝茶吗？",
+    "Tips":["よく：经常。"],
+    "involvedGrammar":[{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    }]
+}

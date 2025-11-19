@@ -1,0 +1,15 @@
+{
+    "character":"森：ええ，いました。ほかに，踊りながら歌を歌っている人もいましたよ。",
+    "translate":"森：是的，有。还有人边跳边唱呢。",
+    "Tips":["ほかに：【副词】另外。"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"[动ます形去掉ます]＋ながら",
+        "grammarNum":"27-02"
+    }]
+}

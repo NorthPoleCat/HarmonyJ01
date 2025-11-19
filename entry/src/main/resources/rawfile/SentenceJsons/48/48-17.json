@@ -1,0 +1,12 @@
+{
+    "character":"佐藤：私，日中商事の佐藤と申します。お送りいただいた案内状，拝見しました。",
+    "translate":"佐藤：我是日中商务的佐藤。贵公司寄来的开业通知已经拜读了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

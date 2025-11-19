@@ -1,0 +1,9 @@
+{
+    "character":"甲：すみません，李さんは　いますか。",
+    "translate":"甲：请问，小李在吗？",
+    "Tips":["すみません：除了表达歉意还有向别人搭话的意思。"],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}

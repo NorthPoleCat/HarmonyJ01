@@ -1,0 +1,12 @@
+{
+    "character":"甲：駅へ　何で　行きますか。",
+    "translate":"甲：你怎么去车站？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    },{
+        "grammarName":"名[工具・方式・手段・材料]で　动",
+        "grammarNum":"06-02"
+    }]
+}

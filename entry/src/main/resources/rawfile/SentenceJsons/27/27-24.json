@@ -1,0 +1,15 @@
+{
+    "character":"戴：いいえ。わたしは遊びながら祖母が太極拳をするのを見ていました。",
+    "translate":"戴：不是，我边玩儿边看祖母打太极拳。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[动ます形去掉ます]＋ながら",
+        "grammarNum":"27-02"
+    },{
+        "grammarName":"小句[动词简体]＋の",
+        "grammarNum":"26-01"
+    },{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    }]
+}

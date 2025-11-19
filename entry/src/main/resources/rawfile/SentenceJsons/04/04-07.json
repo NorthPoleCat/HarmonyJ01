@@ -1,0 +1,9 @@
+{
+    "character":"甲：部屋に　だれが　いますか。",
+    "translate":"甲：房间里有谁？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}

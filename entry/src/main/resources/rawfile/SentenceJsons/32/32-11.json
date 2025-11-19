@@ -1,0 +1,15 @@
+{
+    "character":"甲：ニュースによると，今年の冬はインフルエンザが流行するそうです。",
+    "translate":"甲：据报道，今年冬天流行流感。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"〜に　よって",
+        "grammarNum":"23-03"
+    },{
+        "grammarName":"动词小句[基本形/ない形]と，小句",
+        "grammarNum":"31-01"
+    },{
+        "grammarName":"～そうです",
+        "grammarNum":"32-03"
+    }]
+}

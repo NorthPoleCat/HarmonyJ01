@@ -1,0 +1,12 @@
+{
+    "character":"明日の９時までにこの書類を完成させなければなりません。",
+    "translate":"明天9点之前必须完成这份文件。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[时间] までに",
+        "grammarNum":"46-01"
+    },{
+        "grammarName":"[动ない形去掉ない] なければなりません",
+        "grammarNum":"19-03"
+    }]
+}

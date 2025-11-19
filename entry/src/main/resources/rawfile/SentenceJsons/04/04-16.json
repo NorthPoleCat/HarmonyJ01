@@ -1,0 +1,15 @@
+{
+    "character":"小野：ええ。JRと　地下鉄の　駅が　あります。JRの　駅は　ここです。",
+    "translate":"小野：是的。有JR和地铁的车站。JR车站在这儿。",
+    "Tips":["ええ：是はい的比较随便的说法，表肯定。"],
+    "involvedGrammar":[{
+        "grammarName":"ここ/そこ/あそこ は 名 です",
+        "grammarNum":"03-01"
+    },{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}

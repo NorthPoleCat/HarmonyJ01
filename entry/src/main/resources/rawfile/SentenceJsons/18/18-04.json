@@ -1,0 +1,12 @@
+{
+    "character":"部屋を　きれいに　して　ください。",
+    "translate":"请把房间打扫干净。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"なります・します",
+        "grammarNum":"18-01"
+    },{
+        "grammarName":"动[て] ください",
+        "grammarNum":"14-04"
+    }]
+}

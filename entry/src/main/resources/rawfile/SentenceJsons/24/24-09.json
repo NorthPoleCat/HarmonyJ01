@@ -1,0 +1,9 @@
+{
+    "character":"甲：どうして　食べないんですか。",
+    "translate":"甲：为什么不吃呢？",
+    "Tips":["どうしてですか：询问原因，相当于汉语中的‘为什么’。"],
+    "involvedGrammar":[{
+        "grammarName":"[简体]＋の・ん　です",
+        "grammarNum":"24-03"
+    }]
+}

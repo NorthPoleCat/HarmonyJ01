@@ -1,0 +1,12 @@
+{
+    "character":"乙：すみません。今日は　早く　帰って，レポートを　書かなければ　なりません。",
+    "translate":"乙：对不起。今天得早点回家写报告。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]　动",
+        "grammarNum":"14-02"
+    },{
+        "grammarName":"[动ない形去掉ない] なければなりません",
+        "grammarNum":"19-03"
+    }]
+}

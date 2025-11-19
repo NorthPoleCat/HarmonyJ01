@@ -1,0 +1,15 @@
+{
+    "character":"李：電車です。渋谷まで　電車で　行きました。駅から　アパートまで　歩いて　帰りました。",
+    "translate":"李：坐电车回去的。坐电车到涩谷，然后从车站走回去。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    },{
+        "grammarName":"名[工具・方式・手段・材料]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て]　动",
+        "grammarNum":"14-02"
+    }]
+}

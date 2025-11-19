@@ -1,0 +1,12 @@
+{
+    "character":"森さんは　車を　持って　います。",
+    "translate":"森先生有辆车。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] います",
+        "grammarNum":"15-01"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

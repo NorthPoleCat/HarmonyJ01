@@ -1,0 +1,15 @@
+{
+    "character":"乙：ええ。これは軽くて，持ち歩くのにとても便利なんですよ。",
+    "translate":"乙：是啊。这相机很轻，携带非常方便啊。",
+    "Tips":["とても：很，非常。"],
+    "involvedGrammar":[{
+        "grammarName":"[小句て]，小句",
+        "grammarNum":"36-01"
+    },{
+        "grammarName":"小句[动词简体]＋の",
+        "grammarNum":"26-01"
+    },{
+        "grammarName":"名に->[用途、基准]",
+        "grammarNum":"36-02"
+    }]
+}

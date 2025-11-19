@@ -1,0 +1,12 @@
+{
+    "character":"小野：鉄道でも行くことができるんですか。",
+    "translate":"小野：还能乘火车去呀？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　でも",
+        "grammarNum":"35-05"
+    },{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

@@ -1,0 +1,890 @@
+{
+    "0": {
+        "character": "違う",
+        "partOfSpeech": 3,
+        "isAutoVerb": 1,
+        "rome": "ちがう",
+        "translate": "1.不同，不一致。2.错，不对，不正确。",
+        "deformation": []
+    },
+    
+    "1": {
+        "character": "願う",
+        "partOfSpeech": 3,
+        "isAutoVerb": 0,
+        "rome": "ねがう",
+        "translate": "希望,祈祷,要求",
+        "deformation": []
+    },
+    
+    "2": {
+        "character": "ある",
+        "partOfSpeech": 3,
+        "isAutoVerb": 1,
+        "translate": "1.（一般指无生命、植物、事物等）存在，有。2.是，表示肯定的判断。",
+        "deformation": []
+    },
+    
+    "3": {
+        "character": "いる",
+        "partOfSpeech": 4,
+        "isAutoVerb": 1,
+        "translate": "1.（人或动物）在，有。2.住；在。3.（鸟，虫等）停留，抓住。",
+        "deformation": []
+    },
+    
+    "4": {
+        "character": "起きる",
+        "partOfSpeech": 4,
+        "isAutoVerb": 1,
+        "rome": "おきる",
+        "translate": "1.起，起来，立起来；坐起来。2.起床。3.不睡。4.（事件等）发生。",
+        "deformation": []
+    },
+    
+    "5": {
+        "character": "休む",
+        "partOfSpeech": 3,
+        "isAutoVerb": 1,
+        "rome": "やすむ",
+        "translate": "1.休息，中止工作、动作等，使身心得到放松。2.停歇，暂停。3.睡，卧，安歇，就寝。4.缺勤，缺席。",
+        "deformation": []
+    },
+    
+    "6": {
+        "character": "働く",
+        "partOfSpeech": 3,
+        "isAutoVerb": 2,
+        "rome": "はたらく",
+        "translate": "工作，劳动，做工；起作用；（精神、才能等）活动；生效，发生效力；",
+        "deformation": []
+    },
+    
+    "7": {
+        "character": "寝る",
+        "partOfSpeech": 4,
+        "isAutoVerb": 1,
+        "rome": "ねる",
+        "translate": "躺下；倒伏；睡眠；因病卧床；发酵成熟；闲置，滞销；男女行房(手动狗头)",
+        "deformation": []
+    },
+    
+    "8": {
+        "character": "始まる",
+        "partOfSpeech": 3,
+        "isAutoVerb": 1,
+        "rome": "はじまる",
+        "translate": "开始；发生，引起；起源，缘起；犯（老毛病）；拿出平生的本事。",
+        "deformation": []
+    },
+    
+    "9": {
+        "character": "行く",
+        "partOfSpeech": 3,
+        "isAutoVerb": 1,
+        "rome": "いく",
+        "translate": "1.行进，去。2.到，往，前往。3.进展，进行。4.满足，满意。5.上年纪。6.逝去，流逝。7.移至他处。8.到达。9.通往，通向。",
+        "deformation": []
+    },
+    
+    "10": {
+        "character": "来る",
+        "partOfSpeech":5,
+        "isAutoVerb": 1,
+        "rome": "くる",
+        "translate": "1.来，到来。2.引起，发生。3.下（次的）。",
+        "deformation": []
+    },
+
+	"11": {
+         "character":"帰る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"かえる",
+         "translate":"1.回归，回来。2.回去，归去。",
+         "deformation":[]
+   },
+
+	"12": {
+         "character":"歩く",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"あるく",
+         "translate":"1.走，步行。2.到处。",
+         "deformation":[]
+   },
+
+	"13": {
+         "character":"飲む",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"のむ",
+         "translate":"喝，咽，吃；吞下去",
+         "deformation":[]
+   },
+
+	"14": {
+         "character":"する",
+         "partOfSpeech":6,
+         "isAutoVerb":2,
+         "translate":"使……成为；把……培养成；干；做；办。",
+         "deformation":[]
+   },
+
+	"15": {
+         "character":"食べる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"たべる",
+         "translate":"1.吃。2.靠……生活。",
+         "deformation":[]
+   },
+
+	"16": {
+         "character":"読む",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"よむ",
+         "translate":"读，看，阅读。",
+         "deformation":[]
+   },
+
+	"17": {
+         "character":"買う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"かう",
+         "translate":"买",
+         "deformation":[]
+   },
+
+	"18": {
+         "character":"書く",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"かく",
+         "translate":"写",
+         "deformation":[]
+   },
+
+	"19": {
+         "character":"あげる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "translate":"给，送给",
+         "deformation":[]
+   },
+
+	"20": {
+         "character":"もらう",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "translate":"领取，得到，收到",
+         "deformation":[]
+   },
+
+	"21": {
+         "character":"会う",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"あう",
+         "translate":"会面，见面；偶遇，碰见",
+         "deformation":[]
+   },
+
+	"22": {
+         "character":"送る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"おくる",
+         "translate":"1.用假名标写，标上假名。2.传送，传递，依次挪动。3.度过。4.送（人），送行，送走，伴送。5.派，派遣，打发。6.送，寄，邮寄，汇寄。",
+         "deformation":[]
+   },
+
+	"23": {
+         "character":"届く",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"とどく",
+         "translate":"1.送达，收到，发出的物件到达对方处。2.达到，够上，够到。3.周到，注意到，顾到。4.达到愿望，心情与想法传至对方，并被接受。",
+         "deformation":[]
+   },
+
+	"24": {
+         "character":"分かる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"わかる",
+         "translate":"1.知道，清楚。2.理解，懂得。3.通情达理，通晓世故。",
+         "deformation":[]
+   },
+
+	"25": {
+         "character":"できる",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "translate":"发生，出现；建立，建成；完成，做好；优秀，出色；会，能够，可以。",
+         "deformation":[]
+   },
+
+	"26": {
+         "character":"習う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"ならう",
+         "translate":"学习；练习。",
+         "deformation":[]
+   },
+
+	"27": {
+         "character":"聞く",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"きく",
+         "translate":"听到；听从；询问；品尝。",
+         "deformation":[]
+   },
+
+	"28": {
+         "character":"迷う",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"まよう",
+         "translate":"迷，迷失；迷惑；迷恋；执迷，无法成佛。",
+         "deformation":[]
+   },
+
+	"29": {
+         "character":"入る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"いる",
+         "translate":"入，进入；沉入，没入；隐入；进行，处于某种状态；进入某个时间，某个季节；（果实）成熟，结果；（接在动词连用形下加强语气）表示一时很难摆脱某种状态。",
+         "deformation":[]
+   },
+
+	"30": {
+         "character":"出す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"だす",
+         "translate":"1.拿出，掏出，取出。使从里面到外面。2.出，体现出，显现出，暴露出。3.发生，使产生。4.出，发，使出发。5.寄出，发出，打，发。6.提出。7.供，端出，供给，供应，上，提供。",
+         "deformation":[]
+   },
+
+	"31": {
+         "character":"かかる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "translate":"1.垂挂。吊着。挂着。2.被套住。陷入。落在……。3.被处理。受处置。4.注意。谨慎。担心。放心不下。5.起作用。发生作用。受到作用。6.（机械等）开动。发动。7.施行。举行。上演。8.覆盖（在……上）。9.溅上。浇上。淋上。10.连接。架设。11.花费。需要。必要。12.达到。来到。到来。13.被……所左右。14.悬赏。15.争辩。攻击。16.着手。从事。开始。17.开始干……。即将。濒临。濒于。18.患（病）。生（病）。染（病）。",
+         "deformation":[]
+   },
+
+	"32": {
+         "character":"出る",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "rome":"でる",
+         "translate":"出去，从里向外走；离开，离去；前往；出发，交通工具起程；毕业；突出，溢出，漏出；通往，通到；显现，出现；找到（丢失的东西）；出席，出勤；参加，出场，演出；登载，刊登，出版；（在小说或剧本中）出场；上市，在市场上出现；卖出，销出，畅销；被给予，得到；发生（现象或疾病）；超出（范围或标准）；（液体）涌出，流出；（针对对方）采取……态度；增加（数量、价值等）；出产；出自，继承系统；得到（结果）。",
+         "deformation":[]
+   },
+
+	"33": {
+         "character":"出かける",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "rome":"でかける",
+         "translate":"外出，到外面去。",
+         "deformation":[]
+   },
+
+	"34": {
+         "character":"通る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"とおる",
+         "translate":"走过，通过；来往，通行；通，开通；渗透；响亮；合格；知名；了解；进入。",
+         "deformation":[]
+   },
+
+	"35": {
+         "character":"見せる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"みせる",
+         "translate":"给……看，让……看，表示，显示；装做……样给人看，假装；使……见识，使……尝受；表意志的……；给……看；让看病。",
+         "deformation":[]
+   },
+
+	"36": {
+         "character":"選ぶ",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"えらぶ",
+         "translate":"选择，挑选；与其……不如……；选举；撰著；选择。",
+         "deformation":[]
+   },
+
+	"37": {
+         "character":"下ろす",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"おろす",
+         "translate":"1.（从高处）放下；弄下；取下，拿下；降下，落下。2.扎（根）；伸展。3.剪下，砍下（树枝）；落（发），剃掉（头发）。4.提取，取出（存款）。5.开始使用，初次用（新东西）。6.卸下（货物）；让……下车（船、飞机等）。7.卸（任），退（位）；辞（职）。8.磨碎，擦碎。9.切开（鱼）。10.排出体外；堕胎。11.撤下。",
+         "deformation":[]
+   },
+
+	"38": {
+         "character":"撮る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"とる",
+         "translate":"摄影，照相，拍。",
+         "deformation":[]
+   },
+
+	"39": {
+         "character":"吸う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"すう",
+         "translate":"1.吸，吸入。2.吮，吮吸，嘬，啜，喝。3.吸收。",
+         "deformation":[]
+   },
+
+	"40": {
+         "character":"乗る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"のる",
+         "translate":"乘坐，骑，坐,上，搭乘；登，上；参与，参加；上当，受骗；附着；乘势，乘机；合拍，配合；传导，传播。",
+         "deformation":[]
+   },
+
+	"41": {
+         "character":"借りる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"かりる",
+         "translate":"1.借用；暂用。2.得到帮助。",
+         "deformation":[]
+   },
+
+	"42": {
+         "character":"使う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"つかう",
+         "translate":"1.使，用，使用。2.玩弄。3.用，动，使内心、头脑发挥作用。4.使，花费，消耗（物品、金钱、时间等）。5.使唤。6.耍弄，让木偶、动物等按照人的意图做动作。7.与特定的词语搭配，表示实施该行为。",
+         "deformation":[]
+   },
+
+	"43": {
+         "character":"座る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"すわる",
+         "translate":"1.坐；跪坐。2.居某地位，占据席位。",
+         "deformation":[]
+   },
+
+	"44": {
+         "character":"伝わる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"つたわる",
+         "translate":"流传；（文化、知识、风俗等从外部）传来；传开；传导；沿着。",
+         "deformation":[]
+   },
+
+	"45": {
+         "character":"取る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"とる",
+         "translate":"1.拿；取，执，握，攥；把住，抓住。2.操作，操纵。3.坚持。4.夺取，强夺，强占，吞并。",
+         "deformation":[]
+   },
+
+	"46": {
+         "character":"入る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"はいる",
+         "translate":"进，入，进入；在内，归入，有，含有，包括在其范围内；装入，容纳，放入，归入，容纳入某容量之中；得到，到手，收入，入主，变为自己所有；加入，进入，成为组织的一员；硬加入，挤入；出现、产生裂纹等；为感官所感知；精力充沛；进，入，到达某时期或某阶段；饮（酒）；备好茶，茶已准备好。",
+         "deformation":[]
+   },
+
+	"47": {
+         "character":"持つ",
+         "partOfSpeech":3,
+         "isAutoVerb":2,
+         "rome":"もつ",
+         "translate":"持，拿；带，携带；有，拥有；抱有，怀有；负责，承担，担当；负担（费用等）；举行，举办（会议）；具有；有（与对方的关系）；维持，持续保持。",
+         "deformation":[]
+   },
+
+	"48": {
+         "character":"住む",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"すむ",
+         "translate":"1.栖息，生存。2.居住，住。",
+         "deformation":[]
+   },
+
+	"49": {
+         "character":"見る",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"みる",
+         "translate":"看，观看；观察，视察；判断，评价；读，查；参观，观赏；照料；估计，推断，预计；遇上，体验，经历（不好的事）；试试，尝试，试验；实现，达到，事物变成某种状态。",
+         "deformation":[]
+   },
+
+	"50": {
+         "character":"なる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "translate":"实现，成功，成就；组成，构成，形成。",
+         "deformation":[]
+   },
+
+	"51": {
+         "character":"まとめる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "translate":"汇集，集中；整理，总结；统一，使一致。",
+         "deformation":[]
+   },
+
+	"52": {
+         "character":"忘れる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"わすれる",
+         "translate":"1.忘掉。2.忘却，忘怀。3.遗忘，遗失。4.忘记，疏忽。",
+         "deformation":[]
+   },
+
+	"53": {
+         "character":"触る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"さわる",
+         "translate":"1.触摸；接触。2.有关联，有关系。3.触怒，伤害情绪。",
+         "deformation":[]
+   },
+
+	"54": {
+         "character":"待つ",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"まつ",
+         "translate":"1.等，等待，等候。2.待，伺机，静观。3.期待，指望，期望。4.延期。",
+         "deformation":[]
+   },
+
+	"55": {
+         "character":"急ぐ",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"いそぐ",
+         "translate":"快，急，加快，赶紧，着急。",
+         "deformation":[]
+   },
+
+	"56": {
+         "character":"滑る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"すべる",
+         "translate":"1.滑行，滑动。2.站不住脚，打滑。3.不及格，没考上。4.下跌，跌落。5.说漏嘴。",
+         "deformation":[]
+   },
+
+	"57": {
+         "character":"転ぶ",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"ころぶ",
+         "translate":"跌倒；滚动；向某一方向移动，心情、事态的变化。",
+         "deformation":[]
+	},
+
+	"58": {
+         "character":"弾く",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"ひく",
+         "translate":"弹奏。",
+         "deformation":[]
+   },
+
+	"59": {
+         "character":"集める",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"あつめる",
+         "translate":"集合，收集，集中。",
+         "deformation":[]
+   },
+
+	"60": {
+         "character":"掛ける",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"かける",
+         "translate":"挂，悬挂；放在火上；将身体的一部分放在某物上；使固定；称；绕上；使机器启动；做乘法；付款；报谎价；交配；使一个语句与另外的语句之间发生意义关联；花费；捕捉；讨论研究；在范围之内；施加；使负担；注意；显示；就诊；许愿；建造；上演；盖；搅拌；打扫；攻击；放；关于……；表示动作开始或未完；表示动作仍在进行中；表示向对方做动作。",
+         "deformation":[]
+   },
+
+	"61": {
+         "character":"作る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"つくる",
+         "translate":"1.作，造，制，将材料加工成其他东西。2.创造，发明，制造，生育。3.制定，建立，组成。4.书写，进行（文学艺术）创作。5.（辛苦）耕种，栽培。6.编造，虚构，假装，装作。7.形成，排列，改变位置、配置等，形成某种形状。",
+         "deformation":[]
+   },
+
+	"62": {
+         "character":"知る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"しる",
+         "translate":"1.知道，知晓，得知。2.懂得，理解，识别。3.认识，熟识。4.记得。5.经历，体验（了解）。6.关系，相关。7.掌握，会使用。8.感觉到，注意到。",
+         "deformation":[]
+   },
+
+	"63": {
+         "character":"終わる",
+         "partOfSpeech":3,
+         "isAutoVerb":2,
+         "rome":"おわる",
+         "translate":"1.完，完毕，结束，告终，终了。2.死，死亡。3.以……告终，以……而结束。",
+         "deformation":[]
+   },
+
+	"64": {
+         "character":"閉める",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"しめる",
+         "translate":"关闭，合上；掩上。",
+         "deformation":[]
+   },
+
+	"65": {
+         "character":"渡す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"わたす",
+         "translate":"交付，交给；遍及；表示把一个动作一直做下去之意；赐予；授予；让给；转给；架设；渡，送过河。",
+         "deformation":[]
+   },
+
+	"66": {
+         "character":"遅れる",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "rome":"おくれる",
+         "translate":"慢；进展比标准的要慢；迟；晚；迟到；没赶上；时刻，时间，期限比规定的要晚。",
+         "deformation":[]
+   },
+
+	"67": {
+         "character":"曇る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"くもる",
+         "translate":"1.阴天。2.变模糊不清，朦胧。3.暗淡，忧郁不乐。",
+         "deformation":[]
+   },
+
+	"68": {
+         "character":"教える",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"おしえる",
+         "translate":"1.教，教授。2.指点，指教。3.教训，教诲。",
+         "deformation":[]
+   },
+
+	"69": {
+         "character":"決まる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"きまる",
+         "translate":"决定，规定；决定胜负；得体；符合要求；一定是。",
+         "deformation":[]
+   },
+
+	"70": {
+         "character":"知らせる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"しらせる",
+         "translate":"通知。",
+         "deformation":[]
+   },
+
+	"71": {
+         "character":"思う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"おもう",
+         "translate":"1.想，思索，思量，思考。2.相信，确信。3.预想，预料，推想，推测，估计，想象，猜想。4.感觉，觉得。5.希望，期待。6.挂念，放心不下。",
+         "deformation":[]
+   },
+
+	"72": {
+         "character":"言う",
+         "partOfSpeech":3,
+         "isAutoVerb":2,
+         "rome":"いう",
+         "translate":"1.响，做响，吱声，发出声音或响动。2.言，云，说，讲，道。用语言将事实、想法表达出来。3.说，命令，指示。4.称为，叫做。",
+         "deformation":[]
+   },
+
+	"73": {
+         "character":"探す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"さがす",
+         "translate":"查找，寻找，找；搜寻。",
+         "deformation":[]
+   },
+
+	"74": {
+         "character":"別れる",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "rome":"わかれる",
+         "translate":"离别，分手，离婚；分散，离散；死别。",
+         "deformation":[]
+   },
+
+	"75": {
+         "character":"伝える",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"つたえる",
+         "translate":"1.传达，转告，转达；告诉，告知。2.传授。3.让，让给；传，传给。4.传。5.传，传导。",
+         "deformation":[]
+   },
+
+	"76": {
+         "character":"やる",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "translate":"使去，让去，打发；派遣；给予；做，干，进行；消（愁），安慰；吃，喝；朝向某处；表示以愤怒，憎恨的心情对待对方。",
+         "deformation":[]
+   },
+
+	"77": {
+         "character":"見送る",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"みおくる",
+         "translate":"目送；送行；送终；观望，搁置，放过。",
+         "deformation":[]
+	},
+
+	"78": {
+         "character":"貸す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"かす",
+         "translate":"1.租，借，借出。2.提供帮助。",
+         "deformation":[]
+	},
+
+	"79": {
+         "character":"泊まる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"とまる",
+         "translate":"停泊；投宿，住宿，过夜；值宿，值夜班。",
+         "deformation":[]
+	},
+
+	"80": {
+         "character":"結ぶ",
+         "partOfSpeech":3,
+         "isAutoVerb":2,
+         "rome":"むすぶ",
+         "translate":"结合，系结，连结，约定。",
+         "deformation":[]
+	},
+
+	"81": {
+         "character":"走る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"はしる",
+         "translate":"跑，行驶。",
+         "deformation":[]
+	},
+
+	"82": {
+         "character":"挙げる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"あげる",
+         "translate":"1.竭尽全部。2.尽力。3.扬名。4.举例。5.举行仪式。6.举证。7.逮捕。8.开始战争。",
+         "deformation":[]
+	},
+
+	"83": {
+         "character":"回る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"まわる",
+         "translate":"旋转，回转；巡视，周游；绕弯，绕道；传递；营利。",
+         "deformation":[]
+	},
+
+	"84": {
+         "character":"通う",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"かよう",
+         "translate":"1.来往，（在两个地点之间）往返。2.通，相连。3.（心意）相通。4.相似。5.流，流通。",
+         "deformation":[]
+	},
+
+	"85": {
+         "character":"集まる",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"あつまる",
+         "translate":"聚集。",
+         "deformation":[]
+	},
+
+	"86": {
+         "character":"踊る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"おどる",
+         "translate":"跳舞。",
+         "deformation":[]
+	},
+
+	"87": {
+         "character":"歌う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"うたう",
+         "translate":"唱歌。",
+         "deformation":[]
+	},
+
+   "88": {
+         "character":"払う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"はらう",
+         "translate":"去除；支付；处理掉；驱赶；搬出。",
+         "deformation":[]
+   },
+
+   "89": {
+         "character":"遊ぶ",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"あそぶ",
+         "translate":"1.玩，游玩。2.游荡，不务正业。3.游历，游学。",
+         "deformation":[]
+   },
+
+   "90": {
+         "character":"くれる",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "translate":"1.给（我），他人给自己的东西。2.他人为自己做有利的动作。",
+         "deformation":[]
+   },
+
+   "91": {
+         "character":"拾う",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"ひろう",
+         "translate":"拾，捡。",
+         "deformation":[]
+   },
+
+   "92": {
+         "character":"手伝う",
+         "partOfSpeech":3,
+         "isAutoVerb":2,
+         "rome":"てつだう",
+         "translate":"【他动词】帮忙，帮助；【自动词】另因，某种原因的基础上还有别的原因在起作用，再加上……的缘故。",
+         "deformation":[]
+   },
+
+   "93": {
+         "character":"訳す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"やくす",
+         "translate":"1.翻译。2.解释。",
+         "deformation":[]
+   },
+
+   "94": {
+         "character":"届ける",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"とどける",
+         "translate":"1.投递；递送；将物件等送至对方。2.提交文件；向政府、上司等呈报、申报或报告。",
+         "deformation":[]
+   },
+
+   "95": {
+         "character":"消す",
+         "partOfSpeech":3,
+         "isAutoVerb":0,
+         "rome":"けす",
+         "translate":"1.熄灭；扑灭。2.消去，消除，抹去。3.关掉，切断（电源，煤气源等）。4.杀，杀死。",
+         "deformation":[]
+   },
+
+   "96": {
+         "character":"答える",
+         "partOfSpeech":4,
+         "isAutoVerb":1,
+         "rome":"こたえる",
+         "translate":"1.回答，答复。2.解答。",
+         "deformation":[]
+   },
+
+   "97": {
+         "character":"止める",
+         "partOfSpeech":4,
+         "isAutoVerb":0,
+         "rome":"とめる",
+         "translate":"1.停，止，停止。2.止，堵，憋，屏，关，关闭。3.戒掉，让其停止。",
+         "deformation":[]
+   },
+
+   "98": {
+         "character":"付ける",
+         "partOfSpeech":4,
+         "isAutoVerb":2,
+         "rome":"つける",
+         "translate":"【自动词】写上，记上，注上。；【他动词】1.安上，安装上，连接上，挂上，插上，缝上。2.穿上，带上，系上，别上，佩带。",
+         "deformation":[]
+   },
+
+   "99": {
+         "character":"頑張る",
+         "partOfSpeech":3,
+         "isAutoVerb":1,
+         "rome":"がんばる",
+         "translate":"1.坚持己见。2.加油，鼓劲。3.不动，不走，不离开。",
+         "deformation":[]
+   }
+}

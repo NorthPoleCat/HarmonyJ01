@@ -1,0 +1,12 @@
+{
+    "character":"甲：いつ　アメリカへ　行きますか。",
+    "translate":"甲：你什么时候去美国？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"いつ　动ますか",
+        "grammarNum":"05-05"
+    },{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    }]
+}

@@ -1,0 +1,9 @@
+{
+    "character":"甲：李さんは　車を　運転する　ことが　できますか。",
+    "translate":"甲：小李会开车吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

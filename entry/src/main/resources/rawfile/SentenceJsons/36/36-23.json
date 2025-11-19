@@ -1,0 +1,15 @@
+{
+    "character":"夫人：そうなんですよ。食べ物を買うのに，知っている言い方ばかり繰り返していました。だから，卵も1斤，リンゴも1斤…。",
+    "translate":"夫人：是呀。买食品时净说那些自己会的说法。鸡蛋也是1斤，苹果也是1斤...。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句[动词简体]＋の",
+        "grammarNum":"26-01"
+    },{
+        "grammarName":"名に->[用途、基准]",
+        "grammarNum":"36-02"
+    },{
+        "grammarName":"名 ばかり 动",
+        "grammarNum":"36-03"
+    }]
+}

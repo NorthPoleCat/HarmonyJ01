@@ -1,0 +1,24 @@
+{
+    "character":"山田：おはようございます。山田です。今日からお世話になります。大学を卒業したばかりで，右も左も分かりませんが，一生懸命頑張りますので，ご指導よろしくお願いいたします。",
+    "translate":"山田：早上好。我是山田。从今天起承蒙关照了。刚刚大学毕业，什么都不懂，但我会努力工作的，请多多指教。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"尊他语->お＋动[ます形去掉ます]＋になります",
+        "grammarNum":"47-01"
+    },{
+        "grammarName":"[动た]　ばかりです",
+        "grammarNum":"40-02"
+    },{
+        "grammarName":"[小句て]，小句",
+        "grammarNum":"36-01"
+    },{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    },{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"甲：小野さんの　家は　どこに　ありますか。",
+    "translate":"甲：小野女士的家在哪儿？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    },{
+        "grammarName":"名は　どこですか",
+        "grammarNum":"03-02"
+    }]
+}

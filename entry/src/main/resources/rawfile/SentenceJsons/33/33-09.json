@@ -1,0 +1,12 @@
+{
+    "character":"甲：おじいさんにもらった腕時計が壊れてしまいました。",
+    "translate":"甲：从爷爷那儿得到的手表坏了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    },{
+        "grammarName":"动[て]　しまいます",
+        "grammarNum":"33-02"
+    }]
+}

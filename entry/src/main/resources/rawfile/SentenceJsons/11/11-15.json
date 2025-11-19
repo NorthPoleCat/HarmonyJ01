@@ -1,0 +1,12 @@
+{
+    "character":"李：長島さんや　小野さんも　よく　来ますか。",
+    "translate":"李：长岛、小野，（你们）经常来吗？",
+    "Tips":["よく：经常。"],
+    "involvedGrammar":[{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    },{
+        "grammarName":"名 や 名",
+        "grammarNum":"11-03"
+    }]
+}

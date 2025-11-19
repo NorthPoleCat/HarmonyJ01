@@ -1,0 +1,12 @@
+{
+    "character":"乙：天気予報によると，まだまだ続くみたいですよ。",
+    "translate":"乙：根据天气预报，好像要持续相当一段时间呢。",
+    "Tips":["まだまだ：【副词】尚，还。"],
+    "involvedGrammar":[{
+        "grammarName":"〜に　よって",
+        "grammarNum":"23-03"
+    },{
+        "grammarName":"小句[简体] みたいです",
+        "grammarNum":"44-02"
+    }]
+}

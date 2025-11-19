@@ -1,0 +1,12 @@
+{
+    "character":"甲：大阪から　上海まで　飛行機で　行きますか。",
+    "translate":"甲：你是乘飞机从大阪去上海吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    },{
+        "grammarName":"名[工具・方式・手段・材料]で　动",
+        "grammarNum":"06-02"
+    }]
+}

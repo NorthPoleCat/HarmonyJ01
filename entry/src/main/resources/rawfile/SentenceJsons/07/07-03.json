@@ -1,0 +1,12 @@
+{
+    "character":"わたしは　毎朝　パンか　お粥を　食べます。",
+    "translate":"我每天早晨吃面包或稀饭。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    },{
+        "grammarName":"名か 名",
+        "grammarNum":"07-02"
+    }]
+}

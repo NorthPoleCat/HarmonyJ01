@@ -1,0 +1,15 @@
+{
+    "character":"甲：あっ，ここで　携帯電話を　使っては　いけませんよ。",
+    "translate":"甲：哎，这儿不让用手机。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[て]は　いけません",
+        "grammarNum":"15-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

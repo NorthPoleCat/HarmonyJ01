@@ -1,0 +1,9 @@
+{
+    "character":"李さんは　１週間に　２回　プールへ　行きます。",
+    "translate":"小李一周去两次游泳池。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[时间]に　名[次数] ＋　动",
+        "grammarNum":"13-01"
+    }]
+}

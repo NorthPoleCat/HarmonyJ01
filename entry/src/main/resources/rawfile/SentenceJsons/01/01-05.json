@@ -1,0 +1,14 @@
+{
+    "character":"甲：わたしは　李です。小野さんですか。",
+    "translate":"甲：我是小李。是小野女士吗？",
+    "Tips":[],
+    "involvedGrammar":
+    [{
+    	"grammarName":"名 は 名です",
+    	"grammarNum":"01-01"
+    },
+    {
+    	"grammarName":"名は 名ですか",
+    	"grammarNum":"01-03"
+    }]
+}

@@ -1,0 +1,13 @@
+{
+    "character":"小野：李さん，それは　何ですか。",
+    "translate":"小野：小李，那是什么？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"これ/それ/あれ は 名 です",
+        "grammarNum":"02-01"
+    },
+    {
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

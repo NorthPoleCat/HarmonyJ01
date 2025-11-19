@@ -1,0 +1,9 @@
+{
+    "character":"森：こちらのドアからお入りください。",
+    "translate":"森：请从这个门进。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"尊他语->お・ご～ください",
+        "grammarNum":"47-01"
+    }]
+}

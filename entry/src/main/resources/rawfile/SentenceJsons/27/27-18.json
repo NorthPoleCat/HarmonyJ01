@@ -1,0 +1,12 @@
+{
+    "character":"森：公園に入る時，入園料を払いましたが，どの公園も有料ですか。",
+    "translate":"森：进公园时买了门票，每个公园都收费吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句[简体]＋時",
+        "grammarNum":"27-01"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

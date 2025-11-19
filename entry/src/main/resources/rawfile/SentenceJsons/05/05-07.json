@@ -1,0 +1,9 @@
+{
+    "character":"甲：昨日,何時から　何時まで　働きましたか。",
+    "translate":"甲：昨天(你)从几点工作到几点？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[时间]から　名[时间]まで　动",
+        "grammarNum":"05-04"
+    }]
+}

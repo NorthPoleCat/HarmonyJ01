@@ -1,0 +1,9 @@
+{
+    "character":"お客様はもうお帰りになりました。",
+    "translate":"客人已经回去了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"尊他语->お＋动[ます形去掉ます]＋になります",
+        "grammarNum":"47-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"乙：町が　きれいで　安全ですが，物が　高いですね。",
+    "translate":"乙：城市很干净，安全，但是物价很高。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"形[て] 形",
+        "grammarNum":"16-02"
+    },{
+        "grammarName":"句 が 句",
+        "grammarNum":"16-03"
+    }]
+}

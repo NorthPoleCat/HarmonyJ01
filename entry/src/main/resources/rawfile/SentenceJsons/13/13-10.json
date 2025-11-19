@@ -1,0 +1,9 @@
+{
+    "character":"乙：電車で　１時間ぐらい　かかります。",
+    "translate":"乙：乘电车需要1小时左右。",
+    "Tips":["くらい・ぐらい：大概"],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    }]
+}

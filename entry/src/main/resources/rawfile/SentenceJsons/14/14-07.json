@@ -1,0 +1,9 @@
+{
+    "character":"甲：いつ　出かけますか。",
+    "translate":"甲：什么时候出发？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"いつ　动ますか",
+        "grammarNum":"05-05"
+    }]
+}

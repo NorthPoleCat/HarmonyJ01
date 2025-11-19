@@ -1,0 +1,12 @@
+{
+    "character":"甲：今日　デパートへ　買い物に　行きます。李さんも　いっしょに　どうですか。",
+    "translate":"甲：今天我去百货商店买东西。小李一起去怎么样？",
+    "Tips":["いっしょに：【副词】一起，一同。"],
+    "involvedGrammar":[{
+        "grammarName":"名[场所]へ　动に　行きます・来ます",
+        "grammarNum":"13-02"
+    },{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "character":"小野：わたしも　電車です。駅からは　タクシーで　うちへ　帰りました。",
+    "translate":"小野：我也是坐电车。从车站到家是坐出租车回去的。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    },{
+        "grammarName":"～から　～まで",
+        "grammarNum":"05-04"
+    },{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    },{
+        "grammarName":"名[工具・方式・手段・材料]で　动",
+        "grammarNum":"06-02"
+    }]
+}

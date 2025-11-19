@@ -1,0 +1,12 @@
+{
+    "character":"乙：いいえ，子供しか乗ることができません。",
+    "translate":"乙：不行，只能孩子坐。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　しか＋否定形式",
+        "grammarNum":"35-04"
+    },{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"森：いいえ，課長と　いっしょに　銀座へ　行きました。",
+    "translate":"森：没有。我和科长一起去银座了。",
+    "Tips":["一緒に(いっしょに)：【副词】，一起，一同"],
+    "involvedGrammar":[{
+        "grammarName":"名[人]　と　动",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    }]
+}

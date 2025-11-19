@@ -1,0 +1,12 @@
+{
+    "character":"部屋に　机と　いすが　あります。",
+    "translate":"房间里有桌子和椅子。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    },{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    }]
+}

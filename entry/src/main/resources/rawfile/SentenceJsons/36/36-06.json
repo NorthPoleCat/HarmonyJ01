@@ -1,0 +1,12 @@
+{
+    "character":"乙：いいえ，明日は仕事で，行くことができません。",
+    "translate":"乙：不行，我明天有工作，去不了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"[小句て]，小句",
+        "grammarNum":"36-01"
+    },{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "character":"李：歌舞伎を　見た　後で，食べますか。それとも，見る　前に　何か　食べますか。",
+    "translate":"李：咱们是看完歌舞伎后吃，还是在看之前吃点儿什么？",
+    "Tips":["それとも：【接续词】还是；或者。"],
+    "involvedGrammar":[{
+        "grammarName":"[动た形] 後で，～",
+        "grammarNum":"21-03"
+    },{
+        "grammarName":"[动基本形] 前に, 〜",
+        "grammarNum":"20-03"
+    }]
+}

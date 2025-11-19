@@ -1,0 +1,12 @@
+{
+    "character":"これは明日会議で使う資料です。",
+    "translate":"这是明天会议要用的资料。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"动[简体]＋名/小句[动词简体]＋名",
+        "grammarNum":"25-01"
+    }]
+}

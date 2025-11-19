@@ -1,0 +1,12 @@
+{
+    "character":"甲：あそこに　犬が　いますね。",
+    "translate":"甲：那儿有只狗啊。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"ここ/そこ/あそこ は 名 です",
+        "grammarNum":"03-01"
+    },{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}

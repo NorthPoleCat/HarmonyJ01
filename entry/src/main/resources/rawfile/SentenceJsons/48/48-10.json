@@ -1,0 +1,9 @@
+{
+    "character":"乙：何のお構いもしませんで。",
+    "translate":"乙：招待不周。",
+    "Tips":["何のお構いもしませんで:招待不周。"],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

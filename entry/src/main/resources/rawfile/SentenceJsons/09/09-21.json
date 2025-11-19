@@ -1,0 +1,9 @@
+{
+    "character":"小野：ああ，これは　温泉の　お湯です。李さんも　飲みますか。",
+    "translate":"小野：啊，这是温泉水。小李，你也喝点？",
+    "Tips":["ああ：用于肯定性回答或作为搭腔语使用。"],
+    "involvedGrammar":[{
+        "grammarName":"助词も",
+        "grammarNum":"03-03"
+    }]
+}

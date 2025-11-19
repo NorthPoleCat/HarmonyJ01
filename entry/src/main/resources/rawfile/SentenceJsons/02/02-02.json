@@ -1,0 +1,14 @@
+{
+    "character":"それは　何ですか。",
+    "translate":"那是什么？",
+    "Tips":[],
+    "involvedGrammar":[
+    {
+        "grammarName":"これ/それ/あれ は 名 です",
+        "grammarNum":"02-01"
+    },
+    {
+        "grammarName":"だれですか/何ですか",
+        "grammarNum":"02-02"
+    }]
+}

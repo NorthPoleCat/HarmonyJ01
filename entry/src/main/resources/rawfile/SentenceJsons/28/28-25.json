@@ -1,0 +1,12 @@
+{
+    "character":"森：もう買いました。明日届けてもらいます。冷蔵庫は，支社長がくれました。",
+    "translate":"森：已经买好了。明天送过来，冰箱是经理送的。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て] もらいます",
+        "grammarNum":"08-02"
+    },{
+        "grammarName":"名[人]は　名[人]に　名[物]を　くれます",
+        "grammarNum":"28-01"
+    }]
+}

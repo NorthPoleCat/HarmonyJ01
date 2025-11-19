@@ -1,0 +1,9 @@
+{
+    "character":"スミスさんは　ピアノを　弾く　ことが　できます。",
+    "translate":"史密斯先生会弹钢琴。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[人]は　[动基本形] ことが　できます",
+        "grammarNum":"20-01"
+    }]
+}

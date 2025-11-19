@@ -1,0 +1,12 @@
+{
+    "character":"吉田：李さん,昨日は　何時に　アパートへ　帰りましたか。",
+    "translate":"吉田：小李，你昨天几点回公寓的？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"いつ　动ますか",
+        "grammarNum":"05-05"
+    },{
+        "grammarName":"名[场所]へ　动",
+        "grammarNum":"06-01"
+    }]
+}

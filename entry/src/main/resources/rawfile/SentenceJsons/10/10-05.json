@@ -1,0 +1,9 @@
+{
+    "character":"甲：どんな　お土産を　買いましたか。",
+    "translate":"甲：你买什么土特产了？",
+    "Tips":["どんな：询问性质的时候使用。相当于汉语中的‘什么样的’。"],
+    "involvedGrammar":[{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

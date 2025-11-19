@@ -1,0 +1,12 @@
+{
+    "character":"甲：この服，ちょっと小さいので，取り替えていただけますか。",
+    "translate":"甲：这件衣服小了点儿，能换一下吗？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"小句＋ので",
+        "grammarNum":"30-02"
+    },{
+        "grammarName":"自谦语->动[て]いただけますか",
+        "grammarNum":"48-01"
+    }]
+}

@@ -1,0 +1,9 @@
+{
+    "character":"甲：おいしいお茶を送ってくれて，どうもありがとう。",
+    "translate":"甲：你寄给我的茶很好喝，谢谢。",
+    "Tips":["どうも:实在是，真的，非常"],
+    "involvedGrammar":[{
+        "grammarName":"动[て] くれます",
+        "grammarNum":"28-01"
+    }]
+}

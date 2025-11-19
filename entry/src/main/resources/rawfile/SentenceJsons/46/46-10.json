@@ -1,0 +1,12 @@
+{
+    "character":"乙：そうですね。今月の末までに届くように出してください。",
+    "translate":"乙：是啊，这个月底以前能收到就可以了。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[时间] までに",
+        "grammarNum":"46-01"
+    },{
+        "grammarName":"～ように",
+        "grammarNum":"38-02"
+    }]
+}

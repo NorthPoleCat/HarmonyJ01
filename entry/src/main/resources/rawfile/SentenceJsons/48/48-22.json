@@ -1,0 +1,12 @@
+{
+    "character":"李：承知いたしました。私，李秀麗と申します。では，明日の午後，お伺いします。",
+    "translate":"李：好的。我叫李秀丽。那么明天下午我去拜访您。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

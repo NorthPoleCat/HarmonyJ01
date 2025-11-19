@@ -1,0 +1,12 @@
+{
+    "character":"李さんは　毎朝　７時に　家を　出ます。",
+    "translate":"小李每天早晨7点离开家。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名[时间] に　动",
+        "grammarNum":"05-03"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

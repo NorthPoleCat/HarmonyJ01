@@ -1,0 +1,12 @@
+{
+    "character":"次の文章を読んで，質問に答えなさい。",
+    "translate":"读下面的文章，回答问题。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"动[て]/动[ない]で",
+        "grammarNum":"29-04"
+    },{
+        "grammarName":"[动ます形去掉ます]＋なさい",
+        "grammarNum":"29-02"
+    }]
+}

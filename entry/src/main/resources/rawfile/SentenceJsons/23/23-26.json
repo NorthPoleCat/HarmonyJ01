@@ -1,0 +1,15 @@
+{
+    "character":"李：旅行に　行くか　どうか，わかりません。たぶん　友達に　会ったり，食事に　行ったり　します。",
+    "translate":"李：去不去旅行还不知道。可能主要是见见朋友，吃吃饭什么的。",
+    "Tips":["たぶん：【副词】大概，或许"],
+    "involvedGrammar":[{
+        "grammarName":"[句原形]か　どうか",
+        "grammarNum":"23-02"
+    },{
+        "grammarName":"名[人]に　会います",
+        "grammarNum":"08-03"
+    },{
+        "grammarName":"〜たり　〜たり",
+        "grammarNum":"23-01"
+    }]
+}

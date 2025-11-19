@@ -1,0 +1,12 @@
+{
+    "character":"乙：ええ，拝見しました。先ほど返事をお出ししました。",
+    "translate":"乙：是的，已经拜读了。刚刚给您发了回信。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"自谦语->特殊自谦语",
+        "grammarNum":"48-01"
+    },{
+        "grammarName":"自谦语->お・ご～します",
+        "grammarNum":"48-01"
+    }]
+}

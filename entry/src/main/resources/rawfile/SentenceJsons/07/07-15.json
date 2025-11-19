@@ -1,0 +1,15 @@
+{
+    "character":"吉田：コンビニで　お弁当と　お茶を　買いました。",
+    "translate":"吉田：我在便利店买了盒饭和茶水。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"名　と　名",
+        "grammarNum":"04-02"
+    },{
+        "grammarName":"名[工具・方式・手段・材料・场所]で　动",
+        "grammarNum":"06-02"
+    },{
+        "grammarName":"名を　动",
+        "grammarNum":"07-01"
+    }]
+}

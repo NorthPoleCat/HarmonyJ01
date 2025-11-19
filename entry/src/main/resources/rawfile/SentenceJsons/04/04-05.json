@@ -1,0 +1,12 @@
+{
+    "character":"甲：その　箱の　中に　何が　ありますか。",
+    "translate":"甲：那个盒子里有什么？",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"この/その/あの 名　は 名 です",
+        "grammarNum":"02-03"
+    },{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}

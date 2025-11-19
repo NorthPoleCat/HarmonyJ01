@@ -1,0 +1,9 @@
+{
+    "character":"机の　上に　猫が　います。",
+    "translate":"桌子上有一只猫。",
+    "Tips":[],
+    "involvedGrammar":[{
+        "grammarName":"あります・います",
+        "grammarNum":"04-01"
+    }]
+}
