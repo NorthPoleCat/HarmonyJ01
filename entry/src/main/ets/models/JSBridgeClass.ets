@@ -21,8 +21,8 @@ export class JSBridgeClass {
 
   sentence(param: string) {
     // const fileName = `${param}.json`
-
-    const fileName = 'SentenceJsons/04/04-02.json'
+    const lesson: string = param.split('-')[0]
+    const fileName = `SentenceJsons/${lesson}/${param}.json`
     let context = getContext(this) as common.UIAbilityContext
     if (context == null) {
       console.error('getContext null')

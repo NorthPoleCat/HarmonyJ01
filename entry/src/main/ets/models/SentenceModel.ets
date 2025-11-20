@@ -5,7 +5,7 @@ export class SentenceModel {
   involvedGrammar: InvolvedGrammarModel[] = []
 }
 
-class InvolvedGrammarModel {
+export class InvolvedGrammarModel {
   grammarName: string = ''
   grammarNum: string = ''
 }

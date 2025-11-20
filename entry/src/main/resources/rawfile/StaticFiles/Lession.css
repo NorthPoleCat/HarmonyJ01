@@ -17,6 +17,10 @@ h2 {
 /*    font-family: "Hiragino";*/
 }
 
+div {
+    max-width: 100%;
+}
+
 ruby {
     font-size: 1em;
     font-family: "Heiti SC";

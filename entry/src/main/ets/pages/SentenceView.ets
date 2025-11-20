@@ -1,12 +1,13 @@
 import { router } from '@kit.ArkUI'
+import { InvolvedGrammarModel, SentenceModel } from '../models/SentenceModel'
 
 @Entry
 @Component
 struct SentenceView {
-  // @State wordModel: WordModel = new WordModel()
+  @State senModel: SentenceModel = new SentenceModel()
 
   aboutToAppear(): void {
-    // this.wordModel = router.getParams() as WordModel
+    this.senModel = router.getParams() as SentenceModel
   }
 
   build() {
@@ -25,21 +26,45 @@ struct SentenceView {
       .backgroundColor(0xe5aa5a)
       .padding({ left: 10, right: 10 })
 
-      Row() {
-        // Text(this.wordModel.character)
-        //   .padding({right: 4})
-        // if (this.wordModel.rome) { // 判断条件
-        //   Text(`(${this.wordModel.rome})`)
-        // }
-      }
-      .padding({left: 16, top: 8, bottom: 8})
+      Text(this.senModel.character)
+        .fontWeight(FontWeight.Bold)
+        .padding({left: 16, top: 8, bottom: 16})
 
-      // Text(this.wordModel.translate)
-      //   .padding({left: 16, bottom: 8})
-
-
+      Text(this.senModel.translate)
+        .fontWeight(FontWeight.Bold)
+        .padding({left: 16, bottom: 16})
 
       Divider()
+        .padding({bottom: 8})
+
+      if (this.senModel.Tips.length > 0) {
+        Text('词组')
+          .fontColor(0xe5aa5a)
+          .padding({left: 16, bottom: 8})
+
+        ForEach(this.senModel.Tips, (item: string) => {       // 组件生成函数
+          Text(item)
+            .padding({ left: 16, right: 16, bottom: 16})
+        })
+      }
+
+      if (this.senModel.involvedGrammar.length > 0) {
+        Text('语法')
+          .fontColor(0xe5aa5a)
+          .padding({left: 16, bottom: 16})
+
+        ForEach(this.senModel.involvedGrammar, (item: InvolvedGrammarModel) => {       // 组件生成函数
+          Text(item.grammarName)
+            .padding({ left: 16, right: 16, bottom: 8})
+            .fontColor(Color.Blue)
+            .onClick(()=> {
+              router.pushUrl({
+                url: 'pages/WebViewPage',
+                params: { url: 'grammar/grammar' + item.grammarNum + '.html', title: '' }
+              })
+            })
+        })
+      }
 
     }
     .alignItems(HorizontalAlign.Start)
