@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/WebViewPage",
     "pages/WordView",
-    "pages/SentenceView"
+    "pages/SentenceView",
+    "pages/SettingsView"
   ]
 }

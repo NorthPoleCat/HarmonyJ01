@@ -58,6 +58,11 @@ struct WebViewPage {
           SymbolGlyph($r("sys.symbol.gearshape"))
             .fontSize(24)
             .fontColor([Color.White])
+            .onClick(()=>{
+              router.replaceUrl({
+                url: 'pages/SettingsView'
+              })
+            })
         }
       }
       .height(44)
