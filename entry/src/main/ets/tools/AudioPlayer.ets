@@ -21,7 +21,7 @@ export class AudioPlayer {
           break;
         case 'prepared':
           console.info('音频准备完成，开始播放');
-          this.avPlayer?.play()
+          this.avPlayer?.seek(20 * 1000)
           break;
         case 'playing':
           console.info('音频正在播放');
@@ -32,6 +32,18 @@ export class AudioPlayer {
         case 'error':
           console.error('播放器错误状态');
           break;
+      }
+    });
+
+    this.avPlayer.on('seekDone', (seekDoneTime) => {
+      this.avPlayer?.play()
+    })
+
+    this.avPlayer.on('timeUpdate', (currentTime: number) => {
+      // 检查是否到达片段结束位置
+      if (currentTime >= 25 * 1000) {
+        console.info('⏹️ 到达片段结束位置，停止播放');
+        this.stop();
       }
     });
 
@@ -74,6 +86,12 @@ export class AudioPlayer {
       } catch (e) {
         console.error(`avPause== ${JSON.stringify(e)}`);
       }
+    }
+  }
+
+  async stop(): Promise<void> {
+    if (this.avPlayer) {
+      await this.avPlayer.stop();
     }
   }
 }
