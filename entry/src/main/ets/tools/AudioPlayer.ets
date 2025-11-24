@@ -1,7 +1,6 @@
 import { media } from '@kit.MediaKit'
 import common from '@ohos.app.ability.common'
 import { BusinessError } from '@kit.BasicServicesKit'
-import { audio } from '@kit.AudioKit'
 
 export class AudioPlayer {
   private avPlayer: media.AVPlayer | null = null
@@ -48,9 +47,9 @@ export class AudioPlayer {
     });
 
     // 错误监听
-    // this.avPlayer.on('error', (error: BusinessError) => {
-    //   console.error('AVPlayer错误:', JSON.stringify(error));
-    // });
+    this.avPlayer.on('error', (error: BusinessError) => {
+      console.error('AVPlayer错误:', JSON.stringify(error));
+    });
   }
 
   async playRawAudio(audioFileName: string) {
@@ -68,15 +67,6 @@ export class AudioPlayer {
     let avFileDescriptor: media.AVFileDescriptor =
       { fd: fileDescriptor.fd, offset: fileDescriptor.offset, length: fileDescriptor.length }
     this.avPlayer!.fdSrc = avFileDescriptor
-
-    // await this.avPlayer!.prepare();
-    // await this.avPlayer!.play();
-
-    // try {
-    //   this.avPlayer!.play();
-    // } catch (e) {
-    //   console.error(`avPlay = ${JSON.stringify(e)}`);
-    // }
   }
 
   avPause(): void {
