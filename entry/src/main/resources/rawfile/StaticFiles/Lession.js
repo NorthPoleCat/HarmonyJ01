@@ -34,7 +34,9 @@ function playClick(e) {
     }
 
     setSenAudioPic('00-00');
-    window.webkit.messageHandlers.audioPlay.postMessage(audioNum);
+
+    jsBridge.audioPlay();
+    // window.webkit.messageHandlers.audioPlay.postMessage(audioNum);
 }
 
 function sentenceAudio(e) {

@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.polarcat.japanese01",
-    "vendor": "polarcat",
+    "bundleName": "com.example.japanese01",
+    "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "icon": "$media:layered_image",

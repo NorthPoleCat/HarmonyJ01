@@ -6,6 +6,7 @@ import common from '@ohos.app.ability.common';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { WordModel } from '../models/WordModel';
 import { SentenceModel } from './SentenceModel';
+import { AudioPlayer } from '../tools/AudioPlayer'
 
 export class JSBridgeClass {
   private controller: webview.WebviewController
@@ -102,6 +103,11 @@ export class JSBridgeClass {
         console.error('parse err: ' + JSON.stringify(err))
       }
     })
+  }
+
+  audioPlay() {
+    let audio = new AudioPlayer()
+    audio.playRawAudio('audio/01.mp3')
   }
 
   loadCss() {

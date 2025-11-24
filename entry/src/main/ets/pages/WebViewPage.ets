@@ -78,7 +78,7 @@ struct WebViewPage {
         .javaScriptProxy({
           object: this.jsBridage,
           name: 'jsBridge',
-          methodList: ['grammar','sentence','loadCss', 'word'],
+          methodList: ['grammar','sentence','loadCss', 'word', 'audioPlay'],
           controller: this.controller
         })
         .onErrorReceive( () => {
