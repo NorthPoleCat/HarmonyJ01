@@ -9,14 +9,19 @@ export class AudioPlayer {
   async initAVPlayer() {
     this.avPlayer = await media.createAVPlayer();
 
-    this.avPlayer.on('stateChange', async (state: media.AVPlayerState) => {
+    this.avPlayer.on('stateChange', async (state, reason) => {
       console.info('AVPlayer状态变化:', state);
 
       switch (state) {
+        case 'idle': // 成功调用reset接口后触发该状态机上报
+          console.info('音频idle');
+          break;
+        case 'initialized':
+          this.avPlayer?.prepare()
+          break;
         case 'prepared':
-          // this.isPrepared = true;
           console.info('音频准备完成，开始播放');
-          await this.avPlayer!.play();
+          this.avPlayer?.play()
           break;
         case 'playing':
           console.info('音频正在播放');
@@ -31,9 +36,9 @@ export class AudioPlayer {
     });
 
     // 错误监听
-    this.avPlayer.on('error', (error: BusinessError) => {
-      console.error('AVPlayer错误:', JSON.stringify(error));
-    });
+    // this.avPlayer.on('error', (error: BusinessError) => {
+    //   console.error('AVPlayer错误:', JSON.stringify(error));
+    // });
   }
 
   async playRawAudio(audioFileName: string) {
@@ -52,7 +57,8 @@ export class AudioPlayer {
       { fd: fileDescriptor.fd, offset: fileDescriptor.offset, length: fileDescriptor.length }
     this.avPlayer!.fdSrc = avFileDescriptor
 
-    await this.avPlayer!.prepare();
+    // await this.avPlayer!.prepare();
+    // await this.avPlayer!.play();
 
     // try {
     //   this.avPlayer!.play();
