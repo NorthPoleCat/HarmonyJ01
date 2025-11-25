@@ -4,6 +4,19 @@ import { BusinessError } from '@kit.BasicServicesKit'
 
 export class AudioPlayer {
   private avPlayer: media.AVPlayer | null = null
+  private isPausing: boolean = false
+
+  start: number = 0
+  end: number = 0
+
+  private static instance: AudioPlayer
+
+  public static getInstance(): AudioPlayer {
+    if (!AudioPlayer.instance) {
+      AudioPlayer.instance = new AudioPlayer();
+    }
+    return AudioPlayer.instance;
+  }
 
   async initAVPlayer() {
     this.avPlayer = await media.createAVPlayer();
@@ -20,13 +33,17 @@ export class AudioPlayer {
           break;
         case 'prepared':
           console.info('音频准备完成，开始播放');
-          this.avPlayer?.seek(20 * 1000)
+          this.avPlayer?.seek(this.start * 1000)
           break;
         case 'playing':
           console.info('音频正在播放');
           break;
+        case 'paused':
+          this.isPausing = true
+          break;
         case 'completed':
           console.info('音频播放完成');
+          this.release()
           break;
         case 'error':
           console.error('播放器错误状态');
@@ -40,7 +57,7 @@ export class AudioPlayer {
 
     this.avPlayer.on('timeUpdate', (currentTime: number) => {
       // 检查是否到达片段结束位置
-      if (currentTime >= 25 * 1000) {
+      if (currentTime >= this.end * 1000) {
         console.info('⏹️ 到达片段结束位置，停止播放');
         this.stop();
       }
@@ -52,9 +69,20 @@ export class AudioPlayer {
     });
   }
 
-  async playRawAudio(audioFileName: string) {
+  async playRawAudio(audioFileName: string, isAudio: boolean) {
     if (!this.avPlayer) {
       await this.initAVPlayer();
+    }
+
+    if (this.avPlayer?.state == 'playing' && isAudio) {
+      this.avPause()
+      return
+    }
+
+    if (this.isPausing) {
+      this.avPlayer?.play()
+      this.isPausing = false
+      return
     }
 
     let context = getContext(this) as common.UIAbilityContext
@@ -82,6 +110,15 @@ export class AudioPlayer {
   async stop(): Promise<void> {
     if (this.avPlayer) {
       await this.avPlayer.stop();
+      this.release()
+    }
+  }
+
+  release() {
+    // 1. 释放音频播放器
+    if (this.avPlayer) {
+      this.avPlayer.release(); // 调用鸿蒙SDK的释放方法
+      this.avPlayer = null;
     }
   }
 }

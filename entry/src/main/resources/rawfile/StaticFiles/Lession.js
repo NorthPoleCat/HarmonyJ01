@@ -35,7 +35,7 @@ function playClick(e) {
 
     setSenAudioPic('00-00');
 
-    jsBridge.audioPlay();
+    jsBridge.audioPlay(audioNum);
     // window.webkit.messageHandlers.audioPlay.postMessage(audioNum);
 }
 

@@ -8,6 +8,9 @@ import { WordModel } from '../models/WordModel';
 import { SentenceModel } from './SentenceModel';
 import { AudioPlayer } from '../tools/AudioPlayer'
 
+import articleAudio from '../../resources/rawfile/audioJsons/audioArticle.json'
+import sentenceAudio from '../../resources/rawfile/audioJsons/senAudio.json'
+
 export class JSBridgeClass {
   private controller: webview.WebviewController
   private prefs: preferences.Preferences = preferences.getPreferencesSync(getContext(), { name: 'userSettings' })
@@ -105,9 +108,24 @@ export class JSBridgeClass {
     })
   }
 
-  audioPlay() {
-    let audio = new AudioPlayer()
-    audio.playRawAudio('audio/01.mp3')
+  sentencePlay(param: string) {
+    let record: Record<string, Array<string>> = sentenceAudio
+    const result = record[param]
+    const filePath = `audio/${result[0]}.mp3`
+    let audio = AudioPlayer.getInstance()
+    audio.start = Number(result[1])
+    audio.end = Number(result[2])
+    audio.playRawAudio(filePath, false)
+  }
+
+  audioPlay(param: string) {
+    let record: Record<string, Array<string>> = articleAudio
+    const result = record[param]
+    const filePath = `audio/${result[0]}.mp3`
+    let audio = AudioPlayer.getInstance()
+    audio.start = Number(result[1])
+    audio.end = Number(result[2])
+    audio.playRawAudio(filePath, true)
   }
 
   loadCss() {
