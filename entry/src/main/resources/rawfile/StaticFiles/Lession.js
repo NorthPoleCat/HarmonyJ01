@@ -5,10 +5,6 @@ function grammarClick(e) {
 
 function wordClick(e) {
     var wordNumStr = e.getAttribute("wordNum");
-    // var param = {
-    //     wordNum: wordNumStr,
-    // }
-    // window.webkit.messageHandlers.word.postMessage(param);
     jsBridge.word(wordNumStr);
 }
 
@@ -45,9 +41,7 @@ function sentenceAudio(e) {
     setAudioPic('00-00');
     setSenAudioPic(audioNum);
 
-    var param = 'sen:'+audioNum;
-
-    window.webkit.messageHandlers.senAudioPlay.postMessage(param);
+    jsBridge.sentencePlay(audioNum)
 }
 
 function setAudioPic(e) {
