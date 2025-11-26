@@ -115,7 +115,7 @@ export class JSBridgeClass {
     let audio = AudioPlayer.getInstance()
     audio.start = Number(result[1])
     audio.end = Number(result[2])
-    audio.playRawAudio(filePath, false)
+    audio.playSentenceAudio(filePath)
   }
 
   audioPlay(param: string) {
@@ -125,7 +125,15 @@ export class JSBridgeClass {
     let audio = AudioPlayer.getInstance()
     audio.start = Number(result[1])
     audio.end = Number(result[2])
-    audio.playRawAudio(filePath, true)
+    audio.playArticleAudio(filePath)
+  }
+
+  audioReset() {
+    AudioPlayer.getInstance().stop()
+  }
+
+  audioRecycle(param: boolean) {
+    AudioPlayer.getInstance().isLooping = param
   }
 
   loadCss() {

@@ -1,6 +1,7 @@
-import { webview } from '@kit.ArkWeb';
-import { router } from '@kit.ArkUI';
-import { JSBridgeClass } from '../models/JSBridgeClass';
+import { webview } from '@kit.ArkWeb'
+import { router } from '@kit.ArkUI'
+import { JSBridgeClass } from '../models/JSBridgeClass'
+import { AudioPlayer } from '../tools/AudioPlayer'
 
 interface WebViewParams {
   url?: string
@@ -25,6 +26,7 @@ struct WebViewPage {
 
   aboutToDisappear() {
     this.controller.deleteJavaScriptRegister('jsBridge')
+    AudioPlayer.getInstance().stop()
   }
 
   build() {
@@ -78,7 +80,7 @@ struct WebViewPage {
         .javaScriptProxy({
           object: this.jsBridage,
           name: 'jsBridge',
-          methodList: ['grammar','sentence','loadCss', 'word', 'audioPlay', 'sentencePlay'],
+          methodList: ['grammar','sentence','loadCss', 'word', 'audioPlay', 'sentencePlay', 'audioReset', 'audioRecycle'],
           controller: this.controller
         })
         .onErrorReceive( () => {

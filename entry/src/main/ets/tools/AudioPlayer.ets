@@ -5,9 +5,11 @@ import { BusinessError } from '@kit.BasicServicesKit'
 export class AudioPlayer {
   private avPlayer: media.AVPlayer | null = null
   private isPausing: boolean = false
+  private isArticle: boolean = false
 
   start: number = 0
   end: number = 0
+  isLooping: boolean = false
 
   private static instance: AudioPlayer
 
@@ -42,8 +44,6 @@ export class AudioPlayer {
           this.isPausing = true
           break;
         case 'completed':
-          console.info('音频播放完成');
-          this.release()
           break;
         case 'error':
           console.error('播放器错误状态');
@@ -57,9 +57,13 @@ export class AudioPlayer {
 
     this.avPlayer.on('timeUpdate', (currentTime: number) => {
       // 检查是否到达片段结束位置
-      if (currentTime >= this.end * 1000) {
-        console.info('⏹️ 到达片段结束位置，停止播放');
-        this.stop();
+      if (currentTime > (this.end + 0.2) * 1000) {
+        if (this.isLooping) {
+          this.avPlayer?.seek(this.start * 1000);  // 跳回开始
+        } else {
+          console.info('⏹️ 到达片段结束位置，停止播放');
+          this.stop();
+        }
       }
     });
 
@@ -67,23 +71,42 @@ export class AudioPlayer {
     this.avPlayer.on('error', (error: BusinessError) => {
       console.error('AVPlayer错误:', JSON.stringify(error));
     });
+
   }
 
-  async playRawAudio(audioFileName: string, isAudio: boolean) {
-    if (!this.avPlayer) {
-      await this.initAVPlayer();
-    }
+  async playSentenceAudio(audioFileName: string) {
+    this.isArticle = false
+    await this.stop()
 
-    if (this.avPlayer?.state == 'playing' && isAudio) {
+    this.playRawAudio(audioFileName)
+  }
+
+  async playArticleAudio(audioFileName: string) {
+
+    if (this.avPlayer?.state == 'playing' && this.isArticle) {
       this.avPause()
       return
     }
 
-    if (this.isPausing) {
+    if (this.isPausing && this.isArticle) {
       this.avPlayer?.play()
       this.isPausing = false
       return
     }
+
+    await this.stop()
+
+    this.playRawAudio(audioFileName)
+    this.isArticle = true
+  }
+
+  private async playRawAudio(audioFileName: string) {
+
+    if (!this.avPlayer) {
+      await this.initAVPlayer()
+    }
+
+    this.avPlayer?.prepare()
 
     let context = getContext(this) as common.UIAbilityContext
     if (context == null) {

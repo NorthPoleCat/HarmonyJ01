@@ -74,7 +74,8 @@ function resetClick(e) {
     for(var i=0 ; i<obj.length ; i++) {
         obj[i].children[0].src = "../img/play.png";
     }
-    window.webkit.messageHandlers.audioReset.postMessage("");
+
+    jsBridge.audioReset()
 }
 
 function recycleClick(e) {
@@ -85,12 +86,13 @@ function recycleClick(e) {
         for(var i=0 ; i<obj.length ; i++) {
             obj[i].children[2].src = "../img/recycle.png";
         }
+        jsBridge.audioRecycle(true)
     } else {
         for(var i=0 ; i<obj.length ; i++) {
             obj[i].children[2].src = "../img/anti-recycle.png";
         }
+        jsBridge.audioRecycle(false)
     }
-    window.webkit.messageHandlers.audioRecycle.postMessage("");
 }
 
 function fold(e) {

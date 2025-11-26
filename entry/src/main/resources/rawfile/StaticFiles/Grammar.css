@@ -35,6 +35,10 @@ p {
     font-weight:400;
 }
 
+a {
+    display: none;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
