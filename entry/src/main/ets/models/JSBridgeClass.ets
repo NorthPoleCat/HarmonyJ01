@@ -115,6 +115,7 @@ export class JSBridgeClass {
     let audio = AudioPlayer.getInstance()
     audio.start = Number(result[1])
     audio.end = Number(result[2])
+    audio.completeOperation = () => { this.resetAudioPic() }
     audio.playSentenceAudio(filePath)
   }
 
@@ -125,6 +126,7 @@ export class JSBridgeClass {
     let audio = AudioPlayer.getInstance()
     audio.start = Number(result[1])
     audio.end = Number(result[2])
+    audio.completeOperation = () => { this.resetAudioPic() }
     audio.playArticleAudio(filePath)
   }
 
@@ -134,6 +136,14 @@ export class JSBridgeClass {
 
   audioRecycle(param: boolean) {
     AudioPlayer.getInstance().isLooping = param
+  }
+
+  resetAudioPic() {
+    let senReset = 'setSenAudioPic(\'00-00\')'
+    this.controller.runJavaScript(senReset)
+
+    let articleReset = 'setAudioPic(\'00-00\')'
+    this.controller.runJavaScript(articleReset)
   }
 
   loadCss() {

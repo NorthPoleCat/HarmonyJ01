@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/xunliu/KeyStore.p12",
+          "storePassword": "00000018A17A03AE3A06FB0D8DA91D46308812765291E0728E57DE6ABD35DB3920ECA8E5985615CC",
+          "keyAlias": "developer_liuxun_japanese",
+          "keyPassword": "00000018A64F192AC313D990EEA3B6D92FC0A1878717B4F773A79E5677029ED33699793FBDF512E9",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/xunliu/Downloads/Japanese01ProfileRelease.p7b",
+          "certpath": "/Users/xunliu/Downloads/Release_Cert.cer"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",

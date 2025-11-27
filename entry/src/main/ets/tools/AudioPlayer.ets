@@ -10,6 +10,7 @@ export class AudioPlayer {
   start: number = 0
   end: number = 0
   isLooping: boolean = false
+  completeOperation: ()=>void = ()=>{}
 
   private static instance: AudioPlayer
 
@@ -63,6 +64,7 @@ export class AudioPlayer {
         } else {
           console.info('⏹️ 到达片段结束位置，停止播放');
           this.stop();
+          this.completeOperation()
         }
       }
     });
