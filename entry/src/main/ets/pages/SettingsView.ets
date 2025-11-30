@@ -1,7 +1,9 @@
-import { router } from '@kit.ArkUI';
-import { webview } from '@kit.ArkWeb';
-import { JSBridgeClass } from '../models/JSBridgeClass';
-import { preferences } from '@kit.ArkData';
+import { router } from '@kit.ArkUI'
+import { webview } from '@kit.ArkWeb'
+import { JSBridgeClass } from '../models/JSBridgeClass'
+import { preferences } from '@kit.ArkData'
+import common from '@ohos.app.ability.common'
+import { ConfigurationConstant } from '@kit.AbilityKit'
 
 @Entry
 @Component
@@ -33,6 +35,9 @@ struct SettingsView {
         controller: this.controller
       })
       // .key(`webview_${this.webKey}`)
+        .onPageEnd(() => {
+          this.injectDarkModeCSS()
+        })
         .javaScriptProxy({
           object: this.jsBridage,
           name: 'jsBridge',
@@ -50,6 +55,7 @@ struct SettingsView {
         Toggle({ type: ToggleType.Switch, isOn: this.prefs.getSync('nounSet', true) as boolean })
           .onChange((isOn: boolean) => {
             this.prefs.putSync('nounSet', isOn)
+            this.prefs.flushSync()
             this.controller.refresh()
           })
       }
@@ -62,6 +68,7 @@ struct SettingsView {
         Toggle({ type: ToggleType.Switch, isOn: this.prefs.getSync('verbSet', true) as boolean })
           .onChange((isOn: boolean) => {
             this.prefs.putSync('verbSet', isOn)
+            this.prefs.flushSync()
             this.controller.refresh()
           })
       }
@@ -74,6 +81,7 @@ struct SettingsView {
         Toggle({ type: ToggleType.Switch, isOn: this.prefs.getSync('adjSet', true) as boolean })
           .onChange((isOn: boolean) => {
             this.prefs.putSync('adjSet', isOn)
+            this.prefs.flushSync()
             this.controller.refresh()
           })
       }
@@ -86,6 +94,7 @@ struct SettingsView {
         Toggle({ type: ToggleType.Switch, isOn: this.prefs.getSync('chSet', true) as boolean })
           .onChange((isOn: boolean) => {
             this.prefs.putSync('chSet', isOn)
+            this.prefs.flushSync()
             this.controller.refresh()
           })
       }
@@ -98,11 +107,25 @@ struct SettingsView {
         Toggle({ type: ToggleType.Switch, isOn: this.prefs.getSync('hiraSet', true) as boolean })
           .onChange((isOn: boolean) => {
             this.prefs.putSync('hiraSet', isOn)
+            this.prefs.flushSync()
             this.controller.refresh()
           })
       }
       .padding({left: 8, right: 8, bottom: 4})
       .width('100%')
+    }
+  }
+
+  private injectDarkModeCSS() {
+    let context = getContext(this) as common.UIAbilityContext
+    if (context.config.colorMode == ConfigurationConstant.ColorMode.COLOR_MODE_DARK) {
+      const jsCode = `
+        var style = document.createElement('style');
+        style.innerHTML = 'body { background-color: #000000 !important; color: #ffffff !important; } p { color: #ffffff !important; }';
+        document.head.appendChild(style);
+      `
+      // 正确的方法
+      this.controller.runJavaScript(jsCode)
     }
   }
 }

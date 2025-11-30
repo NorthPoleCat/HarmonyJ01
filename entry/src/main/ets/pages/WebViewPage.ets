@@ -2,6 +2,8 @@ import { webview } from '@kit.ArkWeb'
 import { router } from '@kit.ArkUI'
 import { JSBridgeClass } from '../models/JSBridgeClass'
 import { AudioPlayer } from '../tools/AudioPlayer'
+import common from '@ohos.app.ability.common'
+import { ConfigurationConstant } from '@kit.AbilityKit'
 
 interface WebViewParams {
   url?: string
@@ -76,7 +78,9 @@ struct WebViewPage {
         src: $rawfile(this.url),
         controller: this.controller
       })
-      // .key(`webview_${this.webKey}`)
+        .onPageEnd(() => {
+          this.injectDarkModeCSS()
+        })
         .javaScriptProxy({
           object: this.jsBridage,
           name: 'jsBridge',
@@ -88,5 +92,18 @@ struct WebViewPage {
         })
     }
     .padding({ bottom: 30 })
+  }
+
+  private injectDarkModeCSS() {
+    let context = getContext(this) as common.UIAbilityContext
+    if (context.config.colorMode == ConfigurationConstant.ColorMode.COLOR_MODE_DARK) {
+      const jsCode = `
+        var style = document.createElement('style');
+        style.innerHTML = 'body { background-color: #000000 !important; color: #ffffff !important; } p { color: #ffffff !important; } .top_tabbarboxs { background-color: #000000 !important; } .bottom_audio { background-color: #1A1D1E !important; }';
+        document.head.appendChild(style);
+      `
+      // 正确的方法
+      this.controller.runJavaScript(jsCode)
+    }
   }
 }
