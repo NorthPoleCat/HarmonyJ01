@@ -4,6 +4,7 @@
     "pages/WebViewPage",
     "pages/WordView",
     "pages/SentenceView",
-    "pages/SettingsView"
+    "pages/SettingsView",
+    "pages/PrivacyDialogPage"
   ]
 }
