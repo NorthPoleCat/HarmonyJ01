@@ -27,7 +27,7 @@ struct WordView {
       }
       .height(44)
       .width('100%')
-      .backgroundColor(0xe5aa5a)
+      .backgroundColor($r('app.color.J01_theme'))
       .padding({ left: 10, right: 10 })
 
       Row() {
@@ -82,7 +82,7 @@ struct WordView {
       Divider()
       if (this.deformation().length > 0) {
         Text('变形')
-          .fontColor('#e5aa5a')
+          .fontColor($r('app.color.J01_theme'))
           .padding({left: 16, top: 8, bottom: 8})
       }
       ForEach(this.deformation(), (item: [DeformationClass, string]) => {       // 组件生成函数

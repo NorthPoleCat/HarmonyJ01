@@ -30,8 +30,8 @@ struct Index {
   itemHeader(text: string) {
     Text(text)
       .fontSize(16)
-      .fontColor(0xe5aa5a)
-      .backgroundColor(0xececec)
+      .fontColor($r('app.color.J01_theme'))
+      .backgroundColor($r('app.color.index_list_header_bg'))
       .width('100%')
       .padding(10)
   }
@@ -41,7 +41,7 @@ struct Index {
       Text('新版标准日本语-初级')
         .fontSize(20)
         .fontColor(Color.White)
-        .backgroundColor(0xe5aa5a)
+        .backgroundColor($r('app.color.J01_theme'))
         .width('100%')
         .textAlign(TextAlign.Center)
         .height(44)
@@ -57,7 +57,7 @@ struct Index {
                     .padding(10)
                     .width('100%')
                     .textAlign(TextAlign.Start)
-                    .backgroundColor(Color.White)
+                    // .backgroundColor(Color.White)
                   if (index !== section.rows.length - 1) {
                     Divider()
                       .strokeWidth(1)
@@ -78,7 +78,6 @@ struct Index {
           }
         }, (item: LessonSection) => item.title)
       }
-      // .sticky(StickyStyle.Header) // 标题吸顶效果
       .width('100%')
       .scrollBar(BarState.Off)
     }

@@ -69,7 +69,7 @@ struct WebViewPage {
       }
       .height(44)
       .width('100%')
-      .backgroundColor(0xe5aa5a)
+      .backgroundColor($r('app.color.J01_theme'))
       .padding({ left: 10, right: 10 })
 
       Web({

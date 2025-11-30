@@ -3,6 +3,14 @@
     {
       "name": "start_window_background",
       "value": "#000000"
+    },
+    {
+      "name": "index_list_header_bg",
+      "value": "#424242"
+    },
+    {
+      "name": "J01_theme",
+      "value": "#B8863B"
     }
   ]
 }

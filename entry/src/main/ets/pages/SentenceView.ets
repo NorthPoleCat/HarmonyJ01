@@ -23,7 +23,7 @@ struct SentenceView {
       }
       .height(44)
       .width('100%')
-      .backgroundColor(0xe5aa5a)
+      .backgroundColor($r('app.color.J01_theme'))
       .padding({ left: 10, right: 10 })
 
       Text(this.senModel.character)
@@ -39,7 +39,7 @@ struct SentenceView {
 
       if (this.senModel.Tips.length > 0) {
         Text('词组')
-          .fontColor(0xe5aa5a)
+          .fontColor($r('app.color.J01_theme'))
           .padding({left: 16, bottom: 8})
 
         ForEach(this.senModel.Tips, (item: string) => {       // 组件生成函数
@@ -50,7 +50,7 @@ struct SentenceView {
 
       if (this.senModel.involvedGrammar.length > 0) {
         Text('语法')
-          .fontColor(0xe5aa5a)
+          .fontColor($r('app.color.J01_theme'))
           .padding({left: 16, bottom: 16})
 
         ForEach(this.senModel.involvedGrammar, (item: InvolvedGrammarModel) => {       // 组件生成函数

@@ -25,7 +25,7 @@ struct SettingsView {
       }
       .height(44)
       .width('100%')
-      .backgroundColor(0xe5aa5a)
+      .backgroundColor($r('app.color.J01_theme'))
       .padding({ left: 10, right: 10 })
 
       Web({
@@ -41,7 +41,7 @@ struct SettingsView {
         })
         .height(400)
         .borderWidth(2)
-        .borderColor(0xe5aa5a)
+        .borderColor($r('app.color.J01_theme'))
         .margin({left: 8, right: 8, top: 8, bottom: 16})
 
       Row() {
