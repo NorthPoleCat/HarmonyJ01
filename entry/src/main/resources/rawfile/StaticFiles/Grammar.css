@@ -1,42 +1,50 @@
 h1 {
-    font-size: 4em;
+    font-size: 6rem;
     text-align: center;
     font-family: "Heiti SC";
+/*    font-family: "Hiragino";*/
 }
 
 h2 {
-    font-size: 3em;
-    font-family: "Heiti SC";
+    font-size: 3rem;
+/*    text-align: center;*/
+/*    font-family: "Heiti SC";*/
+/*    font-family: "Hiragino";*/
 }
 
 h3 {
-    font-size:2.2em;
+    font-size:2.2rem;
     font-family: "Heiti SC";
 }
 
 a {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     font-family: "Heiti SC";
 }
 
 ruby {
-    font-size: 1em;
-    font-family: "Heiti SC";
+    font-size: 2.5rem;
 }
 
 rt {
-    font-size: 0.7em;
-    font-family: "Heiti SC";
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+/*    font-family: "Heiti SC";*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*    font-family: "Hiragino";*/
 }
 
 p {
-    font-size: 2.5em;
-    font-family: "Heiti SC";
+    font-size: 2.5rem;
+/*    font-family: "Heiti SC";*/
+    line-height: 3.5rem;
     font-weight:400;
-}
-
-a {
-    display: none;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-bottom: 0.6rem;
+/*margin-left: .4em;*/
+/*    font-family: "Hiragino";*/
 }
 
 .tooltip {
@@ -50,4 +58,23 @@ a {
 #ch {
     color:#c0c0c0;
     font-weight:500;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    p {
+        color: #ffffff !important;
+    }
+
+    .top_tabbarboxs {
+        background-color: #000000 !important;
+    }
+
+    .bottom_audio {
+        background-color: #1A1D1E !important;
+    }
 }
