@@ -1,19 +1,23 @@
-/*body {*/
-/*    background-color: #C7EDCC;*/
-/*}*/
+:root {
+    color-scheme: light dark;
+}
+
+html {
+    font-size: 16px;
+}
 
 h1 {
     color: black;
-    font-size: 6em;
+    font-size: 6rem;
     text-align: center;
     font-family: "Heiti SC";
 /*    font-family: "Hiragino";*/
 }
 
 h2 {
-    font-size: 3em;
-    text-align: center;
-    font-family: "Heiti SC";
+    font-size: 3rem;
+/*    text-align: center;*/
+/*    font-family: "Heiti SC";*/
 /*    font-family: "Hiragino";*/
 }
 
@@ -22,35 +26,34 @@ div {
 }
 
 ruby {
-    font-size: 1em;
-    font-family: "Heiti SC";
-    /*font-weight: 500;*/
-/*    font-family: "Hiragino";*/
+    font-size: 2.5rem;
+    line-height: 2.2;
 }
 
 rt {
     font-size: 0.7em;
-    font-family: "Heiti SC";
+    margin-bottom: 0.3rem;
+/*    font-family: "Heiti SC";*/
 /*    color: black;*/
 /*    background-color: white;*/
 /*    font-family: "Hiragino";*/
 }
 
 p {
-    font-size: 2.5em;
-    font-family: "Heiti SC";
+    font-size: 2.5rem;
+/*    font-family: "Heiti SC";*/
+    line-height: 2.2;
     font-weight:400;
     padding-left: .5em;
-    /*padding-right: .5em;*/
-    /*margin-left: .4em;*/
+    padding-right: .5em;
+    margin-bottom: 0.6rem;
+/*margin-left: .4em;*/
 /*    font-family: "Hiragino";*/
 }
 
 .tooltip {
-    position: relative;
     display: inline-block;
     border-bottom: .075em dotted gray;
-    cursor: help;
     font-family: "Heiti SC";
 /*    font-family: "Hiragino";*/
 }
@@ -84,7 +87,8 @@ p>img {
 .senAudio {
     margin-top: 1em;
     height: 3.5em;
-    /*width: 3.5em;*/
+    width: 3.5em;
+    vertical-align: top;
 }
 
 .senAduio_top {
@@ -92,14 +96,12 @@ p>img {
     font-size: 1.1em;
 }
 
-/*.senAudio1 {
-    height: 1.5em;
-    margin-left: 0em;
-    margin-right: 0.3em;
-    display: inline-block;
-}*/
-
 #ch {
+    color:#c0c0c0;
+    font-weight:500;
+}
+
+.ch {
     color:#c0c0c0;
     font-weight:500;
 }
@@ -135,6 +137,72 @@ p>img {
     height: 0.1em;
 }
 
+#Tip {
+    background: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 2em;
+    margin-bottom: 4em;
+    border-radius: .8em;
+}
+
+#TipHead {
+    background: white;
+    font-family: "Heiti SC";
+    font-size: 3.5em;
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.2em;
+    margin-bottom: 0px;
+    color: #25354A;
+}
+
+#TipBody {
+    background: white;
+/*display: none;*/
+    margin-top: 0px;
+    color: #25354A;
+/*border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #c0c0c0;*/
+}
+
+.Tip {
+    background: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 2em;
+    margin-bottom: 4em;
+    border-radius: .8em;
+}
+
+.TipHead {
+    background: white;
+    font-family: "Heiti SC";
+    font-size: 3.5em;
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.2em;
+    margin-bottom: 0px;
+    color: #25354A;
+}
+
+.TipBody {
+    background: white;
+/*display: none;*/
+    margin-top: 0px;
+    color: #25354A;
+/*border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #c0c0c0;*/
+}
+
 .bottom_audio {
     width: 100%;
     bottom:0;
@@ -149,7 +217,7 @@ p>img {
 }
 
 .bottom_audio_child>img {
-    height: 5em;
+    height: 6em;
     margin-left:3em;
     display: inline-block;
     vertical-align: middle;
@@ -159,4 +227,48 @@ p>img {
     height: 6em;
     display: inline-block;
     vertical-align: middle;
+}
+
+.table_cell_left {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-top: 3rem
+}
+
+.table_cell_right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    p {
+        color: #ffffff !important;
+    }
+
+    .top_tabbarboxs {
+        background-color: #000000 !important;
+    }
+
+    .bottom_audio {
+        background-color: #1A1D1E !important;
+    }
+
+    .Tip {
+        background-color: #000000 !important;
+    }
+
+    .TipHead {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    .TipBody {
+        background-color: #000000 !important;
+    }
 }
