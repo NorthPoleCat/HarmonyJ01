@@ -8,6 +8,8 @@ struct PrivacyDialogPage {
 
   private prefs: preferences.Preferences = preferences.getPreferencesSync(getContext(), { name: 'userSettings' })
 
+  private isChecked: boolean = false
+
   aboutToAppear(): void {
     if (this.prefs.getSync('hasAgreedPrivacy', false)) {
       this.navigateToMainPage();
@@ -53,8 +55,20 @@ struct PrivacyDialogPage {
 
       Blank()
 
-      Button('了解')
+      Row() {
+        Checkbox()
+          .shape(CheckBoxShape.ROUNDED_SQUARE)
+          .padding({right: 6})
+          .onChange((value) => {
+            this.isChecked = value
+          })
+        Text('我已知晓')
+      }
+      .padding({bottom: 8})
+
+      Button('继续')
         .onClick(() => {
+          if (!this.isChecked) { return }
           this.prefs.putSync('hasAgreedPrivacy', true)
           this.prefs.flush(()=> {
             this.navigateToMainPage()
