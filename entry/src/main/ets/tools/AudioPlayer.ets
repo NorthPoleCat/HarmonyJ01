@@ -90,7 +90,7 @@ export class AudioPlayer {
       return
     }
 
-    if (this.isPausing && this.isArticle) {
+    if (this.avPlayer && this.isPausing && this.isArticle) {
       this.avPlayer?.play()
       this.isPausing = false
       return
