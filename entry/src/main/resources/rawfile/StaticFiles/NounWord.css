@@ -5,3 +5,11 @@
     cursor: help;
     font-family: "Heiti SC";
 }
+
+.noun {
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted gray;
+    cursor: help;
+    font-family: "Heiti SC";
+}

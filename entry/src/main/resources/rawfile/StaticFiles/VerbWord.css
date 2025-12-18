@@ -30,3 +30,36 @@
     cursor: help;
     font-family: "Heiti SC";
 }
+
+.verb5 {
+/*    color: #FF3333;*/
+    color: #e86b8a;
+    font-weight:600;
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted #e86b8a;
+    cursor: help;
+    font-family: "Heiti SC";
+}
+
+.verb1 {
+/*    color: #F57330;*/
+    color:#f9c76e;
+    font-weight:600;
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted #f9c76e;
+    cursor: help;
+    font-family: "Heiti SC";
+}
+
+.verbS {
+/*    color: #D06FA0;*/
+    color:#d26be8;
+    font-weight:600;
+/*    position: relative;*/
+/*    display: inline-block;*/
+    border-bottom: .075em dotted #d26be8;
+    cursor: help;
+    font-family: "Heiti SC";
+}
