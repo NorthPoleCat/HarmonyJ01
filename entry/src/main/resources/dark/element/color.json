@@ -11,6 +11,30 @@
     {
       "name": "J01_theme",
       "value": "#B8863B"
+    },
+    {
+      "name": "favorite_page_background",
+      "value": "#111315"
+    },
+    {
+      "name": "favorite_card_background",
+      "value": "#1b1d1f"
+    },
+    {
+      "name": "favorite_primary_text",
+      "value": "#f5f5f5"
+    },
+    {
+      "name": "favorite_secondary_text",
+      "value": "#c7c7cc"
+    },
+    {
+      "name": "favorite_hint_text",
+      "value": "#8e8e93"
+    },
+    {
+      "name": "favorite_button_background",
+      "value": "#3a2e1b"
     }
   ]
 }

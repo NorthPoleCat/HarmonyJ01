@@ -42,7 +42,7 @@ struct FavoriteWordsView {
           Blank()
           Text('还没有收藏单词')
             .fontSize(16)
-            .fontColor('#8e8e93')
+            .fontColor($r('app.color.favorite_hint_text'))
           Blank()
         }
         .width('100%')
@@ -56,6 +56,7 @@ struct FavoriteWordsView {
                 Column() {
                   Text(item.character)
                     .fontSize(18)
+                    .fontColor($r('app.color.favorite_primary_text'))
                     .fontWeight(FontWeight.Bold)
                     .width('100%')
                     .textAlign(TextAlign.Start)
@@ -63,7 +64,7 @@ struct FavoriteWordsView {
                   if (item.rome) {
                     Text(item.rome as string)
                       .fontSize(13)
-                      .fontColor('#8e8e93')
+                      .fontColor($r('app.color.favorite_hint_text'))
                       .padding({ top: 4 })
                       .width('100%')
                       .textAlign(TextAlign.Start)
@@ -71,7 +72,7 @@ struct FavoriteWordsView {
 
                   Text(item.translate ?? '')
                     .fontSize(14)
-                    .fontColor('#666666')
+                    .fontColor($r('app.color.favorite_secondary_text'))
                     .padding({ top: 6 })
                     .width('100%')
                     .textAlign(TextAlign.Start)
@@ -82,7 +83,7 @@ struct FavoriteWordsView {
                 Button('取消收藏')
                   .fontSize(13)
                   .height(32)
-                  .backgroundColor('#f4e3c4')
+                  .backgroundColor($r('app.color.favorite_button_background'))
                   .fontColor($r('app.color.J01_theme'))
                   .onClick(() => {
                     this.removeFavorite(item)
@@ -91,7 +92,7 @@ struct FavoriteWordsView {
               .width('100%')
               .padding({ left: 12, right: 12, top: 12, bottom: 12 })
             }
-            .backgroundColor(Color.White)
+            .backgroundColor($r('app.color.favorite_card_background'))
             .borderRadius(8)
             .onClick(() => {
               router.pushUrl({
@@ -109,7 +110,7 @@ struct FavoriteWordsView {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#f7f7f7')
+    .backgroundColor($r('app.color.favorite_page_background'))
   }
 
   private reloadFavorites(): void {

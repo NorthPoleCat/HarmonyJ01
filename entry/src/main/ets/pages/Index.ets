@@ -59,7 +59,6 @@ struct Index {
           .width('100%')
           .padding(12)
         }
-        .backgroundColor(Color.White)
         .borderRadius(8)
         .margin({ top: 5, bottom: 5, left: 8, right: 8 })
         .onClick(() => {
@@ -102,7 +101,6 @@ struct Index {
       .width('100%')
       .scrollBar(BarState.Off)
     }
-    .backgroundColor('#f7f7f7')
     .padding({ bottom: 30 })
   }
 }
