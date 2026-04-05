@@ -20,7 +20,7 @@ function parseSections(data: DataProps): Array<LessonSection> {
 @Entry
 @Component
 struct Index {
-  private sections: LessonSection[] = []
+  @State sections: LessonSection[] = []
 
   aboutToAppear() {
     this.sections = parseSections(rawData)
@@ -47,6 +47,27 @@ struct Index {
         .height(44)
 
       List({ space: 12 }) {
+        ListItem() {
+          Row() {
+            Text('收藏单词')
+              .fontSize(16)
+            Blank()
+            SymbolGlyph($r("sys.symbol.chevron_right"))
+              .fontSize(18)
+              .fontColor([$r('app.color.J01_theme')])
+          }
+          .width('100%')
+          .padding(12)
+        }
+        .backgroundColor(Color.White)
+        .borderRadius(8)
+        .margin({ top: 5, bottom: 5, left: 8, right: 8 })
+        .onClick(() => {
+          router.pushUrl({
+            url: 'pages/FavoriteWordsView'
+          })
+        })
+
         ForEach(this.sections, (section: LessonSection) => {
           ListItemGroup({ header: this.itemHeader(section.title) }) {
             ForEach(section.rows, (row: LessonClass, index) => {
@@ -81,6 +102,7 @@ struct Index {
       .width('100%')
       .scrollBar(BarState.Off)
     }
+    .backgroundColor('#f7f7f7')
     .padding({ bottom: 30 })
   }
 }

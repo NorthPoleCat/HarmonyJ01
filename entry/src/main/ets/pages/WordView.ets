@@ -4,14 +4,18 @@ import { WordPartCell } from '../components/WordPartCell'
 import { WordType, WordTypeClass } from '../models/WordTypeClass'
 import { Deformation, DeformationClass } from '../models/DeformationClass'
 import { DeformationCell } from '../components/DeformationCell'
+import common from '@ohos.app.ability.common'
+import { FavoriteWordStore } from '../tools/FavoriteWordStore'
 
 @Entry
 @Component
 struct WordView {
   @State wordModel: WordModel = new WordModel()
+  @State isFavorite: boolean = false
 
   aboutToAppear(): void {
     this.wordModel = router.getParams() as WordModel
+    this.isFavorite = FavoriteWordStore.isFavorite(this.getAbilityContext(), this.wordModel)
   }
 
   build() {
@@ -23,6 +27,17 @@ struct WordView {
           .fontWeight(FontWeight.Bold)
           .onClick(() => {
             router.back() // 核心返回逻辑
+          })
+
+        Blank()
+
+        Button(this.isFavorite ? '取消收藏' : '收藏')
+          .fontSize(13)
+          .height(30)
+          .backgroundColor(this.isFavorite ? '#f4e3c4' : Color.White)
+          .fontColor($r('app.color.J01_theme'))
+          .onClick(() => {
+            this.toggleFavorite()
           })
       }
       .height(44)
@@ -419,5 +434,13 @@ struct WordView {
       ]
     }
     return []
+  }
+
+  private toggleFavorite(): void {
+    this.isFavorite = FavoriteWordStore.toggle(this.getAbilityContext(), this.wordModel)
+  }
+
+  private getAbilityContext(): common.UIAbilityContext {
+    return getContext(this) as common.UIAbilityContext
   }
 }
