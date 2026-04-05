@@ -1,6 +1,9 @@
 import rawData from '../../resources/rawfile/allLessons.json';
 import { LessonSection, LessonClass } from '../models/LessonSection';
 import { router } from '@kit.ArkUI';
+import common from '@ohos.app.ability.common'
+import { PremiumAccessStore } from '../tools/PremiumAccessStore'
+import { PremiumIapService } from '../tools/PremiumIapService'
 
 interface DataProps {
   sections: LessonSection[];
@@ -21,9 +24,12 @@ function parseSections(data: DataProps): Array<LessonSection> {
 @Component
 struct Index {
   @State sections: LessonSection[] = []
+  @State premiumUnlocked: boolean = false
 
   aboutToAppear() {
     this.sections = parseSections(rawData)
+    this.premiumUnlocked = PremiumAccessStore.isUnlocked(this.getAbilityContext())
+    this.refreshPremiumState()
   }
 
   @Builder
@@ -72,12 +78,24 @@ struct Index {
             ForEach(section.rows, (row: LessonClass, index) => {
               ListItem() {
                 Column() {
-                  Text(row.title)
-                    .fontSize(16)
-                    .padding(10)
-                    .width('100%')
-                    .textAlign(TextAlign.Start)
-                    // .backgroundColor(Color.White)
+                  Row() {
+                    Text(row.title)
+                      .fontSize(16)
+                      .layoutWeight(1)
+                      .textAlign(TextAlign.Start)
+
+                    if (this.isLocked(row)) {
+                      Text('需解锁')
+                        .fontSize(12)
+                        .fontColor(Color.White)
+                        .backgroundColor($r('app.color.J01_theme'))
+                        .borderRadius(10)
+                        .padding({ left: 8, right: 8, top: 3, bottom: 3 })
+                    }
+                  }
+                  .padding(10)
+                  .width('100%')
+
                   if (index !== section.rows.length - 1) {
                     Divider()
                       .strokeWidth(1)
@@ -87,10 +105,7 @@ struct Index {
                 }
               }
               .onClick(() => {
-                router.pushUrl({
-                  url: 'pages/WebViewPage', // 目标页面路径
-                  params: { url: 'Lessons/' + row.url + '.html', title: row.url }  // 传递 LessonClass 的 URL
-                })
+                this.openLesson(row)
               })
               .borderRadius(8)
               .margin({ top: 5, bottom: 5 })
@@ -102,5 +117,38 @@ struct Index {
       .scrollBar(BarState.Off)
     }
     .padding({ bottom: 30 })
+  }
+
+  private openLesson(row: LessonClass): void {
+    const targetUrl = 'Lessons/' + row.url + '.html'
+    if (this.isLocked(row)) {
+      router.pushUrl({
+        url: 'pages/PremiumUnlockView',
+        params: { url: targetUrl, title: row.title }
+      })
+      return
+    }
+
+    router.pushUrl({
+      url: 'pages/WebViewPage',
+      params: { url: targetUrl, title: row.title }
+    })
+  }
+
+  private isLocked(row: LessonClass): boolean {
+    return row.vip && !this.premiumUnlocked
+  }
+
+  private refreshPremiumState(): void {
+    PremiumIapService.syncUnlockStatus(this.getAbilityContext())
+      .then((unlocked: boolean) => {
+        this.premiumUnlocked = unlocked
+      })
+      .catch((_err: Object) => {
+      })
+  }
+
+  private getAbilityContext(): common.UIAbilityContext {
+    return getContext(this) as common.UIAbilityContext
   }
 }

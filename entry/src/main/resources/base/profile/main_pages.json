@@ -6,6 +6,7 @@
     "pages/SentenceView",
     "pages/SettingsView",
     "pages/PrivacyDialogPage",
-    "pages/FavoriteWordsView"
+    "pages/FavoriteWordsView",
+    "pages/PremiumUnlockView"
   ]
 }

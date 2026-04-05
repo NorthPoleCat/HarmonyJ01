@@ -4,6 +4,7 @@ import { JSBridgeClass } from '../models/JSBridgeClass'
 import { AudioPlayer } from '../tools/AudioPlayer'
 import common from '@ohos.app.ability.common'
 import { ConfigurationConstant } from '@kit.AbilityKit'
+import { PremiumAccessStore } from '../tools/PremiumAccessStore'
 
 interface WebViewParams {
   url?: string
@@ -23,6 +24,15 @@ struct WebViewPage {
     if (params?.url) {
       this.url = params.url // ✅ 带类型检查的赋值
       this.title = params.title ?? ''
+
+      if (PremiumAccessStore.requiresUnlock(this.url) &&
+        !PremiumAccessStore.isUnlocked(this.getAbilityContext())) {
+        router.replaceUrl({
+          url: 'pages/PremiumUnlockView',
+          params: { url: this.url, title: this.title }
+        })
+        return
+      }
     }
   }
 
@@ -105,5 +115,9 @@ struct WebViewPage {
       // 正确的方法
       this.controller.runJavaScript(jsCode)
     }
+  }
+
+  private getAbilityContext(): common.UIAbilityContext {
+    return getContext(this) as common.UIAbilityContext
   }
 }
