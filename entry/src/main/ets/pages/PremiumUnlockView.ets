@@ -8,6 +8,10 @@ interface PremiumUnlockParams {
   title?: string
 }
 
+interface PurchaseErrorCode {
+  code?: number
+}
+
 @Entry
 @Component
 struct PremiumUnlockView {
@@ -205,7 +209,7 @@ struct PremiumUnlockView {
       .catch((err: Object) => {
         this.isPurchasing = false
         const message = PremiumIapService.getErrorMessage(err)
-        if ((err as { code?: number }).code === 1001860051) {
+        if ((err as PurchaseErrorCode).code === 1001860051) {
           PremiumIapService.syncUnlockStatus(this.getAbilityContext())
             .then((unlocked: boolean) => {
               this.isUnlocked = unlocked

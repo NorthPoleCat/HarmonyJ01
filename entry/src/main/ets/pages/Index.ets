@@ -3,7 +3,6 @@ import { LessonSection, LessonClass } from '../models/LessonSection';
 import { router } from '@kit.ArkUI';
 import common from '@ohos.app.ability.common'
 import { PremiumAccessStore } from '../tools/PremiumAccessStore'
-import { PremiumIapService } from '../tools/PremiumIapService'
 
 interface DataProps {
   sections: LessonSection[];
@@ -29,7 +28,6 @@ struct Index {
   aboutToAppear() {
     this.sections = parseSections(rawData)
     this.premiumUnlocked = PremiumAccessStore.isUnlocked(this.getAbilityContext())
-    this.refreshPremiumState()
   }
 
   @Builder
@@ -137,15 +135,6 @@ struct Index {
 
   private isLocked(row: LessonClass): boolean {
     return row.vip && !this.premiumUnlocked
-  }
-
-  private refreshPremiumState(): void {
-    PremiumIapService.syncUnlockStatus(this.getAbilityContext())
-      .then((unlocked: boolean) => {
-        this.premiumUnlocked = unlocked
-      })
-      .catch((_err: Object) => {
-      })
   }
 
   private getAbilityContext(): common.UIAbilityContext {

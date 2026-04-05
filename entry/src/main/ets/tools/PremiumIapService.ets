@@ -18,6 +18,11 @@ interface PremiumPurchasePayload {
   purchaseOrderId?: string
 }
 
+interface ErrorWithCode {
+  code?: number
+  message?: string
+}
+
 export class PremiumIapService {
   static readonly PRODUCT_ID: string = PremiumProductConfig.PRODUCT_ID
   static readonly PRODUCT_TYPE: iap.ProductType = iap.ProductType.NONCONSUMABLE
@@ -48,14 +53,14 @@ export class PremiumIapService {
 
       let continuationToken: string | undefined = undefined
       do {
-        const result = await iap.queryPurchases(context, {
+        const result: iap.QueryPurchaseResult = await iap.queryPurchases(context, {
           productType: PremiumIapService.PRODUCT_TYPE,
           queryType: iap.PurchaseQueryType.ALL,
           continuationToken: continuationToken
         })
 
-        const matched = result.purchaseDataList.some((item: string) => {
-          const payload = PremiumIapService.parsePurchasePayload(item)
+        const matched: boolean = result.purchaseDataList.some((item: string): boolean => {
+          const payload: PremiumPurchasePayload = PremiumIapService.parsePurchasePayload(item)
           return payload.productId === PremiumIapService.PRODUCT_ID
         })
 
@@ -84,11 +89,11 @@ export class PremiumIapService {
 
     const payload = PremiumIapService.parsePurchasePayload(result.purchaseData)
     if (payload.productId !== PremiumIapService.PRODUCT_ID) {
-      throw PremiumIapService.createError('购买返回的商品与预期不一致')
+      throw new Error('购买返回的商品与预期不一致')
     }
 
     if (!payload.purchaseToken || !payload.purchaseOrderId) {
-      throw PremiumIapService.createError('未获取到完整的购买凭据')
+      throw new Error('未获取到完整的购买凭据')
     }
 
     await iap.finishPurchase(context, {
@@ -102,6 +107,7 @@ export class PremiumIapService {
 
   static getErrorMessage(err: Object): string {
     const businessError = err as BusinessError
+    const rawError = err as ErrorWithCode
     switch (businessError.code) {
       case 1001860000:
         return '已取消购买'
@@ -128,7 +134,7 @@ export class PremiumIapService {
       case 1001860056:
         return '当前账号暂时无法购买'
       default:
-        return businessError.message ?? '购买失败，请稍后重试'
+        return rawError.message ?? '购买失败，请稍后重试'
     }
   }
 
@@ -152,16 +158,13 @@ export class PremiumIapService {
       try {
         const helper = new util.Base64Helper()
         const payloadBytes = helper.decodeSync(segments[1], util.Type.BASIC_URL_SAFE)
-        return util.decodeToString(payloadBytes)
+        const textDecoder = util.TextDecoder.create('utf-8', { ignoreBOM: true })
+        return textDecoder.decodeToString(payloadBytes)
       } catch (_err) {
         return trimmed
       }
     }
 
     return trimmed
-  }
-
-  private static createError(message: string): BusinessError {
-    return { code: 0, message: message } as BusinessError
   }
 }
