@@ -15,6 +15,22 @@
     {
       "name": "app_name",
       "value": "标日笔记・初"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "收藏单词服务卡片"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "收藏单词卡片"
+    },
+    {
+      "name": "favoriteWordWidget_display_name",
+      "value": "收藏单词"
+    },
+    {
+      "name": "favoriteWordWidget_desc",
+      "value": "左右切换查看已收藏的单词"
     }
   ]
 }

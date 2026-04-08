@@ -35,6 +35,38 @@
     {
       "name": "favorite_button_background",
       "value": "#3a2e1b"
+    },
+    {
+      "name": "favorite_widget_background",
+      "value": "#1f1a15"
+    },
+    {
+      "name": "favorite_widget_button_background",
+      "value": "#b8863b"
+    },
+    {
+      "name": "favorite_widget_button_disabled_background",
+      "value": "#3a3228"
+    },
+    {
+      "name": "favorite_widget_primary_text",
+      "value": "#f6ead9"
+    },
+    {
+      "name": "favorite_widget_secondary_text",
+      "value": "#d6c1a4"
+    },
+    {
+      "name": "favorite_widget_hint_text",
+      "value": "#a99072"
+    },
+    {
+      "name": "favorite_widget_button_text",
+      "value": "#121212"
+    },
+    {
+      "name": "favorite_widget_disabled_text",
+      "value": "#756653"
     }
   ]
 }
