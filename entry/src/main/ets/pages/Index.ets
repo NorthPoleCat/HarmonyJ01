@@ -1,12 +1,16 @@
 import rawData from '../../resources/rawfile/allLessons.json';
 import { LessonSection, LessonClass } from '../models/LessonSection';
 import { router } from '@kit.ArkUI';
+import { preferences } from '@kit.ArkData'
 import common from '@ohos.app.ability.common'
 import { PremiumAccessStore } from '../tools/PremiumAccessStore'
 
 interface DataProps {
   sections: LessonSection[];
 }
+
+const PREFERENCE_NAME = 'userSettings'
+const PENDING_ROUTE_KEY = 'pendingStartupRoute'
 
 function parseSections(data: DataProps): Array<LessonSection> {
   return data.sections.map((section: LessonSection) => {
@@ -28,6 +32,7 @@ struct Index {
   aboutToAppear() {
     this.sections = parseSections(rawData)
     this.premiumUnlocked = PremiumAccessStore.isUnlocked(this.getAbilityContext())
+    this.openPendingRoute()
   }
 
   @Builder
@@ -139,5 +144,19 @@ struct Index {
 
   private getAbilityContext(): common.UIAbilityContext {
     return getContext(this) as common.UIAbilityContext
+  }
+
+  private openPendingRoute(): void {
+    const prefs = preferences.getPreferencesSync(this.getAbilityContext(), { name: PREFERENCE_NAME })
+    const pendingRoute = prefs.getSync(PENDING_ROUTE_KEY, '') as string
+    if (pendingRoute.length === 0 || pendingRoute === 'pages/Index') {
+      return
+    }
+
+    prefs.deleteSync(PENDING_ROUTE_KEY)
+    prefs.flushSync()
+    router.pushUrl({
+      url: pendingRoute
+    })
   }
 }
