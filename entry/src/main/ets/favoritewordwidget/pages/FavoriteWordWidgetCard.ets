@@ -15,7 +15,7 @@ struct FavoriteWordWidgetCard {
 
   build() {
     Row({ space: 12 }) {
-      this.arrowArea('<', 'prev', this.canGoPrev)
+      this.arrowArea('<', 'prev')
 
       Column({ space: 6 }) {
         Text('收藏单词')
@@ -72,7 +72,7 @@ struct FavoriteWordWidgetCard {
         })
       })
 
-      this.arrowArea('>', 'next', this.canGoNext)
+      this.arrowArea('>', 'next')
     }
     .width('100%')
     .height('100%')
@@ -82,27 +82,21 @@ struct FavoriteWordWidgetCard {
   }
 
   @Builder
-  private arrowArea(label: string, message: string, enabled: boolean) {
+  private arrowArea(label: string, message: string) {
     Row() {
       Text(label)
         .fontSize(22)
         .fontWeight(FontWeight.Bold)
-        .fontColor(enabled ? $r('app.color.favorite_widget_button_text') : $r('app.color.favorite_widget_disabled_text'))
+        .fontColor($r('app.color.favorite_widget_button_text'))
     }
     .width(36)
     .height(72)
     .justifyContent(FlexAlign.Center)
     .alignItems(VerticalAlign.Center)
-    .backgroundColor(
-      enabled ? $r('app.color.favorite_widget_button_background') : $r('app.color.favorite_widget_button_disabled_background')
-    )
+    .backgroundColor($r('app.color.favorite_widget_button_background'))
     .borderRadius(18)
-    .opacity(enabled ? 1 : 0.45)
-    .enabled(enabled)
+    .opacity(1)
     .onClick(() => {
-      if (!enabled) {
-        return
-      }
       postCardAction(this, {
         action: this.messageAction,
         abilityName: this.abilityName,

@@ -29,13 +29,8 @@ export class FavoriteWordWidgetStore {
     if (words.length === 0) {
       return 0
     }
-    if (index < 0) {
-      return 0
-    }
-    if (index >= words.length) {
-      return words.length - 1
-    }
-    return index
+    const normalizedIndex = index % words.length
+    return normalizedIndex >= 0 ? normalizedIndex : normalizedIndex + words.length
   }
 
   private static getSavedIndex(context: common.Context, formId: string): number {
@@ -85,8 +80,8 @@ export class FavoriteWordWidgetStore {
         meaning: '添加收藏后，就能在桌面快速切换查看。',
         positionText: '0 / 0',
         empty: true,
-        canGoPrev: false,
-        canGoNext: false
+        canGoPrev: true,
+        canGoNext: true
       }
     }
 
@@ -98,8 +93,8 @@ export class FavoriteWordWidgetStore {
       meaning: word.translate ?? '',
       positionText: `${currentIndex + 1} / ${words.length}`,
       empty: false,
-      canGoPrev: currentIndex > 0,
-      canGoNext: currentIndex < words.length - 1
+      canGoPrev: true,
+      canGoNext: true
     }
   }
 }
